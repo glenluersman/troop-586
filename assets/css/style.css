@@ -19,7 +19,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url();
+  background-image: url(../images/IMG_0585.jpg);
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
@@ -66,7 +66,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-  background-image: url();
+  background-image: url(../images/IMG_0585.jpg);
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
@@ -125,7 +125,7 @@ header nav ul li a:hover {
   width: 35%;
   text-align: right;
   margin: 3.5%;
-  color: black;
+  color: white;
   font-size: 18px;
   line-height: 1.2;
 }
@@ -150,6 +150,17 @@ header nav ul li a:hover {
 .hero-form button:hover {
   background-color: var(--primary-color);
   color: var(--tertiary-color);
+}
+
+.events h2 {
+  font-size: 45px;
+  text-align: left;
+}
+
+.events {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  height: 400px;
 }
 
 .contact {
@@ -229,4 +240,24 @@ header nav ul li a:hover {
 .contact-form button:hover {
   color: var(--tertiary-color);
   background: var(--primary-color);
+}
+
+footer {
+  background: var(--primary-color);
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  color: var(--tertiary-color);
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
 }
