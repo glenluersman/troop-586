@@ -174,6 +174,11 @@ header nav ul li a:hover {
   padding: 30px;
 }
 
+.event-calendar img {
+  width: 100%;
+  height: auto;
+}
+
 .contact {
   background: var(--tertiary-color);
 }
@@ -331,13 +336,6 @@ footer div {
     text-align: center;
   }
 
-  .section-title {
-    width: 80%;
-  }
-
-  .trainer {
-    flex: 0 70%;
-  }
   .contact-info iframe {
     flex: 1 100%;
   }
@@ -348,46 +346,12 @@ footer div {
   section {
     padding: 30px 15px;
   }
-
-  .step h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
-
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .step-text {
-    flex: 100%;
-  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen AND (max-width: 575px) {
   .hero-form button {
     width: 100%;
-  }
-
-  .section-title {
-    width: 95%;
-  }
-
-  .intro p {
-    width: 100%;
-  }
-
-  .trainer {
-    flex: 0 100%;
   }
 
   .contact-info {
