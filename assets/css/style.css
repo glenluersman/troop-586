@@ -161,12 +161,17 @@ header nav ul li a:hover {
 .events h2 {
   font-size: 45px;
   text-align: left;
+  padding-left: 30px;
 }
 
 .events {
   background-color: var(--tertiary-color);
   color: var(--primary-color);
   height: auto;
+}
+
+.event-calendar {
+  padding: 30px;
 }
 
 .contact {
