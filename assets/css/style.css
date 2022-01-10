@@ -179,6 +179,19 @@ header nav ul li a:hover {
   height: auto;
 }
 
+.month {
+  padding: 30px;
+}
+
+.month p {
+  color: black;
+  font-size: 18px;
+}
+
+.month h3 {
+  font-size: 30px;
+}
+
 .contact {
   background: var(--tertiary-color);
 }
