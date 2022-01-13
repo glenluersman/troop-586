@@ -1,6 +1,6 @@
 :root {
   --primary-color: #398657;
-  --secondary-color: #af1313;
+  --secondary-color: rgb(100, 181, 100);
   --tertiary-color: #d6ba7c;
 }
 
@@ -172,11 +172,6 @@ header nav ul li a:hover {
 
 .event-calendar {
   padding: 30px;
-}
-
-.event-calendar img {
-  width: 100%;
-  height: auto;
 }
 
 .month {
