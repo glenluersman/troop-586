@@ -10,6 +10,16 @@
   box-sizing: border-box;
 }
 
+.section-title {
+  font-size: 48px;
+  color: var(secondary-color);
+  border-bottom: 3px solid;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
 header {
   padding: 20px 35px;
   background-color: var(--tertiary-color);
