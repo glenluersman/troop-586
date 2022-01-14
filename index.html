@@ -10,7 +10,7 @@
     <body>
         <header>
             <h1>
-                <a href="./index.html">BSA Troop 586</a>
+                <a href="./index.html">Troop 586</a>
             </h1>
             <nav>
                 <ul>
@@ -46,11 +46,10 @@
             </div>
             <div class="hero-form">
               <h2>Get Started Today!</h2>
-              <p>Fill out this form and one of our leaders will schedule a consult.</p>
             <!-- Add form element -->
             <form method="post" name="newScoutForm" data-netlify="true">
               <label for="name">Enter parent's full name:</label>
-              <input type="text" placeholder="Parent's Name" name="name" id="name" class="form-input" />
+              <input type="text" placeholder="Parent's Name" name="parent-name" id="name" class="form-input" />
               <label for="scout-name">Enter future scout's name:</label>
               <input type="text" placeholder="Future Scout's Name" name="scout-name" id="scout-name" class="form-input" />
               <label for="email">Enter email address:</label>
@@ -62,9 +61,7 @@
         </section>
         <section id="calendar" class="events">
             <h2>Events Calendar</h2>
-            <div class="event-calendar">
-                <div class="elfsight-app-a962aade-39b3-4e37-a40d-767a26e88c26"></div>
-            </div>
+            <div class="elfsight-app-a962aade-39b3-4e37-a40d-767a26e88c26"></div>
         </section>
         <section id="contact-us" class="contact">
             <div class="contact-info">
@@ -89,10 +86,10 @@
                     <h3>Contact Us</h3>
                     <form method="post" name="contactForm" data-netlify="true">
                         <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name" />
+                        <input type="text" id="contact-name" name="name" placeholder="Your Name" />
         
                         <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message"></textarea>
+                        <textarea id="contact-message" name="message" placeholder="Message"></textarea>
         
                         <button type="submit" value="Send">Submit</button>
                     </form>
