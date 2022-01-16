@@ -86,11 +86,13 @@ header nav ul li a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
-/* Hero Style End */
 
-/* Hero Form Start */
+.hero img {
+  width: 200px;
+  height: 300px;
+}
+
 .hero-form {
   color: var(--primary-color);
   background-color: var(--tertiary-color);
@@ -171,10 +173,9 @@ header nav ul li a:hover {
   color: var(--tertiary-color);
 }
 
-
-.events {
+.title {
   background-color: var(--tertiary-color);
-  color: var(--primary-color);
+  height: auto;
 }
 
 .contact {

@@ -78,11 +78,8 @@ header nav ul li a:hover {
 }
 
 .title {
-  display: flex;
   background-color: var(--tertiary-color);
   height: 200px;
-  align-items: center;
-  justify-content: center;
 }
 
 .troop-roster {
