@@ -11,13 +11,15 @@
 }
 
 .section-title {
-  font-size: 48px;
-  color: var(secondary-color);
+  color: var(--primary-color);
   border-bottom: 3px solid;
   padding: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
+  font-style: italic;
+  font-size: 55px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -169,33 +171,10 @@ header nav ul li a:hover {
   color: var(--tertiary-color);
 }
 
-.events h2 {
-  font-size: 45px;
-  text-align: left;
-  padding-left: 30px;
-}
 
 .events {
   background-color: var(--tertiary-color);
   color: var(--primary-color);
-  height: auto;
-}
-
-.event-calendar {
-  padding: 30px;
-}
-
-.month {
-  padding: 30px;
-}
-
-.month p {
-  color: black;
-  font-size: 18px;
-}
-
-.month h3 {
-  font-size: 30px;
 }
 
 .contact {
