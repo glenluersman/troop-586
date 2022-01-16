@@ -10,6 +10,18 @@
   box-sizing: border-box;
 }
 
+.section-title {
+  color: var(--primary-color);
+  border-bottom: 3px solid;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  font-style: italic;
+  font-size: 55px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 header {
   padding: 20px 35px;
   background-color: var(--tertiary-color);
@@ -158,15 +170,9 @@ header nav ul li a:hover {
   color: var(--tertiary-color);
 }
 
-.events h2 {
-  font-size: 45px;
-  text-align: left;
-}
-
 .events {
   background-color: var(--tertiary-color);
   color: var(--primary-color);
-  height: 400px;
 }
 
 .contact {
