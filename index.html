@@ -10,7 +10,7 @@
     <body>
         <header>
             <h1>
-                <a href="./index.html">BSA Troop 586</a>
+                <a href="./index.html">Troop 586</a>
             </h1>
             <nav>
                 <ul>
@@ -27,6 +27,9 @@
                         <a href="#contact-us">Contact Us</a>
                     </li>
                     <li>
+                        <a href="troop-roster.html">Troop Roster</a>
+                    </li>
+                    <li>
                         <a href="mum-festival.html">Mum Festival</a>
                     </li>
                 </ul>
@@ -34,33 +37,31 @@
         </header>
         <section class="hero">
             <div class="hero-cta">
-              <h2>Start Building Your<br>
-                  Future With Scouting.</h2>
-              <p>
-                Troop 586 strives to provide many opportunities for the boys to learn new skills while enjoying their experience in Scouting. 
-                Our goal is for every scout in the Troop to be given the opportunity to advance in rank and to achieve the highest rank in Scouting - Eagle Scout.  
-                To date, we have produced 19 Eagle Scouts with several more set to finish either merit badges or projects to reach Eagle. 
-                The young men in our troop are active in the National Youth Leadership Training (NYLT) and the Order of the Arrow, scouting's camping national honor society. 
-                Our troop teaches leadership, citizenship, and self respect while camping once a month, every month.  
-                Our troop mascot is a turtle named Soup and he is a known entity around Miami Valley Council.
-              </p>
+                <h2>Start Building Your<br>
+                    Future With Scouting.</h2>
+                <p>
+                  Troop 586 strives to provide many opportunities for the boys to learn new skills while enjoying their experience in Scouting. 
+                  Our goal is for every scout in the Troop to be given the opportunity to advance in rank and to achieve the highest rank in Scouting - Eagle Scout.  
+                  To date, we have produced 19 Eagle Scouts with several more set to finish either merit badges or projects to reach Eagle. 
+                  The young men in our troop are active in the National Youth Leadership Training (NYLT) and the Order of the Arrow, scouting's camping national honor society. 
+                  Our troop teaches leadership, citizenship, and self respect while camping once a month, every month.  
+                  Our troop mascot is a turtle named Soup and he is a known entity around Miami Valley Council.
+                </p>
             </div>
             <div class="hero-form">
               <h2>Get Started Today!</h2>
-              <p>Fill out this form and one of our leaders will schedule a consult.</p>
             <!-- Add form element -->
-            <form>
-              <label for="name">Enter full name:</label>
-              <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+            <form method="post" name="newScoutForm" data-netlify="true">
+              <label for="parent-name">Enter parent's full name:</label>
+              <input type="text" placeholder="Parent's Name" name="parent-name" id="name" class="form-input" />
               <label for="scout-name">Enter future scout's name:</label>
               <input type="text" placeholder="Future Scout's Name" name="scout-name" id="scout-name" class="form-input" />
               <label for="email">Enter email address:</label>
               <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
               <label for="phone">Enter a telephone number:</label>
               <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
-              <button type="submit">
-                Get Started!
-              </button>
+              <button type="submit" value="Send">Get Started!</button>
+            </form>
             </div>     
         </section>
         <section id="calendar" class="events">
@@ -71,31 +72,32 @@
             <div class="contact-info">
                 
                 <div class="address">
-                    <h3>BSA Troop 586</h3>
+                    <h3>Troop 586</h3>
                     <p>
-                      Any questions or concerns before signing up?
+                      Any questions or concerns?
                       <br />
-                      Let us know and we'll be happy to talk to you!
+                      Let us know and we'll be
+                      <br />
+                      happy to talk to you!
                     </p>
                     <address>
                       377 N Third St <br/>
                       Tipp City, OH <br/>
                       45371 <br/>
-                      P: 555.555.5555 <br/>
-                      E: <a href="mailto:"></a>
+                      Email: <a href="mailto:troop586tippcity@gmail.com?subject=Mail from Website">troop586tippcity@gmail.com</a>
                     </address>
                 </div>
                 
                 <div class="contact-form">
                     <h3>Contact Us</h3>
-                    <form>
+                    <form method="post" name="contactForm" data-netlify="true">
                         <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name" />
+                        <input type="text" id="contact-name" name="name" placeholder="Your Name" />
         
                         <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message"></textarea>
+                        <textarea id="contact-message" name="message" placeholder="Message"></textarea>
         
-                        <button type="submit">Submit</button>
+                        <button type="submit" value="Send">Submit</button>
                     </form>
                 </div>
         
@@ -112,5 +114,6 @@
             <h2>&copy; Glen Luersman 2022</h2>
         </footer>
         <script src="./assets/js/script.js"></script>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     </body>
 </html>

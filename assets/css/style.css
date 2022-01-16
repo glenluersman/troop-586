@@ -1,6 +1,6 @@
 :root {
   --primary-color: #398657;
-  --secondary-color: #af1313;
+  --secondary-color: rgb(100, 181, 100);
   --tertiary-color: #d6ba7c;
 }
 
@@ -100,6 +100,7 @@ header nav ul li a:hover {
   border-color: var(--primary-color);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+  width: 35%;
 }
 
 .hero-form h2 {
@@ -169,6 +170,7 @@ header nav ul li a:hover {
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
 }
+
 
 .events {
   background-color: var(--tertiary-color);
@@ -332,13 +334,6 @@ footer div {
     text-align: center;
   }
 
-  .section-title {
-    width: 80%;
-  }
-
-  .trainer {
-    flex: 0 70%;
-  }
   .contact-info iframe {
     flex: 1 100%;
   }
@@ -349,46 +344,12 @@ footer div {
   section {
     padding: 30px 15px;
   }
-
-  .step h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
-
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .step-text {
-    flex: 100%;
-  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen AND (max-width: 575px) {
   .hero-form button {
     width: 100%;
-  }
-
-  .section-title {
-    width: 95%;
-  }
-
-  .intro p {
-    width: 100%;
-  }
-
-  .trainer {
-    flex: 0 100%;
   }
 
   .contact-info {
