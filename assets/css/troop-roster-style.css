@@ -38,6 +38,7 @@ header {
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
+  background-color: var(--tertiary-color);
   z-index: 9999;
 }
 
