@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--tertiary-color);
+}
+
 .section-title {
   color: var(--primary-color);
   border-bottom: 3px solid;
@@ -338,12 +342,6 @@ footer div {
 
   .contact-info iframe {
     flex: 1 100%;
-  }
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-  section {
   }
 }
 

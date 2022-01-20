@@ -8,6 +8,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   background-color: var(--tertiary-color);
 }
 
@@ -25,7 +28,6 @@
 
 header {
   padding: 20px 35px;
-  background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -79,7 +81,6 @@ header nav ul li a:hover {
 }
 
 .title {
-  background-color: var(--tertiary-color);
   height: 200px;
 }
 
@@ -122,36 +123,6 @@ header nav ul li a:hover {
   padding: 100px;
 }
 
-.links {
-  background-color: var(--tertiary-color);
-  height: auto;
-  padding-bottom: 30px;
-}
-
-aside nav ul {
-  display: flex;
-  flex-direction: column;
-}
-
-.links a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-aside nav ul li a {
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-aside nav ul li a:hover {
-  background: var(--primary-color);
-  color: var(--tertiary-color);
-  border-radius: 15px;
-  text-shadow: none;
-}
-
 footer {
   background: var(--primary-color);
   width: 100%;
@@ -162,7 +133,6 @@ footer {
 }
 
 footer h2 {
-  background-color: var(--primary-color);
   color: var(--tertiary-color);
   font-size: 20px;
   margin: 0;
@@ -198,43 +168,5 @@ footer div {
   footer h2 footer div {
     text-align: center;
     width: 100%;
-  }
-
-  .hero-cta,
-  .hero-form {
-    width: 100%;
-  }
-
-  .hero-cta {
-    text-align: center;
-  }
-
-  .contact-info iframe {
-    flex: 1 100%;
-  }
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-  section {
-  }
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen AND (max-width: 575px) {
-  .hero-form button {
-    width: 100%;
-  }
-
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info > * {
-    flex: 0 100%;
-  }
-
-  .contact-form {
-    order: 3;
   }
 }
