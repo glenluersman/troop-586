@@ -43,6 +43,7 @@ header {
 }
 
 header h1 {
+  text-decoration: none;
   font-weight: bold;
   font-size: 36px;
   color: var(--primary-color);
