@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--tertiary-color);
+}
+
 .section-title {
   color: var(--primary-color);
   border-bottom: 3px solid;
@@ -24,7 +28,6 @@
 
 header {
   padding: 20px 35px;
-  background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -35,10 +38,12 @@ header {
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
+  background-color: var(--tertiary-color);
   z-index: 9999;
 }
 
 header h1 {
+  text-decoration: none;
   font-weight: bold;
   font-size: 36px;
   color: var(--primary-color);
@@ -78,49 +83,51 @@ header nav ul li a:hover {
 }
 
 .title {
-  display: flex;
-  background-color: var(--tertiary-color);
   height: 200px;
-  align-items: center;
-  justify-content: center;
 }
 
-.troop-roster {
-}
-
-.links {
-  background-color: var(--tertiary-color);
-  height: auto;
-  padding-bottom: 30px;
-}
-
-aside nav ul {
-  display: flex;
-  flex-direction: column;
-}
-
-.links a {
-  text-decoration: none;
+.cards-title {
+  font-size: 36px;
+  text-align: center;
   color: var(--primary-color);
-}
-
-aside nav ul li a {
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
+  margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-aside nav ul li a:hover {
-  background: var(--primary-color);
-  color: var(--tertiary-color);
-  border-radius: 15px;
-  text-shadow: none;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5%;
 }
 
-.img {
-  width: 40%;
-  height: 200px;
+.card {
+  font-size: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  padding: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.card p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  padding: 5%;
+}
+
+.patrol {
+  padding: 100px;
 }
 
 footer {
@@ -168,44 +175,5 @@ footer div {
   footer h2 footer div {
     text-align: center;
     width: 100%;
-  }
-
-  .hero-cta,
-  .hero-form {
-    width: 100%;
-  }
-
-  .hero-cta {
-    text-align: center;
-  }
-
-  .contact-info iframe {
-    flex: 1 100%;
-  }
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-  section {
-    padding: 30px 15px;
-  }
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen AND (max-width: 575px) {
-  .hero-form button {
-    width: 100%;
-  }
-
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info > * {
-    flex: 0 100%;
-  }
-
-  .contact-form {
-    order: 3;
   }
 }
