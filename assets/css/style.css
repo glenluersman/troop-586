@@ -81,6 +81,26 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+footer {
+  background: var(--primary-color);
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  color: var(--tertiary-color);
+  font-size: 20px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
 .hero {
   background-image: url();
   background-size: cover;
@@ -91,11 +111,6 @@ header nav ul li a:hover {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.hero img {
-  width: 200px;
-  height: 300px;
 }
 
 .hero-form {
@@ -283,25 +298,6 @@ header nav ul li a:hover {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-footer {
-  background: var(--primary-color);
-  width: 100%;
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-footer h2 {
-  color: var(--tertiary-color);
-  font-size: 20px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
