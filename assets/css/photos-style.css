@@ -245,13 +245,14 @@ footer div {
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-  section {
+@media screen and (max-width: 1200px) {
+  .modal img {
+    width: 100%;
   }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen AND (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .hero-form button {
     width: 100%;
   }
