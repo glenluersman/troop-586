@@ -7,36 +7,28 @@
     <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
     crossorigin="anonymous">-->    
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/troop-roster-style.css">
     <title>Troop Roster</title>
 </head>
 <body>
-    <header>
-        <h1>
-            <a href="./index.html">Troop 586</a>
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://troop586.com/index/#calendar">Calendar</a>
-                </li>
-                <li>
-                    <a href="documents.html">Documents</a>
-                </li>
-                <li>
-                    <a href="photos.html">Photos</a>
-                </li>
-                <li>
-                    <a href="https://troop586.com/index/#contact-us">Contact Us</a>
-                </li>
-                <li>
-                    <a href="troop-roster.html">Troop Roster</a>
-                </li>
-                <li>
-                    <a href="mum-festival.html">Mum Festival</a>
-                </li>
-            </ul>
-        </nav>
+    <header>            
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="./index.html">Home</a>
+            <a href="resources.html">Resources</a>               
+            <a href="photos.html">Photos</a>                
+            <a href="https://troop586.com/index/#contact-us">Contact Us</a>           
+            <a href="troop-roster.html">Troop Roster</a>
+            <a href="mum-festival.html">Mum Fest</a>
+        </div>
+        <div id="main">
+            <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div class="header">
+            <h1>Troop 586</h1>
+            <img src="./assets/images/soupTheTurtle.png" alt="soup the turtle">
+        </div>
     </header>
     <section class="title">
         <h2 class="section-title">Troop Roster</h2>
@@ -336,5 +328,6 @@
     <footer>
         <h2>&copy; Glen Luersman 2022</h2>
     </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

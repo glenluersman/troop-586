@@ -8,102 +8,66 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <header>
-            <h1>
-                <a href="./index.html">Troop 586</a>
-            </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#calendar">Calendar</a>
-                    </li>
-                    <li>
-                        <a href="documents.html">Documents</a>
-                    </li>
-                    <li>
-                        <a href="photos.html">Photos</a>
-                    </li>
-                    <li>
-                        <a href="#contact-us">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="troop-roster.html">Troop Roster</a>
-                    </li>
-                    <li>
-                        <a href="mum-festival.html">Mum Festival</a>
-                    </li>
-                </ul>
-            </nav>
+        <header>            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="./index.html">Home</a>
+                <a href="resources.html">Resources</a>               
+                <a href="photos.html">Photos</a>                
+                <a href="#contact-us">Contact Us</a>           
+                <a href="troop-roster.html">Troop Roster</a>
+                <a href="mum-festival.html">Mum Fest</a>
+                <a href="#">Eagle Scouts</a>
+                <a href="#">Packing Lists</a>
+                <a href="#">Scoutmaster Minutes</a>
+                <a href="#">Troop Forms</a>
+            </div>
+            <div id="main">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
+            <div class="header">
+                <h1>Troop 586</h1>
+                <img src="./assets/images/soupTheTurtle.png" alt="soup the turtle">
+            </div>
         </header>
         <section class="hero">
-            <img src="./assets/images/soupTheTurtle.png" alt="soup the turtle">
+            <div class="hero-image">
+                <img src="./assets/images/placeholder-600x300.png" alt="placeholder" width="600" height="300">
+            </div>
             <div class="hero-cta">
                 <h2>Start Building Your<br>
                     Future With Scouting.</h2>
                 <p>
-                  Troop 586 strives to provide many opportunities for the boys to learn new skills while enjoying their experience in Scouting. 
-                  Our goal is for every scout in the Troop to be given the opportunity to advance in rank and to achieve the highest rank in Scouting - Eagle Scout.  
-                  To date, we have produced 41 Eagle Scouts with several more set to finish either merit badges or projects to reach Eagle. 
-                  The young men in our troop are active in the National Youth Leadership Training (NYLT) and the Order of the Arrow, scouting's camping national honor society. 
-                  Our troop teaches leadership, citizenship, and self respect while camping once a month, every month.  
-                  Our troop mascot is a turtle named Soup and he is a known entity around Miami Valley Council.
+                    Troop 586 strives to provide many opportunities for the boys to learn new skills while enjoying their experience in Scouting. 
+                    Our goal is for every scout in the Troop to be given the opportunity to advance in rank and to achieve the highest rank in Scouting - Eagle Scout.  
+                    To date, we have produced 41 Eagle Scouts with several more set to finish either merit badges or projects to reach Eagle. 
+                    The young men in our troop are active in the National Youth Leadership Training (NYLT) and the Order of the Arrow, scouting's camping national honor society. 
+                    Our troop teaches leadership, citizenship, and self respect while camping once a month, every month.  
+                    Our troop mascot is a turtle named Soup and he is a known entity around Miami Valley Council.
                 </p>
             </div>
-            <div class="hero-form">
-              <h2>Get Started Today!</h2>
-            <form method="post" name="newScoutForm" data-netlify="true">
-              <label for="parent-name">Enter parent's full name:</label>
-              <input type="text" placeholder="Parent's Name" name="parent-name" id="name" class="form-input" />
-              <label for="scout-name">Enter future scout's name:</label>
-              <input type="text" placeholder="Future Scout's Name" name="scout-name" id="scout-name" class="form-input" />
-              <label for="email">Enter email address:</label>
-              <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
-              <label for="phone">Enter a telephone number:</label>
-              <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
-              <button type="submit" value="Send">Get Started!</button>
-            </form>
-            </div>     
-        </section>
-        <section id="calendar" class="title">
-            <h2 class="section-title">Events Calendar</h2>
-            <div class="elfsight-app-a962aade-39b3-4e37-a40d-767a26e88c26"></div>
+            <div class="links">
+                <img src="./assets/images/200x100.png" alt="">
+                <img src="./assets/images/200x100.png" alt="">
+                <img src="./assets/images/200x100.png" alt="">
+            </div>
         </section>
         <section id="contact-us" class="contact">
             <div class="contact-info">
-                <div class="address">
-                    <h3>Troop 586</h3>
-                    <p>
-                      Any questions or concerns?
-                      <br />
-                      Let us know and we'll be
-                      <br />
-                      happy to talk to you!
-                    </p>
-                    <address>
-                      377 N Third St <br/>
-                      Tipp City, OH <br/>
-                      45371 <br/>
-                      Email: <a href="mailto:troop586tippcity@gmail.com?subject=Mail from Website">troop586tippcity@gmail.com</a>
-                    </address>
-                </div>
-                
                 <div class="contact-form">
                     <h3>Contact Us</h3>
                     <form method="post" name="contactForm" data-netlify="true">
                         <label for="contact-name">Your Name</label>
                         <input type="text" id="contact-name" name="name" placeholder="Your Name" />
-        
                         <label for="contact-message">Message</label>
                         <textarea id="contact-message" name="message" placeholder="Message"></textarea>
-        
                         <button type="submit" value="Send">Submit</button>
                     </form>
                 </div>
-        
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.8501195899034!2d-84.17397488548265!3d39.967103590787126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883f7a3092ed82d7%3A0xb6506f01a9283bed!2s377%20N%203rd%20St%2C%20Tipp%20City%2C%20OH%2045371!5e0!3m2!1sen!2sus!4v1640971202160!5m2!1sen!2sus" 
                     width="600" 
                     height="450" 
-                    style="border:0;" 
+                    style="border:0; box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);" 
                     allowfullscreen="" 
                     loading="lazy">
                 </iframe>
@@ -113,6 +77,5 @@
             <h2>&copy; Glen Luersman 2022</h2>
         </footer>
         <script src="./assets/js/script.js"></script>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     </body>
 </html>
