@@ -46,8 +46,8 @@ This a website for Boy Scouts of America Troop 586 in Tipp City, Ohio. It is des
 
 ## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
 
-<img style="margin: 0 0 15px 0" src="./assets/images/troop-586.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="./assets/images/troop1.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./assets/images/troop-586-2.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="./assets/images/troop2.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./assets/images/roster-example.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="./assets/images/troop3.PNG" ></a>

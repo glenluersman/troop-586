@@ -15,6 +15,5 @@ body {
 }
 
 .title {
-  background-color: var(--tertiary-color);
   height: 200px;
 }

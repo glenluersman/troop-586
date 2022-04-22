@@ -1,85 +1,17 @@
 :root {
-  --primary-color: #398657;
-  --secondary-color: rgb(100, 181, 100);
-  --tertiary-color: #d6ba7c;
+  --primary-color: #111;
+  --secondary-color: #818181;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Lucida Sans Typewriter;
 }
 
 body {
-  background-color: var(--tertiary-color);
-}
-
-.section-title {
-  color: var(--primary-color);
-  border-bottom: 3px solid;
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-  font-style: italic;
-  font-size: 55px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-header {
-  padding: 20px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-image: url();
-  background-size: cover;
-  background-position: 80%;
-  background-attachment: fixed;
-  background-color: var(--tertiary-color);
-  z-index: 9999;
-}
-
-header h1 {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 36px;
-  color: var(--primary-color);
-  margin: 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-header a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-header nav {
-  margin: 7px 0;
-}
-
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-
-header nav ul li a {
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-header nav ul li a:hover {
-  background: var(--primary-color);
-  color: var(--tertiary-color);
-  border-radius: 15px;
-  text-shadow: none;
+  transition: background-color .5s;
 }
 
 .title {
@@ -91,7 +23,6 @@ header nav ul li a:hover {
   text-align: center;
   color: var(--primary-color);
   margin: 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .cards {
@@ -106,13 +37,11 @@ header nav ul li a:hover {
   box-sizing: border-box;
   text-align: center;
   color: var(--primary-color);
-  background-color: var(--tertiary-color);
+  background-color: white;
+  margin: 20px;
   padding: 20px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
 }
 
 .card p {
@@ -140,7 +69,7 @@ footer {
 }
 
 footer h2 {
-  color: var(--tertiary-color);
+  color: white;
   font-size: 20px;
   margin: 0;
 }
@@ -151,27 +80,6 @@ footer div {
 }
 
 @media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-
   footer h2 footer div {
     text-align: center;
     width: 100%;
