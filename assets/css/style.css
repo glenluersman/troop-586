@@ -133,10 +133,18 @@ footer div {
   align-items: center;
 }
 
-.hero-image img {
+.hero-image {
+  font-size: 45px;
+  text-align: center;
+  width: 600px;
+  height: 300px;
   margin: 50px;
   border: 1px solid var(--primary-color);
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+}
+
+.hero-image h2 {
+  margin-top: 70px;
 }
 
 .hero-cta {
@@ -154,9 +162,15 @@ footer div {
 }
 
 .links img {
+  width: 300px;
+  height: 80px;
+  transition: 0.3s ease-in-out;
   margin: 0 50px 50px 50px;
-  border: 1px solid var(--primary-color);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+}
+
+.links img:hover {
+  transform: scale(1.1);
 }
 
 .contact-info {
@@ -224,6 +238,26 @@ footer div {
   margin: 25px;
   font-size: 35px;
   color: var(--primary-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soup {
+  margin: 100px auto;
+  width: 600px;
+  height: 300px;
+  font-size: 35px;
+  text-align: center;
+  border: 1px solid #111;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+}
+
+.soup h2 {
+  margin-top: 70px;
 }
 
 
