@@ -81,18 +81,20 @@ footer div {
 
 #main {
   cursor: pointer;
-  font-size: 30px;
+  font-size: 35px;
   width: 50px;
   position: fixed;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
   text-align: center;
   transition: margin-left .5s;
   border: 2px solid var(--primary-color);
   border-radius: 8px;
+  transition: 0.3s ease-in-out;
 }
 
 #main:hover {
+  transform: scale(1.1);
   background-color: var(--secondary-color);
 }
 
@@ -109,11 +111,9 @@ footer div {
 .header img {
   width: 100px;
   height: auto;
-  margin-right: 50px;
-  margin-top: 15px;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 50px;
+  top: 15px;
 }
 
 .section-title {
