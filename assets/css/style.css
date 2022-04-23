@@ -79,6 +79,9 @@ footer div {
 }
 
 #main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   font-size: 35px;
   width: 50px;
@@ -86,7 +89,6 @@ footer div {
   position: fixed;
   margin-top: 30px;
   margin-left: 30px;
-  text-align: center;
   transition: margin-left .5s;
   border: 2px solid var(--primary-color);
   border-radius: 8px;
@@ -123,7 +125,7 @@ footer div {
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
-  font-size: 55px;
+  font-size: 65px;
 }
 
 .hero {
@@ -164,6 +166,12 @@ footer div {
 
 .hero-cta p {
   font-size: 25px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .links img {
@@ -237,7 +245,8 @@ footer div {
   text-align: center;
   padding: 15px 0;
   margin-bottom: 25px;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: 'secret_typewriterregular';
 }
 
 .contact-form button:hover {
