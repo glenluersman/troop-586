@@ -7,13 +7,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Lucida Sans Typewriter;
 }
 
 body {
+  font-family: 'secret_typewriterregular';
   transition: background-color .5s;
 }
-
 
 header {
   height: 175px;
@@ -157,8 +156,13 @@ footer div {
 }
 
 .hero-cta h2 {
+  margin-bottom: 20px;
   font-size: 45px;
   color: var(--primary-color);
+}
+
+.hero-cta p {
+  font-size: 25px;
 }
 
 .links img {
@@ -201,6 +205,10 @@ footer div {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
+.contact-form label {
+  font-size: 20px;
+}
+
 .contact-form input,
 .contact-form textarea {
   border: 1px solid var(--primary-color);
@@ -220,6 +228,7 @@ footer div {
 }
 
 .contact-form button {
+  cursor: pointer;
   width: 90%;
   border: none;
   background: var(--primary-color);
@@ -240,7 +249,7 @@ footer div {
   color: var(--primary-color);
 }
 
-.container {
+.history {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -305,5 +314,10 @@ footer div {
 
   header h1 {
     display: none;
+  }
+
+  .hero-image h2 {
+    margin-top: 70px;
+    font-size: 35px;
   }
 }
