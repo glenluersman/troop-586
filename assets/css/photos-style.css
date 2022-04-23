@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Lucida Sans Typewriter;
 }
 
 body {
@@ -16,6 +15,20 @@ body {
 
 .title {
   height: 200px;
+  text-align: center;
+}
+
+.title span {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 8px 8px 8px 32px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.title span:hover {
+  color: var(--secondary-color);
 }
 
 .photo-title {
@@ -71,6 +84,28 @@ body {
       grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/* New Modal */
+
+.modal {
+  position: fixed;
+  top: 10%;
+  padding: 40px 50px;
+  border-radius: 8px;
+  background-color: white;
+  z-index: 60000;
+  width: 400px;
+  min-height: 100px;
+  display: none;
+  left: 50%;
+  margin-left: -200px;
+  max-height: 80%;
+  box-sizing: border-box;
+}
+
+  .modal.on {
+      display: block;
+  }
 
 /*Image modal*/
 .modal {
