@@ -1,76 +1,88 @@
-const cardsEl = document.getElementById('cards-container');
-let roster = [
-    {name:'Logan D.',title:'Scout',patrol:'Phoenix',position:''},
-    {name:'Mason H.', title:'Scout', patrol:'Phoenix', position:''},
-    {name:'Garrett P.', title:'Scout', patrol:'Phoenix', position:''},
-    {name:'Dillen S.', title:'Scout', patrol:'Phoenix', position:''},
-    {name:'Leo H.', title:'Scout', patrol:'Pheonix', position:''},
-    {name:'Christian H.', title:'Scout', patrol:"The Banananadana's", position:''},
-    {name:'Gavyn M.', title:'Scout', patrol:"The Banananadana's", position:''},
-    {name:'Jackson C.',title:'Scout',patrol:'Infernos',position:''},
-    {name:'Gavin G.', title:'Scout', patrol:'Infernos', position:''},
-    {name:'Trevor H', title:'Scout', patrol:'Infernos', position:'ASPL'},
-    {name:'Brighton S.', title:'Scout', patrol:'Infernos', position:'SPL'},
-    {name:'Logan G.', title:'Scout', patrol:'Wet Bandits', position:''},
-    {name:'Isaac L.', title:'Scout', patrol:'Wet Bandits', position:'Quartermaster'},
-    {name:'Cayll L.', title:'Scout', patrol:'Wet Bandits', position:''},
-    {name:'Caleb L.', title:'Scout', patrol:'Wet Bandits', position:'Patrol Leader'},
-    {name:'Jeremy F.', title: 'Scout', patrol: 'New', position:''},
-    {name:'Maximilian M.', title:'Scout', patrol:'New', position:'Patrol Leader'},
-    {name:'Chris L.', title:'Scout', patrol:'New', position:'Assistant Patrol Leader'},
-    {name:'Grayson M.', title:'Scout', patrol:'New', position:''},
-    {name:'Jim Ridgeway', title:'Scoutmaster', patrol:'OSPP', position:'Scoutmaster'},
-    {name:'Blake Dysinger', title:'Assistant Scoutmaster', patrol:'OSPP', position:''},
-    {name:'Noah Barnes',title:'Assistant Scoutmaster',patrol:'OSPP',position:''},
-    {name:'Tom Dysinger', title:'Assistant Scoutmaster', patrol:'OSPP', position:''},
-    {name:'Matthew Hollon', title:'Assistant Scoutmaster', patrol:'OSPP', position:'Equipment Coordinator'},
-    {name:'Glen Luersman', title:'Assistant Scoutmaster', patrol:'OSPP', position:'Webmaster'},
-    {name:'Robert Lesher', title:'Committee Member', patrol:'OSPP', position:'Fundraising'},
-    {name:'Angel Grubbs', title:'Committee Member', patrol:'OSPP', position:'Secretary'},
-    {name:'Ceana Hollon', title:'Committee Member', patrol:'OSPP', position:''},
-    {name:'Brittany Cheadle', title:'Committee Member', patrol:'OSPP', position:'Fundraising'},
-    {name:'Cameron Haller', title:'Committee Member', patrol:'OSPP', position:'Charter Organization Rep.'},
-    {name:'Dennis Mullins', title:'Committee Member', patrol:'OSPP', position:'Treasurer'},
-    {name:'Cid Ridgeway', title:'Committee Member', patrol:'OSPP', position:''},
-    {name:'Melinda Luersman', title:'Committee Member', patrol:'OSPP', position:'Outdoors Activities Chair'},
-    {name:'Jon Sears', title:'Committee Member', patrol:'OSPP', position:'Committee Chairman'},
-    {name:'Andy Luersman', title:'Committee Member', patrol:'OSPP', position:'Recruitment'}
-            ]
+const cardsEl = document.querySelector('.cards');
 
-function createCards() {
-    for (i = 0; i < roster.length; i++) {
-        const card = document.createElement("div");
+const key3 = [{name:'Jim Ridgeway', title:'Key 3', image:'./assets/images/scoutmaster.JPG', rank:'', position:'Scoutmaster'},
+    {name:'Jon Sears', title:'Key 3', image:'./assets/images/committee-chair.JPG', rank:'', position:'Committee Chairman'},
+    {name:'Cameron Haller', title:'Key 3', image:'./assets/images/charter-rep.JPG', rank:'', position:'Charter Organization Rep.'}
+];
+
+const seniorPatrol = [{name:'Brighton S.', title:'SPL & ASPL', image:'./assets/images/SPL.JPG', rank:'Tenderfoot', position:'SPL'},
+    {name:'Trevor H', title:'SPL & ASPL', rank:'First Class', image:'./assets/images/ASPL.JPG', position:'ASPL'}
+];
+
+const pheonix = [{name:'Logan D.',title:'Phoenix Patrol', image:'./assets/images/phoenix.JPG', rank:'Life Scout', position:''},
+    {name:'Garrett P.', title:'Phoenix Patrol', image:'./assets/images/phoenix.JPG', rank:'Eagle Scout', position:''},
+    {name:'Dillen S.', title:'Phoenix Patrol', image:'./assets/images/phoenix.JPG', rank: 'Eagle Scout', position:''},
+    {name:'Leo H.', title:'Pheonix Patrol', image:'./assets/images/phoenix.JPG', rank:'Eagle Scout', position:''}
+];
+
+const banananadana = [{name:'Christian H.', title:"Banananadana's Patrol", image:'./assets/images/bananas.JPG', rank:'Life Scout', position:''},
+    {name:'Gavyn M.', title:"Banananadana's Patrol", image:'./assets/images/bananas.JPG', rank:'Life Scout', position:''}
+];
+
+const infernos = [{name:'Jackson C.',title:'Infernos Patrol', image:'./assets/images/infernos.png', rank:'Tenderfoot', position:''},
+    {name:'Trevor H', title:'Infernos Patrol', image:'./assets/images/infernos.png', rank:'First Class', position:''},
+    {name:'Brighton S.', title:'Infernos Patrol', image:'./assets/images/infernos.png', rank:'Tenderfoot', position:''}
+];
+    
+const wetBandits = [{name:'Logan G.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Scout', position:'Assistant Patrol Leader'},
+    {name:'Isaac L.', title:'Wet Bandits Patrol', rank:'Tenderfoot', image:'./assets/images/wet-bandits.JPG', position:'Quartermaster'},
+    {name:'Cayll L.', title:'Wet Bandits Patrol', rank:'', image:'./assets/images/wet-bandits.JPG', position:''},
+    {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Tenderfoot', image:'./assets/images/wet-bandits.JPG', position:'Patrol Leader'}
+];
+
+const underdogs = [{name:'Jeremy F.', title:'Underdogs Patrol', image:'./assets/images/to-be-named.JPG', rank:'Scout', position:''},
+    {name:'Maximilian M.', title:'Underdogs Patrol', image:'./assets/images/to-be-named.JPG', rank:'Scout', position:'Patrol Leader'},
+    {name:'Chris L.', title:'Underdogs Patrol', rank:'Scout', image:'./assets/images/to-be-named.JPG', position:'Assistant Patrol Leader'},
+    {name:'Grayson M.', title:'Underdogs Patrol', image:'./assets/images/to-be-named.JPG', rank:'', position:''}
+];
+
+const scoutMasters = [{name:'Blake Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
+    {name:'Noah Barnes',title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
+    {name:'Tom Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
+    {name:'Matthew Hollon', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
+    {name:'Glen Luersman', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'}
+];
+
+const committee = [{name:'Robert Lesher', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Fundraising'},
+    {name:'Angel Grubbs', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Secretary'},
+    {name:'Ceana Hollon', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:''},
+    {name:'Brittany Cheadle', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Fundraising'},
+    {name:'Matt Hollon', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Equipment Coordinator'},
+    {name:'Dennis Mullins', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Treasurer'},
+    {name:'Cid Ridgeway', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:''},
+    {name:'Melinda Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Outdoors Activities Chair'},
+    {name:'Jon Sears', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Chaplain'},
+    {name:'Andy Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Recruitment'},
+    {name:'Glen Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Webmaster'}
+];
+
+function createCards(value) {
+    cardsEl.innerHTML = '';
+    
+    for (i = 0; i < value.length; i++) {
+        // const cardsContainer = document.createElement('section');
+        // cardsContainer.setAttribute("class", "cards");
+        // cardsEl.appendChild(cardsContainer);
+
+        const card = document.createElement("article");
         card.setAttribute("class", "card");
         cardsEl.appendChild(card);
         
-        const cardContent = document.createElement("div");
-        cardContent.setAttribute("class", "content");
-        card.appendChild(cardContent);
-        
         const cardImg = document.createElement("img");
-        cardImg.setAttribute("class", "img");
-        cardImg.setAttribute("src", "./assets/images/boy-scout-logo.jpg");
-        cardContent.appendChild(cardImg);
+        cardImg.setAttribute("src", value[i].image);
+        card.appendChild(cardImg);
         
         const name = document.createElement("h4");
-        name.setAttribute("class", "name");
-        name.innerHTML = roster[i].name;
-        cardContent.appendChild(name);
+        name.innerHTML = value[i].name;
+        card.appendChild(name);
         
-        const title = document.createElement("p");
-        title.setAttribute("class", "title");
-        title.innerHTML = roster[i].title;
-        cardContent.appendChild(title);
-        
-        const patrol = document.createElement("p");
-        patrol.setAttribute("class", "patrol");
-        patrol.innerHTML = roster[i].patrol;
-        cardContent.appendChild(patrol);
+        const currentRank = document.createElement("p");
+        currentRank.innerHTML = value[i].rank;
+        card.appendChild(currentRank);
         
         const position = document.createElement("p");
-        position.setAttribute("class", "position");
-        position.innerHTML = roster[i].position;
-        cardContent.appendChild(position);
+        position.innerHTML = value[i].position;
+        card.appendChild(position);
     }
 };
 

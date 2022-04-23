@@ -13,30 +13,6 @@ body {
   transition: background-color .5s;
 }
 
-.title {
-  text-align: center;
-}
-
-.category {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.category span {
-  font-size: 35px;
-  font-weight: 700;
-  color: var(--primary-color);
-  margin: 15px;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.title span:hover {
-  color: var(--secondary-color);
-}
-
 .photo-title {
   font-size: 36px;
   text-align: left;
