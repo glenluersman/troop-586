@@ -42,7 +42,7 @@ This a website for Boy Scouts of America Troop 586 in Tipp City, Ohio. It is des
 
 ## <img id="questions" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/questions-alt.png?raw=true" style="height: 40px">
 
-- Feel free to open an issue or contact me directly at valdezjulio95@gmail.com if you have any questions about the repo. You can find more of my work at [glenluersman](https://github.com/glenluersman/).
+- Feel free to open an issue or contact me directly at glen.luersman@gmail.com if you have any questions about the repo. You can find more of my work at [glenluersman](https://github.com/glenluersman/).
 
 ## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
 
@@ -51,3 +51,5 @@ This a website for Boy Scouts of America Troop 586 in Tipp City, Ohio. It is des
 <img style="margin: 0 0 15px 0" src="./assets/images/troop2.PNG" ></a>
 
 <img style="margin: 0 0 15px 0" src="./assets/images/troop3.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./assets/images/troop4.PNG" ></a>
