@@ -240,7 +240,7 @@ footer div {
   color: var(--primary-color);
 }
 
-.container {
+.history {
   display: flex;
   justify-content: center;
   align-items: center;
