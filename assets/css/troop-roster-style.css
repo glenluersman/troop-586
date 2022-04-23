@@ -13,10 +13,6 @@ body {
   transition: background-color .5s;
 }
 
-.title {
-  height: 200px;
-}
-
 .cards-title {
   font-size: 36px;
   text-align: center;
@@ -37,6 +33,7 @@ body {
   text-align: center;
   color: var(--primary-color);
   background-color: white;
+  width: 300px;
   margin: 20px;
   padding: 20px;
   border: 1px solid var(--primary-color);
@@ -56,26 +53,6 @@ body {
 
 .patrol {
   padding: 100px;
-}
-
-footer {
-  background: var(--primary-color);
-  width: 100%;
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-footer h2 {
-  color: white;
-  font-size: 20px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
 }
 
 @media screen and (max-width: 980px) {
