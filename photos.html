@@ -38,9 +38,11 @@
     </header>
     <section class="title">
         <h2 class="section-title">Photos</h2>
-        <span onclick="renderPhotos(wb22)">WB2022</span>
-        <span onclick="renderPhotos(rlfa22)">RLFA2022</span>
-        <span onclick="renderPhotos(fwlm22)">F&WLM2022</span>
+        <div class="category">
+            <span onclick="renderPhotos(wb22)">Winter Bushwhack 2022</span>
+            <span onclick="renderPhotos(rlfa22)">Real Life First Aid 2022</span>
+            <span onclick="renderPhotos(fwlm22)">Fish & Wildlife Management 2022</span>
+        </div>
     </section>
     <section class="main">
         <div class="gallery" id="gallery"></div>       
@@ -49,7 +51,7 @@
         <h2>&copy; Glen Luersman 2022</h2>
     </footer>
     <script src="./assets/js/photos.js"></script>
-    <script src="./assets/js/photos-modal.js"></script>
+    <!-- <script src="./assets/js/photos-modal.js"></script> -->
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

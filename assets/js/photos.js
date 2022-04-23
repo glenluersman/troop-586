@@ -15,9 +15,29 @@ const renderPhotos = (value) => {
     const img = document.createElement("img");
     img.setAttribute("id", "myImg");
     img.setAttribute("src", value[i]);
+    img.setAttribute("onclick", "imgModal(src)")
     img.setAttribute("width", "600");
     img.setAttribute("height", "400");
     item.appendChild(img);
     photosEl.appendChild(item);
   }
+};
+
+//creating the modal
+let imgModal = (src) => {
+    const modal = document.createElement("div");
+    modal.setAttribute("class", "modal");
+    //add modal to the parent element 
+    document.querySelector(".main").append(modal);
+    //adding image to modal
+    const newImage = document.createElement("img");
+    newImage.setAttribute("src", src);
+    //creating the close button
+    const closeBtn = document.createElement("i");
+    closeBtn.setAttribute("class", "fas fa-times closeBtn");
+    //close function
+    closeBtn.onclick = () => {
+        modal.remove();
+    }; 
+    modal.append(newImage, closeBtn);
 };
