@@ -1,6 +1,7 @@
 :root {
   --primary-color: #111;
   --secondary-color: #818181;
+  --tertiary-color: #3c3a3a;
 }
 
 * {
@@ -25,7 +26,7 @@ header h1 {
 }
 
 footer {
-  background: var(--primary-color);
+  background: var(--tertiary-color);
   width: 100%;
   padding: 40px 35px;
   display: flex;
@@ -116,6 +117,28 @@ footer div {
   position: absolute;
   right: 50px;
   top: 15px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
+  outline: none; /* Remove outline */
+  color: #111; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 100%; /* Rounded corners */
+  font-size: 25px; /* Increase font size */
+  height: 50px;
+  width: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+#myBtn:hover {
+  transform: scale(1.1);
+  background-color: var(--secondary-color);
 }
 
 .section-title {
