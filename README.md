@@ -29,7 +29,9 @@
 
 ## <img id="about" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px">
 
-This a website for Boy Scouts of America Troop 586 in Tipp City, Ohio. It is designed to be used for recruiting and to be an information resource for parents and scouts. This website is designed to allow the scouts to update and maintain the website with guidance from the webmaster. On the main page there is a form that future scouts can fill out to receive more information about the troop. There is an events calendar to let everyone see what events are scheduled. At the bottom of the page is contact information for the troop. There are separate pages for photos, documents, and the Mum Festival.
+- This a website for Boy Scouts of America Troop 586 in Tipp City, Ohio. It is designed to be used for recruiting and to be an information resource for parents and scouts. This website is designed to allow the scouts to update and maintain the website with guidance from the webmaster. On the main page there is a form that future scouts can fill out to receive more information about the troop. There is an events calendar to let everyone see what events are scheduled. At the bottom of the page is contact information for the troop. There are separate pages for photos, documents, and the Mum Festival.
+
+- Deployed at URL: https://troop586.com
 
 ## <img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px">
 
