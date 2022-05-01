@@ -132,7 +132,9 @@ header h1 {
   color: #111;
   cursor: pointer; 
   border-radius: 100%; 
-  font-size: 25px;
+  font-size: 45px;
+  font-weight: 400;
+  padding-top: 5px;
   height: 50px;
   width: 50px;
   transition: 0.3s ease-in-out;
