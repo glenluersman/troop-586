@@ -1,6 +1,7 @@
 :root {
   --primary-color: #111;
   --secondary-color: #818181;
+  --tertiary-color: #3c3a3a;
 }
 
 * {
@@ -111,7 +112,7 @@ body {
 }
 
 footer {
-  background: var(--primary-color);
+  background: var(--tertiary-color);
   width: 100%;
   padding: 40px 35px;
   display: flex;
