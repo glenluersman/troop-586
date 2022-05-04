@@ -124,10 +124,10 @@ header h1 {
 #myBtn {
   display: none; 
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   right: 30px;
   border: 2px solid var(--primary-color);
-  background-color: var(--secondary-color);
+  background-color: transparent;
   outline: none;
   color: #111;
   cursor: pointer; 
@@ -142,29 +142,19 @@ header h1 {
 
 #myBtn:hover {
   transform: scale(1.1);
-  
+  background-color: var(--secondary-color);
 }
 /* End Back To Top Button Styles */
 
 /* Footer Styles */
 footer {
-  background: var(--primary-color);
-  width: 100%;
   padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 footer h2 {
-  color: white;
+  color: var(--primary-color);
   font-size: 20px;
   margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
 }
 /* Footer Styles */
 
@@ -254,6 +244,41 @@ footer div {
 /* End Links on Homepage Styles */
 
 /* Contact Form Styles */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
+.contact-info iframe {
+  height: 400px;
+}
+
+.contact-info div {
+  color: black;
+}
+
+.contact-info h3 {
+  color: var(--primary-color);
+  font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: var(--primary-color);
+}
+
 .contact-form {
   text-align: center;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
@@ -304,28 +329,6 @@ footer div {
   color: var(--primary-color);
 }
 /* End Contact Form Styles */
-
-/* History of Soup Styles */
-.history {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.soup {
-  margin: 100px auto;
-  width: 600px;
-  height: 300px;
-  font-size: 35px;
-  text-align: center;
-  border: 1px solid #111;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
-}
-
-.soup h2 {
-  margin-top: 70px;
-}
-/* End History of Soup Styles */
 
 /* Photo Styles */
 .photo-title {
@@ -387,10 +390,10 @@ footer div {
 
 @keyframes zoom {
   from {
-      transform: scale(0);
+    transform: scale(0);
   }
   to {
-      transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -459,13 +462,65 @@ footer div {
 }
 /* End Roster Styles */
 
+/* Troop Forms Styles */
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.forms {
+  display: grid;
+  grid-column: auto;
+  text-align: center;
+}
+
+.forms h3 {
+  font-size: 35px;
+  margin: 30px;
+}
+
+.forms a {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.forms a:hover {
+  color: var(--secondary-color);
+}
+/* End Troop Forms Styles */
+
+/* History of Soup Styles */
+.history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soup {
+  margin: 100px auto;
+  width: 600px;
+  height: 300px;
+  font-size: 35px;
+  text-align: center;
+  border: 1px solid #111;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+}
+
+.soup h2 {
+  margin-top: 70px;
+}
+/* End History of Soup Styles */
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   footer h2 footer div {
     text-align: center;
     width: 100%;
   }
-
+  
   .hero-cta {
     width: 100%;
   }
@@ -481,7 +536,7 @@ footer div {
   .header img {
     margin: 0;
   }
-
+  
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -516,5 +571,9 @@ footer div {
 
   .gallery {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .wrapper {
+    grid-template-columns: 100%;
   }
 }
