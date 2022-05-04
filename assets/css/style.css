@@ -1,3 +1,4 @@
+/* General Styles */
 :root {
   --primary-color: #111;
   --secondary-color: #818181;
@@ -15,6 +16,22 @@ body {
   transition: background-color .5s;
 }
 
+.section-title {
+  color: var(--primary-color);
+  border-bottom: 3px solid;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  font-size: 65px;
+}
+
+.title {
+  text-align: center;
+}
+/* End General Styles */
+
+/* Header Styles */
 header {
   height: 175px;
 }
@@ -25,26 +42,17 @@ header h1 {
   text-align: center;
 }
 
-footer {
-  background: var(--tertiary-color);
-  width: 100%;
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.header img {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  right: 50px;
+  top: 15px;
 }
+/* End Header Styles */
 
-footer h2 {
-  color: white;
-  font-size: 20px;
-  margin: 0;
-}
 
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-
+/* Navbar Styles */
 .sidenav {
   height: 100%;
   width: 0;
@@ -90,7 +98,7 @@ footer div {
   position: fixed;
   margin-top: 30px;
   margin-left: 30px;
-  transition: margin-left .5s;
+  padding-bottom: 5px;
   border: 2px solid var(--primary-color);
   border-radius: 8px;
   transition: 0.3s ease-in-out;
@@ -110,27 +118,23 @@ footer div {
     font-size: 18px;
   }
 }
+/* End Navbar Styles */
 
-.header img {
-  width: 100px;
-  height: auto;
-  position: absolute;
-  right: 50px;
-  top: 15px;
-}
-
+/* Back To Top Button Styles */
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  display: none; 
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
   border: 2px solid var(--primary-color);
   background-color: transparent;
-  outline: none; /* Remove outline */
-  color: #111; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  border-radius: 100%; /* Rounded corners */
-  font-size: 25px; /* Increase font size */
+  outline: none;
+  color: #111;
+  cursor: pointer; 
+  border-radius: 100%; 
+  font-size: 45px;
+  font-weight: 400;
+  padding-top: 5px;
   height: 50px;
   width: 50px;
   transition: 0.3s ease-in-out;
@@ -140,21 +144,21 @@ footer div {
   transform: scale(1.1);
   background-color: var(--secondary-color);
 }
+/* End Back To Top Button Styles */
 
-.section-title {
+/* Footer Styles */
+footer {
+  padding: 40px 35px;
+}
+
+footer h2 {
   color: var(--primary-color);
-  border-bottom: 3px solid;
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-  font-size: 65px;
+  font-size: 20px;
+  margin: 0;
 }
+/* Footer Styles */
 
-.title {
-  text-align: center;
-}
-
+/* Category Styles */
 .category {
   display: flex;
   flex-wrap: wrap;
@@ -175,7 +179,9 @@ footer div {
 .category a:hover {
   color: var(--secondary-color);
 }
+/* End Category Styles */
 
+/* Hero Section Styles */
 .hero {
   display: flex;
   justify-content: center;
@@ -215,7 +221,9 @@ footer div {
 .hero-cta p {
   font-size: 25px;
 }
+/* End Hero Section Styles */
 
+/* Links on Homepage Styles */
 .links {
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +241,9 @@ footer div {
 .links img:hover {
   transform: scale(1.1);
 }
+/* End Links on Homepage Styles */
 
+/* Contact Form Styles */
 .contact-info {
   display: flex;
   justify-content: space-between;
@@ -255,6 +265,18 @@ footer div {
 .contact-info h3 {
   color: var(--primary-color);
   font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: var(--primary-color);
 }
 
 .contact-form {
@@ -306,7 +328,171 @@ footer div {
   font-size: 35px;
   color: var(--primary-color);
 }
+/* End Contact Form Styles */
 
+/* Photo Styles */
+.photo-title {
+  font-size: 36px;
+  text-align: left;
+  margin-left: 55px;
+  color: var(--primary-color);
+  padding: 0 0 30px 30px;
+}
+
+.main {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px 60px 0px;
+}
+
+.gallery {
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  margin: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/*Image modal*/
+.modal {
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.733);
+  margin-top: -1px;
+  animation: zoom 0.3s ease-in-out;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.modal img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.closeBtn {
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.closeBtn:hover {
+  color: rgb(255, 255, 255);
+}
+/* End Image modal */
+/* End Photo Styles */
+
+/* Roster Styles */
+.cards-title {
+  font-size: 36px;
+  text-align: center;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+
+.card {
+  font-size: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--primary-color);
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+}
+
+.card p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  padding: 5%;
+}
+
+.patrol {
+  padding: 100px;
+}
+/* End Roster Styles */
+
+/* Troop Forms Styles */
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.forms {
+  display: grid;
+  grid-column: auto;
+  text-align: center;
+}
+
+.forms h3 {
+  font-size: 35px;
+  margin: 30px;
+}
+
+.forms a {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.forms a:hover {
+  color: var(--secondary-color);
+}
+/* End Troop Forms Styles */
+
+/* History of Soup Styles */
 .history {
   display: flex;
   justify-content: center;
@@ -326,7 +512,7 @@ footer div {
 .soup h2 {
   margin-top: 70px;
 }
-
+/* End History of Soup Styles */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -334,7 +520,7 @@ footer div {
     text-align: center;
     width: 100%;
   }
-
+  
   .hero-cta {
     width: 100%;
   }
@@ -349,6 +535,10 @@ footer div {
 
   .header img {
     margin: 0;
+  }
+  
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -377,5 +567,13 @@ footer div {
   .hero-image h2 {
     margin-top: 70px;
     font-size: 35px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .wrapper {
+    grid-template-columns: 100%;
   }
 }
