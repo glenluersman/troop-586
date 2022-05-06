@@ -11,19 +11,19 @@
 <body>
   <header>            
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="./index.html">Home</a>          
-        <a href="photos.html">Photos</a>                
-        <a href="troop-roster.html">Troop Roster</a>
-        <a href="troop-forms.html">Troop Forms</a>
-        <a href="https://troop586.com/index/#contact-us">Contact Us</a>           
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="./index.html">Home</a>          
+      <a href="photos.html">Photos</a>                
+      <a href="troop-roster.html">Troop Roster</a>
+      <a href="troop-forms.html">Troop Forms</a>
+      <a href="https://troop586.com/index/#contact-us">Contact Us</a>           
     </div>
     <div id="main">
-        <span onclick="openNav()">&#9776;</span>
+      <span onclick="openNav()">&#9776; Menu</span>
     </div>
     <div class="header">
-        <h1>Troop 586</h1>
-            <img src="./assets/images/soupTheTurtle.png" alt="soup the turtle">
+      <h1>Troop 586</h1>
+      <img src="./assets/images/soupTheTurtle.png" alt="soup the turtle">
     </div>
   </header> 
   <div class="history">
@@ -31,10 +31,15 @@
       <h2>History Of Soup the Turtle Coming Soon...</h2>
     </div>
   </div>
+  <div id="dancing-turtle" class="turtle">
+    <img src="./assets/images/dancing-turtle.gif" alt="dancing turtle">
+  </div>
   <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
   <footer>
-    <h2>Created by:</h2><br>
-    <h2>Glen Luersman 2022</h2>
+    <a href="#dancing-turtle" onclick="showText()">
+      <h2>Created by:</h2>
+      <h2>Glen Luersman 2022</h2>
+    </a>
 </footer>
 <script src="./assets/js/script.js"></script>
 </body>
