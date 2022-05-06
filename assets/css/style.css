@@ -574,4 +574,8 @@ footer a {
   .wrapper {
     grid-template-columns: 100%;
   }
+
+  .header img {
+    width: 75px;
+  }
 }
