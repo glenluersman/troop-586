@@ -105,13 +105,11 @@ header h1 {
   margin-left: 30px;
   padding-bottom: 5px;
   border: 2px solid var(--primary-color);
-  border-radius: 8px;
   transition: 0.3s ease-in-out;
 }
 
 #main:hover {
   transform: scale(1.1);
-  background-color: var(--secondary-color);
 }
 
 @media screen and (max-height: 450px) {
@@ -147,7 +145,6 @@ header h1 {
 
 #myBtn:hover {
   transform: scale(1.1);
-  background-color: var(--secondary-color);
 }
 /* End Back To Top Button Styles */
 
@@ -192,16 +189,6 @@ footer h2 {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.hero-image {
-  font-size: 45px;
-  text-align: center;
-  width: 600px;
-  height: 300px;
-  margin: 50px;
-  border: 1px solid var(--primary-color);
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
 .hero-image h2 {
@@ -620,6 +607,18 @@ footer h2 {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .left,
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: auto;
+}
+
+.eventImg img {
+  padding: 0;
+}
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -656,4 +655,12 @@ footer h2 {
   .wrapper {
     grid-template-columns: 100%;
   }
+
+  .left,
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
 }
