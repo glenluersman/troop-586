@@ -416,7 +416,7 @@ footer a {
 .eventImg img {
   align-self: center;
   float: right;
-  object-fit:cover;
+  object-fit: cover;
   width: 300px;
   height: 300px;
   transition: 0.3s ease-in-out;
@@ -697,8 +697,8 @@ footer a {
 
   .eventImg img {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    height: auto;
+    width: 100%;
     float: none;
   }
 }
@@ -763,6 +763,10 @@ footer a {
   
   .header img {
     width: 75px;
+  }
+
+  .history p {
+    margin: 20px;
   }
 }
 
