@@ -586,6 +586,10 @@ footer a {
   .wrapper {
     grid-template-columns: 100%;
   }
+
+  .header img {
+    width: 75px;
+  }
 }
 
 /* MEDIA QUERY FOR SCREENS 450PX AND SMALLER */
