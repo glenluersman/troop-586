@@ -98,9 +98,9 @@ header h1 {
   align-items: center;
   cursor: pointer;
   font-size: 35px;
-  width: 50px;
+  width: 140px;
   height: 45px;
-  position: fixed;
+  position: absolute;
   margin-top: 30px;
   margin-left: 30px;
   padding-bottom: 5px;
@@ -156,7 +156,11 @@ footer {
 footer h2 {
   color: var(--primary-color);
   font-size: 20px;
-  margin: 0;
+  margin: 5px;
+}
+
+footer a {
+  text-decoration: none;
 }
 /* Footer Styles */
 
@@ -191,8 +195,10 @@ footer h2 {
   align-items: center;
 }
 
-.hero-image h2 {
-  margin-top: 70px;
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
 }
 
 .hero-cta {
@@ -584,6 +590,11 @@ footer h2 {
 .soup h2 {
   margin-top: 70px;
 }
+
+.turtle {
+  text-align: center;
+  display: none;
+}
 /* End History of Soup Styles */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -674,5 +685,9 @@ footer h2 {
     align-self: center;
     width: 95%;
     height: auto;
+  }
+  
+  .header img {
+    width: 75px;
   }
 }
