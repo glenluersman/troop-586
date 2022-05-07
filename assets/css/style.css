@@ -43,10 +43,10 @@ header {
 }
 
 header h1 {
-  font-size: 90px;
+  font-size: 60px;
   height: 175px;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 25px;
 }
 
 .header img {
@@ -119,16 +119,6 @@ header h1 {
 
 #main:hover {
   transform: scale(1.1);
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
 }
 /* End Navbar Styles */
 
@@ -211,10 +201,19 @@ footer a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  display: none;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .hero-image {
   max-width: 100%;
+  width: 600px;
   height: auto;
   margin-bottom: 30px;
 }
@@ -236,6 +235,8 @@ footer a {
 
 .hero-cta p {
   font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
 }
 /* End Hero Section Styles */
 
@@ -308,6 +309,7 @@ footer a {
 
 .contact-form label {
   font-size: 20px;
+  font-weight: 600;
 }
 
 .contact-form input,
@@ -576,6 +578,7 @@ footer a {
 
 .card p {
   font-size: 20px;
+  font-weight: 600;
   padding: 10px;
 }
 
@@ -633,18 +636,19 @@ footer a {
   align-items: center;
 }
 
-.soup {
-  margin: 100px auto;
-  width: 600px;
-  height: 300px;
-  font-size: 35px;
+.history p {
+  max-width: 600px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
   text-align: center;
-  border: 1px solid #111;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+  margin: auto;
 }
 
-.soup h2 {
-  margin-top: 70px;
+.soup {
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 1px solid #111;
 }
 
 .turtle {
@@ -653,14 +657,10 @@ footer a {
 }
 /* End History of Soup Styles */
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY FOR SCREENS 980PX AND SMALLER */
 @media screen and (max-width: 980px) {
   footer h2 footer div {
     text-align: center;
-    width: 100%;
-  }
-  
-  .hero-cta {
     width: 100%;
   }
 
@@ -703,7 +703,18 @@ footer a {
   }
 }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
+@media screen and (max-width: 768px) {
+  header h1 {
+    display: none;
+  }
+
+  .hero h1 {
+    display: block !important;
+  }
+}
+
+/* MEDIA QUERY FOR SCREENS 575PX AND SMALLER */
 @media screen AND (max-width: 575px) {
   .hero-form button {
     width: 100%;
@@ -752,5 +763,16 @@ footer a {
   
   .header img {
     width: 75px;
+  }
+}
+
+/* MEDIA QUERY FOR SCREENS 450PX AND SMALLER */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
   }
 }
