@@ -20,7 +20,7 @@ body {
 .section-title {
   color: var(--primary-color);
   border-bottom: 3px solid;
-  padding: 20px;
+
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
@@ -219,12 +219,17 @@ footer a {
 }
 
 .hero-cta {
-  width: 80%;
-  text-align: center;
-  margin: 3.5%;
-  color: black;
-  font-size: 18px;
-  line-height: 1.2;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .hero-cta h2 {
@@ -234,9 +239,12 @@ footer a {
 }
 
 .hero-cta p {
+  max-width: 600px;
   font-size: 25px;
   font-weight: 600;
   line-height: 32px;
+  text-align: center;
+  margin: auto;
 }
 /* End Hero Section Styles */
 
@@ -739,6 +747,10 @@ footer a {
   .hero-image h2 {
     margin-top: 70px;
     font-size: 35px;
+  }
+
+  .hero-cta p {
+    margin: 20px;
   }
 
   .modal img {
