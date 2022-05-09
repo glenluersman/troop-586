@@ -665,6 +665,31 @@ footer a {
 }
 /* End History of Soup Styles */
 
+/* Eagle Scouts Styles */
+.eagle-scouts {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.eagle-scouts h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.eagle-scouts p {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.eagle-scouts div {
+  margin: 20px;
+}
+/* End Eagle Scouts Styles */
+
 /* MEDIA QUERY FOR SCREENS 980PX AND SMALLER */
 @media screen and (max-width: 980px) {
   footer h2 footer div {
