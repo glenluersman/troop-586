@@ -20,7 +20,6 @@ body {
 .section-title {
   color: var(--primary-color);
   border-bottom: 3px solid;
-
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
@@ -666,13 +665,21 @@ footer a {
 /* End History of Soup Styles */
 
 /* Eagle Scouts Styles */
+.eagle-oath {
+  text-align: center;
+  margin: 30px auto 60px auto;
+}
+
+.eagle-oath img {
+  max-width: 600px;
+}
+
 .eagle-scouts {
-  display: flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .eagle-scouts h3 {
@@ -734,6 +741,10 @@ footer a {
     height: auto;
     width: 100%;
     float: none;
+  }
+
+  .eagle-scouts {
+    grid-template-columns: 33.333333% 33.333333% 33.333333%;
   }
 }
 
@@ -805,6 +816,15 @@ footer a {
 
   .history p {
     margin: 20px;
+  }
+
+  .eagle-scouts {
+    width: 95%;
+    grid-template-columns: 50% 50%;
+  }
+
+  .eagle-oath img {
+    max-width: 300px;
   }
 }
 
