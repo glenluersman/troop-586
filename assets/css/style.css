@@ -429,6 +429,10 @@ footer a {
   transition: 0.3s ease-in-out;
 }
 
+.memorial img {
+  object-position: right;
+}
+
 .eventImg img:hover {
   transform: scale(1.1);
 }
