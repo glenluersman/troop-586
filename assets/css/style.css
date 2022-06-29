@@ -15,6 +15,7 @@
 body {
   font-family: 'secret_typewriterregular';
   transition: background-color .5s;
+  background-color: #ddd2bb;
 }
 
 .section-title {
@@ -149,16 +150,14 @@ header h1 {
 /* Footer Styles */
 footer {
   padding: 40px 35px;
-}
-
-footer h2 {
-  color: var(--primary-color);
-  font-size: 20px;
-  margin: 5px;
+  margin-top: 30px;
+  background-color: #111;
+  color: white;
 }
 
 footer a {
   text-decoration: none;
+  color: #818181;
 }
 /* Footer Styles */
 
