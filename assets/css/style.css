@@ -129,9 +129,9 @@ header h1 {
   bottom: 30px;
   right: 30px;
   border: 2px solid var(--primary-color);
-  background-color: transparent;
+  background-color: red;
   outline: none;
-  color: #111;
+  color: var(--primary-color);
   cursor: pointer; 
   border-radius: 100%; 
   font-size: 45px;
@@ -840,15 +840,16 @@ footer a {
   .eagle-oath img {
     max-width: 300px;
   }
-}
 
-/* MEDIA QUERY FOR SCREENS 450PX AND SMALLER */
-@media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
   }
 
   .sidenav a {
     font-size: 18px;
+  }
+
+  .slogan {
+    float: left;
   }
 }
