@@ -1,62 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/typewriter-font/stylesheet.css" type="text/css" charset="utf-8" />
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>History Of Soup</title>
-</head>
-<body>
-  <header>            
-    <div id="mySidenav" class="sidenav">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/typewriter-font/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>History Of Soup</title>
+  </head>
+  <body>
+    <header>            
+      <div class="logo">
+        <img src="./assets/images/troop-logo/green-scoutlogo.png" alt="troop 586 logo">
+      </div>
+      <div class="motto">
+        <h1>Be Prepared</h1>
+      </div>
+      <div class="soup-the-turtle">
+        <a href="./history-of-soup.html" title="History Of Soup">
+          <img src="./assets/images/soupTheTurtle.png" alt="soup the turtle">
+        </a>
+      </div>
+    </header>
+    <nav>
+      <div class="nav-menu">
+        <a href="index.html">Home</a>   
+        <a href="events.html">Events</a>           
+        <a href="photos.html">Photos</a>                
+        <a href="troop-roster.html">Troop Roster</a>
+        <a href="troop-forms.html">Troop Forms</a>
+        <a href="eagle-scouts.html">Eagle Scouts</a>
+        <a href="https://troop586.com/index/#contact-us">Contact Us</a>
+      </div>
+    </nav>
+    <section>
+      <div id="myMobilenav" class="mobilenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a> 
-        <a href="events.html">Events</a>         
+        <a href="index.html">Home</a>   
+        <a href="events.html">Events</a>           
         <a href="photos.html">Photos</a>                
         <a href="troop-roster.html">Troop Roster</a>
         <a href="troop-forms.html">Troop Forms</a>
         <a href="eagle-scouts.html">Eagle Scouts</a>
         <a href="https://troop586.com/index/#contact-us">Contact Us</a>           
+      </div>
+      <div id="main">
+          <span onclick="openNav()">&#9776; Menu</span>
+      </div>
+    </section>
+    <section class="title">
+      <h2 class="section-title">History of Soup the Turtle</h2>
+    </section>
+    <section class="history">
+      <div>
+        <p>The troop's original scoutmaster had an interesting policy designed to keep the scouts from harming nature. "If you kill it, you eat it." I don't know why this rule came to be, but it was widely repeated when you joined our troop on an adventure.</p><br>
+        <p>At one particular campout, our scoutmaster was backing the troop trailer up into position and accidently ran over a turtle. Upon seeing this, the youths all began repeating our troop rule to said scoutmaster. Now our original scoutmaster is a Vietnam Veteran, and had on several occasions told our troop about making turtle soup to survive in the jungles of Vietnam, so it was suggested he do the same with the recently deceased turtle. He did. The boys loved it.</p><br>
+        <p>From then on, it became a tradition that our scoutmaster would make turtle soup at every December campout. And our mascot, "Soup" was born.</p><br>
+        <p>- Jim Ridgeway, Scoutmaster Troop 586</p>
+      </div>
+    </section>
+    <div id="dancing-turtle" class="turtle">
+      <img src="./assets/images/dancing-turtle.gif" alt="dancing turtle">
     </div>
-    <div id="main">
-      <span onclick="openNav()">&#9776; Menu</span>
-    </div>
-    <div class="header">
-      <h1>Be Prepared</h1>
-      <img src="./assets/images/soupTheTurtle.png" alt="soup the turtle">
-    </div>
-  </header>
-  <section class="hero">
-    <div>
-      <h1>Be Prepared</h1>
-    </div>
-    <div>
-        <img src="./assets/images/troop-logo/green-scoutlogo.png" alt="troop 586 logo" class="hero-image">
-    </div>
-  </section> 
-  <section class="title">
-    <h2 class="section-title">History of Soup the Turtle</h2>
-  </section>
-  <section class="history">
-    <div>
-      <p>The troop's original scoutmaster had an interesting policy designed to keep the scouts from harming nature. "If you kill it, you eat it." I don't know why this rule came to be, but it was widely repeated when you joined our troop on an adventure.</p><br>
-      <p>At one particular campout, our scoutmaster was backing the troop trailer up into position and accidently ran over a turtle. Upon seeing this, the youths all began repeating our troop rule to said scoutmaster. Now our original scoutmaster is a Vietnam Veteran, and had on several occasions told our troop about making turtle soup to survive in the jungles of Vietnam, so it was suggested he do the same with the recently deceased turtle. He did. The boys loved it.</p><br>
-      <p>From then on, it became a tradition that our scoutmaster would make turtle soup at every December campout. And our mascot, "Soup" was born.</p><br>
-      <p>- Jim Ridgeway, Scoutmaster Troop 586</p>
-    </div>
-  </section>
-  <div id="dancing-turtle" class="turtle">
-    <img src="./assets/images/dancing-turtle.gif" alt="dancing turtle">
-  </div>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
-  <footer>
-    <p class="slogan">NOT FOR THE FAINT OF HEART&trade;</p>
-    <a href="#dancing-turtle" onclick="showText()" class="dance"><p>&copy;Troop 586 Tipp City, Ohio 2022</p></a>
-    <p><a href="https://miamivalleybsa.org/">Miami Valley Council</a> | <a href="https://www.facebook.com/tworiversmvc/">Two Rivers District</a></p>
-    <p>Special thanks to <a href="https://alpost586.org/">American Legion Post 586</a> for supporting our troop and allowing us to use their facilities.</p>
-</footer>
-<script src="./assets/js/script.js"></script>
-</body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <footer>
+      <p class="slogan">NOT FOR THE FAINT OF HEART&trade;</p>
+      <a href="#dancing-turtle" onclick="showText()" class="dance"><p>&copy;Troop 586 Tipp City, Ohio 2022</p></a>
+      <p><a href="https://miamivalleybsa.org/">Miami Valley Council</a> | <a href="https://www.facebook.com/tworiversmvc/">Two Rivers District</a></p>
+      <p>Special thanks to <a href="https://alpost586.org/">American Legion Post 586</a> for supporting our troop and allowing us to use their facilities.</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>

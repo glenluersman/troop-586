@@ -12,17 +12,20 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #ddd2bb;
+}
+
 body {
   font-family: 'secret_typewriterregular';
   transition: background-color .5s;
-  background-color: #ddd2bb;
 }
 
 .section-title {
   color: var(--primary-color);
   border-bottom: 3px solid;
   text-align: center;
-  margin: 0 auto 35px auto;
+  margin: 35px auto 35px auto;
   width: 50%;
   font-size: 65px;
 }
@@ -39,54 +42,84 @@ body {
 
 /* Header Styles */
 header {
-  height: 175px;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  /* height: 300px; */
 }
 
-header h1 {
-  font-size: 60px;
-  height: 175px;
-  text-align: center;
-  padding-top: 25px;
+.logo img {
+  height: 300px;
+  width: auto;
 }
 
-.header img {
-  width: 100px;
-  height: auto;
-  position: absolute;
-  right: 50px;
-  top: 15px;
+.motto {
+  font-size: 45px;
+}
+
+.soup-the-turtle img {
+  width: auto;
+  height: 300px;
 }
 /* End Header Styles */
 
 
 /* Navbar Styles */
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background-color: var(--primary-color);
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+
+.nav-menu a:hover {
+  color: #818181;
+}
+
+.mobilenav {
+  display: none;
+  width: 100%;
+  position: absolute;
   z-index: 1;
-  top: 0;
-  left: 0;
+  top: 360px;
+  bottom: 0;
   background-color: var(--primary-color);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
+.mobilenav a {
   text-decoration: none;
+  text-align: center;
+  padding: 15px;
   font-size: 25px;
   color: white;
   display: block;
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+.mobilenav a:hover {
   color: var(--secondary-color);
 }
 
-.sidenav .closebtn {
+.mobilenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -95,29 +128,24 @@ header h1 {
 }
 
 #main {
-  display: flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
+  display: none;
   align-items: center;
-  cursor: pointer;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
-  width: 140px;
-  height: 45px;
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 30px;
-  /* padding-bottom: 5px; */
+  color: white;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 30px;
   border: 2px solid var(--primary-color);
+  background-color: #111;
   transition: 0.3s ease-in-out;
 }
 
-#main:hover {
+#main span {
+  cursor: pointer;
+}
+
+#main span:hover {
   transform: scale(1.1);
 }
 /* End Navbar Styles */
@@ -130,6 +158,7 @@ header h1 {
   right: 30px;
   border: 2px solid var(--primary-color);
   background-color: red;
+  opacity: 0.8;
   outline: none;
   color: var(--primary-color);
   cursor: pointer; 
@@ -208,20 +237,15 @@ footer a {
   -ms-flex-align: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
 }
 
-.hero h1 {
-  display: none;
-  font-size: 60px;
+.troop-photo {
   text-align: center;
-  margin-bottom: 30px;
 }
 
-.hero-image {
-  max-width: 100%;
-  width: 600px;
-  height: auto;
-  margin-bottom: 30px;
+.troop-photo img {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
 .hero-cta {
@@ -712,23 +736,21 @@ footer a {
 }
 /* End Eagle Scouts Styles */
 
+/* MEDIA QUERY FOR SCREENS 1150PX AND SMALLER */
+@media screen and (max-width: 1150px) {
+  .motto {
+    display: none;
+  }
+}
+
 /* MEDIA QUERY FOR SCREENS 980PX AND SMALLER */
 @media screen and (max-width: 980px) {
-  footer h2 footer div {
-    text-align: center;
-    width: 100%;
-  }
-
   .hero-cta {
     text-align: center;
   }
 
   .contact-info iframe {
     flex: 1 100%;
-  }
-
-  .header img {
-    margin: 0;
   }
 
   .modal img {
@@ -764,19 +786,34 @@ footer a {
 
 /* MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
 @media screen and (max-width: 768px) {
-  header h1 {
-    display: none;
-  }
-
-  .hero h1 {
-    display: block !important;
+  header {
+    flex-direction: column;
   }
 }
 
 /* MEDIA QUERY FOR SCREENS 575PX AND SMALLER */
 @media screen AND (max-width: 575px) {
-  .hero-form button {
+  .logo img {
     width: 100%;
+  }
+
+  .troop-photo img {
+    width: 95%;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  #main {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
   }
 
   .contact-info {
@@ -789,15 +826,6 @@ footer a {
 
   .contact-form {
     order: 3;
-  }
-
-  header h1 {
-    display: none;
-  }
-  
-  .hero-image h2 {
-    margin-top: 70px;
-    font-size: 35px;
   }
 
   .hero-cta p {
@@ -823,10 +851,6 @@ footer a {
     width: 95%;
     height: auto;
   }
-  
-  .header img {
-    width: 75px;
-  }
 
   .history p {
     margin: 20px;
@@ -841,12 +865,14 @@ footer a {
     max-width: 300px;
   }
 
-  .sidenav {
-    padding-top: 15px;
+  .mobilenav {
+    top: 660px;
+    height: 450px;
+    margin-bottom: 480px;
   }
 
-  .sidenav a {
-    font-size: 18px;
+  .mobilenav a {
+    padding: 15px;
   }
 
   .slogan {
