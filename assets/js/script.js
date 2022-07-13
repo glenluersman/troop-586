@@ -1,15 +1,17 @@
 topBtn = document.getElementById("myBtn");
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "400px";
-  document.getElementById("main").style.marginLeft = "430px";
+  document.getElementById("myMobilenav").style.display = "block";
+  document.getElementById("myMobilenav").style.height = "450px";
+  document.getElementById("main").style.marginBottom = "480px";
   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "30px";
-  document.body.style.backgroundColor = "white";
+  document.getElementById("myMobilenav").style.height = "0";
+  document.getElementById("main").style.marginBottom = "30px";
+  document.body.style.backgroundColor = "#ddd2bb";
+  document.getElementById("myMobilenav").style.display = "none";
 }
 
 window.onscroll = function() {scrollFunction()};

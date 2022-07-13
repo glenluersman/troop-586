@@ -5,8 +5,8 @@ const key3 = [{name:'Jim Ridgeway', title:'Key 3', image:'./assets/images/scoutm
     {name:'Cameron Haller', title:'Key 3', image:'./assets/images/charter-rep.JPG', rank:'', position:'Charter Organization Rep.'}
 ];
 
-const seniorPatrol = [{name:'Brighton S.', title:'SPL & ASPL', image:'./assets/images/SPL.JPG', rank:'First Class', position:'SPL'},
-    {name:'Trevor H', title:'SPL & ASPL', rank:'First Class', image:'./assets/images/ASPL.JPG', position:'ASPL'}
+const seniorPatrol = [{name:'Trevor H.', title:'SPL & ASPL', image:'./assets/images/SPL.JPG', rank:'First Class', position:'SPL'},
+    {name:'Isaac L.', title:'SPL & ASPL', rank:'Tenderfoot', image:'./assets/images/ASPL.JPG', position:'ASPL'}
 ];
 
 const pheonix = [{name:'Logan D.',title:'Phoenix Patrol', image:'./assets/images/phoenix.JPG', rank:'Life Scout', position:''},
@@ -30,10 +30,10 @@ const wetBandits = [{name:'Logan G.', title:'Wet Bandits Patrol', image:'./asset
     {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Tenderfoot', image:'./assets/images/wet-bandits.JPG', position:'Patrol Leader'}
 ];
 
-const underdogs = [{name:'Jeremy F.', title:'Underdogs Patrol', image:'./assets/images/to-be-named.JPG', rank:'Scout', position:''},
-    {name:'Maximilian M.', title:'Underdogs Patrol', image:'./assets/images/to-be-named.JPG', rank:'Tenderfoot', position:'Patrol Leader'},
-    {name:'Chris L.', title:'Underdogs Patrol', rank:'Scout', image:'./assets/images/to-be-named.JPG', position:'Assistant Patrol Leader'},
-    {name:'Grayson M.', title:'Underdogs Patrol', image:'./assets/images/to-be-named.JPG', rank:'Scout', position:''}
+const underdogs = [{name:'Jeremy F.', title:'Underdogs Patrol', image:'./assets/images/underdogs.JPG', rank:'Scout', position:''},
+    {name:'Maximilian M.', title:'Underdogs Patrol', image:'./assets/images/underdogs.JPG', rank:'Tenderfoot', position:'Patrol Leader'},
+    {name:'Chris L.', title:'Underdogs Patrol', rank:'Scout', image:'./assets/images/underdogs.JPG', position:'Assistant Patrol Leader'},
+    {name:'Grayson M.', title:'Underdogs Patrol', image:'./assets/images/underdogs.JPG', rank:'Scout', position:''}
 ];
 
 const scoutMasters = [{name:'Blake Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
