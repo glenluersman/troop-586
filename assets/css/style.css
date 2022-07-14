@@ -51,11 +51,11 @@ header {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  /* height: 300px; */
+  margin: 10px;
 }
 
 .logo img {
-  height: 300px;
+  height: 150px;
   width: auto;
 }
 
@@ -65,7 +65,7 @@ header {
 
 .soup-the-turtle img {
   width: auto;
-  height: 300px;
+  height: 150px;
 }
 /* End Header Styles */
 
@@ -97,7 +97,9 @@ header {
   width: 100%;
   position: absolute;
   z-index: 1;
-  top: 360px;
+  top: 295px;
+  height: 450px;
+  margin-bottom: 480px;
   bottom: 0;
   background-color: var(--primary-color);
   overflow-x: hidden;
@@ -243,6 +245,13 @@ footer a {
 .troop-photo {
   text-align: center;
 }
+
+/* .troop-photo {
+  background-image: url(../images/troop-1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+} */
 
 .troop-photo img {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
@@ -416,6 +425,7 @@ footer a {
   display: -ms-flexbox;
   flex-direction: column;
   padding: 10px;
+  margin: 5px;
 }
 
 .events h3 {
@@ -458,7 +468,7 @@ footer a {
   float: right;
   object-fit: cover;
   width: 300px;
-  height: 300px;
+  height: 400px;
   transition: 0.3s ease-in-out;
 }
 
@@ -738,13 +748,29 @@ footer a {
 
 /* MEDIA QUERY FOR SCREENS 1150PX AND SMALLER */
 @media screen and (max-width: 1150px) {
-  .motto {
-    display: none;
-  }
+  /* .motto {
+    order: 3;
+  } */
 }
 
 /* MEDIA QUERY FOR SCREENS 980PX AND SMALLER */
 @media screen and (max-width: 980px) {
+  .logo img {
+    height: 150px;
+  }
+
+  .motto {
+    font-size: 35px;
+  }
+
+  .soup-the-turtle img {
+    height: 150px;
+  }
+
+  .troop-photo img {
+    width: 95%;
+  }
+
   .hero-cta {
     text-align: center;
   }
@@ -786,15 +812,26 @@ footer a {
 
 /* MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
 @media screen and (max-width: 768px) {
-  header {
-    flex-direction: column;
+  .motto {
+    font-size: 30px;
+  }
+
+  .troop-photo img {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .motto {
+    order: 3;
   }
 }
 
 /* MEDIA QUERY FOR SCREENS 575PX AND SMALLER */
 @media screen AND (max-width: 575px) {
-  .logo img {
-    width: 100%;
+  
+  .motto {
+    order: 3;
   }
 
   .troop-photo img {
@@ -829,7 +866,7 @@ footer a {
   }
 
   .hero-cta p {
-    margin: 20px;
+    padding: 20px;
   }
 
   .modal img {
@@ -865,17 +902,13 @@ footer a {
     max-width: 300px;
   }
 
-  .mobilenav {
-    top: 660px;
-    height: 450px;
-    margin-bottom: 480px;
-  }
-
-  .mobilenav a {
-    padding: 15px;
-  }
-
   .slogan {
     float: none;
   }
 }
+
+/* @media screen and (max-width: 380px) {
+  footer {
+    width: 100%;
+  }
+} */

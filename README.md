@@ -55,3 +55,11 @@
 <img style="margin: 0 0 15px 0" src="./assets/images/troop3.PNG" ></a>
 
 <img style="margin: 0 0 15px 0" src="./assets/images/troop4.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./assets/images/troop5.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./assets/images/troop6.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./assets/images/troop7.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./assets/images/troop8.PNG" ></a>
