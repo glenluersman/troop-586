@@ -246,6 +246,13 @@ footer a {
   text-align: center;
 }
 
+/* .troop-photo {
+  background-image: url(../images/troop-1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+} */
+
 .troop-photo img {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
@@ -418,6 +425,7 @@ footer a {
   display: -ms-flexbox;
   flex-direction: column;
   padding: 10px;
+  margin: 5px;
 }
 
 .events h3 {
@@ -460,7 +468,7 @@ footer a {
   float: right;
   object-fit: cover;
   width: 300px;
-  height: 300px;
+  height: 400px;
   transition: 0.3s ease-in-out;
 }
 
@@ -759,6 +767,10 @@ footer a {
     height: 150px;
   }
 
+  .troop-photo img {
+    width: 95%;
+  }
+
   .hero-cta {
     text-align: center;
   }
@@ -802,6 +814,10 @@ footer a {
 @media screen and (max-width: 768px) {
   .motto {
     font-size: 30px;
+  }
+
+  .troop-photo img {
+    width: 95%;
   }
 }
 
@@ -850,7 +866,7 @@ footer a {
   }
 
   .hero-cta p {
-    margin: 20px;
+    padding: 20px;
   }
 
   .modal img {
@@ -890,3 +906,9 @@ footer a {
     float: none;
   }
 }
+
+/* @media screen and (max-width: 380px) {
+  footer {
+    width: 100%;
+  }
+} */
