@@ -246,13 +246,6 @@ footer a {
   text-align: center;
 }
 
-/* .troop-photo {
-  background-image: url(../images/troop-1280.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 600px;
-} */
-
 .troop-photo img {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
@@ -283,7 +276,7 @@ footer a {
   font-weight: 600;
   line-height: 32px;
   text-align: center;
-  margin: 30px;
+  margin: 20px;
 }
 /* End Hero Section Styles */
 
@@ -370,6 +363,10 @@ footer a {
   width: 90%;
   margin: 5px auto 15px auto;
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form textarea {
+
 }
 
 .contact-form input:focus,
@@ -746,13 +743,6 @@ footer a {
 }
 /* End Eagle Scouts Styles */
 
-/* MEDIA QUERY FOR SCREENS 1150PX AND SMALLER */
-@media screen and (max-width: 1150px) {
-  /* .motto {
-    order: 3;
-  } */
-}
-
 /* MEDIA QUERY FOR SCREENS 980PX AND SMALLER */
 @media screen and (max-width: 980px) {
   .logo img {
@@ -796,6 +786,15 @@ footer a {
     grid-template-columns: 100%;
     width: 60%;
     height: auto;
+  }
+
+  .events p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .content a {
+    margin: 20px 0 20px 10px;
   }
 
   .eventImg img {
@@ -865,10 +864,6 @@ footer a {
     order: 3;
   }
 
-  .hero-cta p {
-    padding: 20px;
-  }
-
   .modal img {
     width: 100%;
   }
@@ -906,9 +901,3 @@ footer a {
     float: none;
   }
 }
-
-/* @media screen and (max-width: 380px) {
-  footer {
-    width: 100%;
-  }
-} */
