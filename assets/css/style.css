@@ -361,12 +361,8 @@ footer a {
   font-family: 'secret_typewriterregular';
   color: var(--primary-color);
   width: 90%;
-  margin: 5px auto 15px auto;
+  margin: 5px auto 5px auto;
   background-color: rgba(255, 255, 255, 0.75);
-}
-
-.contact-form textarea {
-
 }
 
 .contact-form input:focus,
@@ -383,7 +379,7 @@ footer a {
   color: white;
   text-align: center;
   padding: 15px 0;
-  margin-bottom: 25px;
+  margin: 5px auto 10px auto;
   font-size: 20px;
   font-family: 'secret_typewriterregular';
 }
@@ -393,7 +389,7 @@ footer a {
 }
 
 .contact-form h3 {
-  margin: 25px;
+  margin: 5px;
   font-size: 35px;
   color: var(--primary-color);
 }
@@ -794,7 +790,7 @@ footer a {
   }
 
   .content a {
-    margin: 20px 0 20px 10px;
+    margin: 10px;
   }
 
   .eventImg img {
