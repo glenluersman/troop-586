@@ -317,28 +317,14 @@ footer a {
   margin: 15px;
 }
 
-/* .contact-info iframe {
-  height: 450px !important;
-} */
-
 .contact-info div {
   color: black;
 }
-
-/* .contact-info h3 {
-  color: var(--primary-color);
-  font-size: 32px;
-} */
 
 .contact-form {
   text-align: center;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
-
-/* .contact-form label {
-  font-size: 20px;
-  font-weight: 600;
-} */
 
 .contact-form input,
 .contact-form textarea {
