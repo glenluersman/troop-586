@@ -889,10 +889,10 @@ footer a {
 }
 /* END MEDIA QUERY FOR SCREENS 575PX AND SMALLER */
 
-/* MEDIA QUERY FOR SCREENS 375PX AND SMALLER */
-@media screen and (max-width: 375px) {
+/* MEDIA QUERY FOR SCREENS 400PX AND SMALLER */
+@media screen and (max-width: 400px) {
   .links  img {
-    width: 90%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -906,4 +906,4 @@ footer a {
     width: 90%;
   }
 }
-/* END MEDIA QUERY FOR SCREENS 375PX AND SMALLER */
+/* END MEDIA QUERY FOR SCREENS 400PX AND SMALLER */
