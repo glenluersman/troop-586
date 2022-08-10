@@ -296,12 +296,12 @@ footer a {
 
 .button {
   width: 225px;
-  height: 45px;
+  height: 55px;
 }
 
 .button-new {
   width: 380px;
-  height: 45px;
+  height: 55px;
 }
 
 .troop-photo {
@@ -807,8 +807,8 @@ footer a {
     height: 150px;
   }
 
-  .mumfest img {
-    width: 300px;
+  .button-new {
+    width: 90%;
   }
 
   .troop-photo img {
@@ -870,12 +870,19 @@ footer a {
     font-size: 30px;
   }
 
+  .mumfest {
+    flex-direction: column;
+  }
+
   .mumfest img {
-    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   .button-new {
-    width: 90%;
+    width: 65%;
   }
 
   .troop-photo img {
@@ -898,15 +905,8 @@ footer a {
     order: 3;
   }
 
-  .mumfest {
-    flex-direction: column;
-  }
-
-  .mumfest img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  .button-new {
+    width: 90%;
   }
 
   .troop-photo img {
