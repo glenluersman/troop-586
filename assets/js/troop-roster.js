@@ -6,7 +6,7 @@ const key3 = [{name:'Jim Ridgeway', title:'Key 3', image:'./assets/images/scoutm
 ];
 
 const seniorPatrol = [{name:'Trevor H.', title:'SPL & ASPL', image:'./assets/images/SPL.JPG', rank:'First Class', position:'SPL'},
-    {name:'Isaac L.', title:'SPL & ASPL', rank:'Second Class', image:'./assets/images/ASPL.JPG', position:'ASPL'}
+    {name:'Isaac L.', title:'SPL & ASPL', rank:'First Class', image:'./assets/images/ASPL.JPG', position:'ASPL'}
 ];
 
 const pheonix = [{name:'Logan D.',title:'Phoenix Patrol', image:'./assets/images/phoenix.JPG', rank:'Life Scout', position:''},
