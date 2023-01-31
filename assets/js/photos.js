@@ -68,6 +68,26 @@ const summerCamp22 = ["./assets/images/Summer_Camp22/summer3.JPG","./assets/imag
                       "./assets/images/Summer_Camp22/summer36.jpg","./assets/images/Summer_Camp22/summer37.jpg","./assets/images/Summer_Camp22/summer38.jpg",
                       "./assets/images/Summer_Camp22/summer39.JPG"];
 
+const PS22 = ["./assets/images/PS22/PS1.JPG","./assets/images/PS22/PS2.JPG","./assets/images/PS22/PS3.JPG",
+              "./assets/images/PS22/PS4.JPG","./assets/images/PS22/PS5.JPG","./assets/images/PS22/PS6.JPG",
+              "./assets/images/PS22/PS7.JPG","./assets/images/PS22/PS8.JPG","./assets/images/PS22/PS9.JPG",
+              "./assets/images/PS22/PS10.JPG","./assets/images/PS22/PS11.JPG","./assets/images/PS22/PS12.JPG",
+              "./assets/images/PS22/PS13.JPG","./assets/images/PS22/PS14.JPG","./assets/images/PS22/PS15.JPG",
+              "./assets/images/PS22/PS16.JPG","./assets/images/PS22/PS17.JPG","./assets/images/PS22/PS18.JPG",
+              "./assets/images/PS22/PS19.JPG","./assets/images/PS22/PS20.JPG"];
+
+const Fish22 = ["./assets/images/Fish22/Fish1.JPG","./assets/images/Fish22/Fish2.JPG","./assets/images/Fish22/Fish3.JPG",
+                "./assets/images/Fish22/Fish4.JPG","./assets/images/Fish22/Fish5.JPG","./assets/images/Fish22/Fish6.JPG",
+                "./assets/images/Fish22/Fish7.JPG","./assets/images/Fish22/Fish8.JPG","./assets/images/Fish22/Fish9.JPG",
+                "./assets/images/Fish22/Fish10.JPG","./assets/images/Fish22/Fish11.JPG","./assets/images/Fish22/Fish12.JPG",
+                "./assets/images/Fish22/Fish13.JPG","./assets/images/Fish22/Fish14.JPG","./assets/images/Fish22/Fish15.JPG",
+                "./assets/images/Fish22/Fish16.JPG","./assets/images/Fish22/Fish17.JPG","./assets/images/Fish22/Fish18.JPG",
+                "./assets/images/Fish22/Fish19.JPG","./assets/images/Fish22/Fish20.JPG","./assets/images/Fish22/Fish21.JPG",
+                "./assets/images/Fish22/Fish22.JPG","./assets/images/Fish22/Fish23.JPG","./assets/images/Fish22/Fish24.JPG",
+                "./assets/images/Fish22/Fish25.JPG","./assets/images/Fish22/Fish26.JPG","./assets/images/Fish22/Fish27.JPG",
+                "./assets/images/Fish22/Fish28.JPG","./assets/images/Fish22/Fish29.JPG","./assets/images/Fish22/Fish30.JPG",
+                "./assets/images/Fish22/Fish31.JPG","./assets/images/Fish22/Fish32.JPG","./assets/images/Fish22/Fish33.JPG"];
+
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
