@@ -68,6 +68,49 @@ const summerCamp22 = ["./assets/images/Summer_Camp22/summer3.JPG","./assets/imag
                       "./assets/images/Summer_Camp22/summer36.jpg","./assets/images/Summer_Camp22/summer37.jpg","./assets/images/Summer_Camp22/summer38.jpg",
                       "./assets/images/Summer_Camp22/summer39.JPG"];
 
+const PS22 = ["./assets/images/PS22/PS1.JPG","./assets/images/PS22/PS2.JPG","./assets/images/PS22/PS3.JPG",
+              "./assets/images/PS22/PS4.JPG","./assets/images/PS22/PS5.JPG","./assets/images/PS22/PS6.JPG",
+              "./assets/images/PS22/PS7.JPG","./assets/images/PS22/PS8.JPG","./assets/images/PS22/PS9.JPG",
+              "./assets/images/PS22/PS10.JPG","./assets/images/PS22/PS11.JPG","./assets/images/PS22/PS12.JPG",
+              "./assets/images/PS22/PS13.JPG","./assets/images/PS22/PS14.JPG","./assets/images/PS22/PS15.JPG",
+              "./assets/images/PS22/PS16.JPG","./assets/images/PS22/PS17.JPG","./assets/images/PS22/PS18.JPG",
+              "./assets/images/PS22/PS19.JPG","./assets/images/PS22/PS20.JPG"];
+
+const Fish22 = ["./assets/images/Fish22/Fish1.JPG","./assets/images/Fish22/Fish2.JPG","./assets/images/Fish22/Fish3.JPG",
+                "./assets/images/Fish22/Fish4.JPG","./assets/images/Fish22/Fish5.JPG","./assets/images/Fish22/Fish6.JPG",
+                "./assets/images/Fish22/Fish7.JPG","./assets/images/Fish22/Fish8.JPG","./assets/images/Fish22/Fish9.JPG",
+                "./assets/images/Fish22/Fish10.JPG","./assets/images/Fish22/Fish11.JPG","./assets/images/Fish22/Fish12.JPG",
+                "./assets/images/Fish22/Fish13.JPG","./assets/images/Fish22/Fish14.JPG","./assets/images/Fish22/Fish15.JPG",
+                "./assets/images/Fish22/Fish16.JPG","./assets/images/Fish22/Fish17.JPG","./assets/images/Fish22/Fish18.JPG",
+                "./assets/images/Fish22/Fish19.JPG","./assets/images/Fish22/Fish20.JPG","./assets/images/Fish22/Fish21.JPG",
+                "./assets/images/Fish22/Fish22.JPG","./assets/images/Fish22/Fish23.JPG","./assets/images/Fish22/Fish24.JPG",
+                "./assets/images/Fish22/Fish25.JPG","./assets/images/Fish22/Fish26.JPG","./assets/images/Fish22/Fish27.JPG",
+                "./assets/images/Fish22/Fish28.JPG","./assets/images/Fish22/Fish29.JPG","./assets/images/Fish22/Fish30.JPG",
+                "./assets/images/Fish22/Fish31.JPG","./assets/images/Fish22/Fish32.JPG","./assets/images/Fish22/Fish33.JPG"];
+
+const Mum22 = ["./assets/images/Mum22/Mum1.png","./assets/images/Mum22/Mum2.png","./assets/images/Mum22/Mum3.png",
+               "./assets/images/Mum22/Mum4.png","./assets/images/Mum22/Mum5.png","./assets/images/Mum22/Mum6.png",
+               "./assets/images/Mum22/Mum7.png","./assets/images/Mum22/Mum8.png","./assets/images/Mum22/Mum9.jpg",
+               "./assets/images/Mum22/Mum10.jpg","./assets/images/Mum22/Mum11.jpg","./assets/images/Mum22/Mum12.JPG",
+               "./assets/images/Mum22/Mum13.JPG","./assets/images/Mum22/Mum14.JPG"];
+
+const SP22 = ["./assets/images/SP22/SP1.jpg"];
+
+const TB22 = ["./assets/images/TB22/TB1.jpg","./assets/images/TB22/TB2.jpg","./assets/images/TB22/TB3.jpg",
+              "./assets/images/TB22/TB4.jpg","./assets/images/TB22/TB5.jpg","./assets/images/TB22/TB6.jpg",
+              "./assets/images/TB22/TB7.jpg","./assets/images/TB22/TB8.jpg","./assets/images/TB22/TB9.jpg",
+              "./assets/images/TB22/TB10.jpg","./assets/images/TB22/TB11.JPG","./assets/images/TB22/TB12.JPG",
+              "./assets/images/TB22/TB13.JPG"];
+
+const AP22 = ["./assets/images/AP22/AP1.JPG","./assets/images/AP22/AP2.JPG","./assets/images/AP22/AP3.JPG",
+              "./assets/images/AP22/AP4.jpg","./assets/images/AP22/AP5.jpg","./assets/images/AP22/AP6.jpg",
+              "./assets/images/AP22/AP7.jpg","./assets/images/AP22/AP8.jpg","./assets/images/AP22/AP9.jpg",
+              "./assets/images/AP22/AP10.jpg","./assets/images/AP22/AP11.jpg","./assets/images/AP22/AP12.jpg",
+              "./assets/images/AP22/AP13.jpg","./assets/images/AP22/AP14.jpg","./assets/images/AP22/AP15.jpg",
+              "./assets/images/AP22/AP16.jpg","./assets/images/AP22/AP17.jpg","./assets/images/AP22/AP18.jpg",
+              "./assets/images/AP22/AP19.jpg","./assets/images/AP22/AP20.jpg","./assets/images/AP22/AP21.jpg",
+              "./assets/images/AP22/AP22.jpg"];
+
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
