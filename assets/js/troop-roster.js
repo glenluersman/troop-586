@@ -11,23 +11,23 @@ const seniorPatrol = [{name:'Isaac L.', title:'Wet Bandits Patrol', rank:'First 
 
 const fancyFishes = [{name:'Logan D.',title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Life Scout', position:''},
     {name:'Christian H.', title:"Fancy Fishes Patrol", image:'./assets/images/fancy-fishes.webp', rank:'Life Scout', position:''},
-    {name:'Gavyn M.', title:"Fancy Fishes Patrol", image:'./assets/images/fancy-fishes.webp', rank:'Eagle Scout', position:''},
-    {name:'Jackson C.',title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Tenderfoot', position:''},
-    {name:'Trevor H', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'First Class', position:''},
-    {name:'Brighton S.', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Star Scout', position:'Chaplains Aide, Librarian'}
+    {name:'Gavyn M.', title:"Fancy Fishes Patrol", image:'./assets/images/fancy-fishes.webp', rank:'Eagle Scout', position:'Junior Assistant Scoutmaster, Patrol Leader'},
+    {name:'Jackson C.',title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Tenderfoot', position:'Instructor'},
+    {name:'Trevor H', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'First Class', position:'Quartermaster'},
+    {name:'Brighton S.', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Star Scout', position:'Chaplains Aide, Troop Guide, Assistant Patrol Leader'}
 ];
     
 const wetBandits = [{name:'Logan G.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Tenderfoot', position:'ASPL, Den Cheif'},
-    {name:'Isaac L.', title:'Wet Bandits Patrol', rank:'First Class', image:'./assets/images/wet-bandits.JPG', position:'SPL, Den Cheif'},
-    {name:'Cayll L.', title:'Wet Bandits Patrol', rank:'Scout', image:'./assets/images/wet-bandits.JPG', position:''},
-    {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Second Class', image:'./assets/images/wet-bandits.JPG', position:''},
+    {name:'Isaac L.', title:'Wet Bandits Patrol', rank:'First Class', image:'./assets/images/wet-bandits.JPG', position:'SPL, Den Cheif, Musician'},
+    {name:'Cayll L.', title:'Wet Bandits Patrol', rank:'Scout', image:'./assets/images/wet-bandits.JPG', position:'Scribe'},
+    {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Second Class', image:'./assets/images/wet-bandits.JPG', position:'Patrol Leader'},
     {name:'Chris L.', title:'Wet Bandits Patrol', rank:'Tenderfoot', image:'./assets/images/wet-bandits.JPG', position:'Den Cheif'},
-    {name:'Grayson M.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Tenderfoot', position:''},
+    {name:'Grayson M.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Tenderfoot', position:'Librarian, Assistant Patrol Leader'},
     {name:'Grady W.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Tenderfoot', position:''}
 ];
 
 const fireChickens = [
-    {name:'Gentry B.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''}
+    {name:'Gentry B.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:'Patrol Leader, Assistant Patrol Leader'}
 ];
 
 const scoutMasters = [{name:'Blake Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
