@@ -102,6 +102,15 @@ const TB22 = ["./assets/images/TB22/TB1.jpg","./assets/images/TB22/TB2.jpg","./a
               "./assets/images/TB22/TB10.jpg","./assets/images/TB22/TB11.JPG","./assets/images/TB22/TB12.JPG",
               "./assets/images/TB22/TB13.JPG"];
 
+const AP22 = ["./assets/images/AP22/AP1.JPG","./assets/images/AP22/AP2.JPG","./assets/images/AP22/AP3.JPG",
+              "./assets/images/AP22/AP4.jpg","./assets/images/AP22/AP5.jpg","./assets/images/AP22/AP6.jpg",
+              "./assets/images/AP22/AP7.jpg","./assets/images/AP22/AP8.jpg","./assets/images/AP22/AP9.jpg",
+              "./assets/images/AP22/AP10.jpg","./assets/images/AP22/AP11.jpg","./assets/images/AP22/AP12.jpg",
+              "./assets/images/AP22/AP13.jpg","./assets/images/AP22/AP14.jpg","./assets/images/AP22/AP15.jpg",
+              "./assets/images/AP22/AP16.jpg","./assets/images/AP22/AP17.jpg","./assets/images/AP22/AP18.jpg",
+              "./assets/images/AP22/AP19.jpg","./assets/images/AP22/AP20.jpg","./assets/images/AP22/AP21.jpg",
+              "./assets/images/AP22/AP22.jpg"];
+
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
