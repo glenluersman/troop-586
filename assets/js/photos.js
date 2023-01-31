@@ -88,6 +88,20 @@ const Fish22 = ["./assets/images/Fish22/Fish1.JPG","./assets/images/Fish22/Fish2
                 "./assets/images/Fish22/Fish28.JPG","./assets/images/Fish22/Fish29.JPG","./assets/images/Fish22/Fish30.JPG",
                 "./assets/images/Fish22/Fish31.JPG","./assets/images/Fish22/Fish32.JPG","./assets/images/Fish22/Fish33.JPG"];
 
+const Mum22 = ["./assets/images/Mum22/Mum1.png","./assets/images/Mum22/Mum2.png","./assets/images/Mum22/Mum3.png",
+               "./assets/images/Mum22/Mum4.png","./assets/images/Mum22/Mum5.png","./assets/images/Mum22/Mum6.png",
+               "./assets/images/Mum22/Mum7.png","./assets/images/Mum22/Mum8.png","./assets/images/Mum22/Mum9.jpg",
+               "./assets/images/Mum22/Mum10.jpg","./assets/images/Mum22/Mum11.jpg","./assets/images/Mum22/Mum12.JPG",
+               "./assets/images/Mum22/Mum13.JPG","./assets/images/Mum22/Mum14.JPG"];
+
+const SP22 = ["./assets/images/SP22/SP1.jpg"];
+
+const TB22 = ["./assets/images/TB22/TB1.jpg","./assets/images/TB22/TB2.jpg","./assets/images/TB22/TB3.jpg",
+              "./assets/images/TB22/TB4.jpg","./assets/images/TB22/TB5.jpg","./assets/images/TB22/TB6.jpg",
+              "./assets/images/TB22/TB7.jpg","./assets/images/TB22/TB8.jpg","./assets/images/TB22/TB9.jpg",
+              "./assets/images/TB22/TB10.jpg","./assets/images/TB22/TB11.JPG","./assets/images/TB22/TB12.JPG",
+              "./assets/images/TB22/TB13.JPG"];
+
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
