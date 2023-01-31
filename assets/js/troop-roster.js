@@ -38,9 +38,9 @@ const scoutMasters = [{name:'Blake Dysinger', title:'Assistant Scoutmasters', im
     {name:'Noah Barnes',title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'}
 ];
 
-const committee = [{name:'Robert Lesher', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Fundraising'},
+const committee = [{name:'Robert Lesher', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'MumFest Coordinator'},
     {name:'Angel Grubbs', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Secretary'},
-    {name:'Brittany Cheadle', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Fundraising'},
+    {name:'Brittany Cheadle', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Cobbler Booth Coordinator'},
     {name:'Matt Hollon', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Equipment Coordinator'},
     {name:'Dennis Mullins', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Treasurer'},
     {name:'Tanya Mullins', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Advancement Coordinator'},
