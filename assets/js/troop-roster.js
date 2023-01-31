@@ -39,13 +39,13 @@ const scoutMasters = [{name:'Blake Dysinger', title:'Assistant Scoutmasters', im
 ];
 
 const committee = [{name:'Robert Lesher', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'MumFest Coordinator'},
-    {name:'Angel Grubbs', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Secretary'},
+    {name:'Angel Grubbs', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Secretary aka "The Handler"'},
     {name:'Brittany Cheadle', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Cobbler Booth Coordinator'},
     {name:'Matt Hollon', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Equipment Coordinator'},
     {name:'Dennis Mullins', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Treasurer'},
     {name:'Tanya Mullins', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Advancement Coordinator'},
-    {name:'Cid Ridgeway', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Scouting For Food'},
-    {name:'Melinda Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Outdoors Activities Chair'},
+    {name:'Cid Ridgeway', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Scouting For Food Coordinator'},
+    {name:'Melinda Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Outdoors Activities Coordinator'},
     {name:'Jon Sears', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Chaplain'},
     {name:'Andy Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Recruitment Coordinator'},
     {name:'Glen Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Webmaster'}
