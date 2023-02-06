@@ -32,16 +32,16 @@ const wetBandits = [
 
 const fireChickens = [
     {name:'Gentry B.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''}
+    {name:'Kentyn L.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:'Assistant Patrol Leader'},
+    {name:'Graham W.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Cole S.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Hugh M.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Levi E.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Nicholas V.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Steven W.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Walter L.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''}
 ];
 
 const scoutMasters = [
