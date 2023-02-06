@@ -113,6 +113,8 @@ const AP22 = ["./assets/images/AP22/AP1.JPG","./assets/images/AP22/AP2.JPG","./a
               "./assets/images/AP22/AP19.jpg","./assets/images/AP22/AP20.jpg","./assets/images/AP22/AP21.jpg",
               "./assets/images/AP22/AP22.jpg"];
 
+const co39522 = ["./assets/images/395crossover22/395crossover1.jpg","./assets/images/395crossover22/395crossover2.jpg","./assets/images/395crossover22/395crossover3.jpg"];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
