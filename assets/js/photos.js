@@ -113,6 +113,15 @@ const AP22 = ["./assets/images/AP22/AP1.JPG","./assets/images/AP22/AP2.JPG","./a
               "./assets/images/AP22/AP19.jpg","./assets/images/AP22/AP20.jpg","./assets/images/AP22/AP21.jpg",
               "./assets/images/AP22/AP22.jpg"];
 
+const co39522 = ["./assets/images/395crossover22/395crossover1.jpg","./assets/images/395crossover22/395crossover2.jpg","./assets/images/395crossover22/395crossover3.jpg"];
+
+const shelf22 = ["./assets/images/shelf-project22/shelf1.JPG","./assets/images/shelf-project22/shelf2.JPG",
+                 "./assets/images/shelf-project22/shelf3.JPG","./assets/images/shelf-project22/shelf4.JPG"];
+
+const food22 = ["./assets/images/food-pantry22/food1.JPG","./assets/images/food-pantry22/food2.JPG","./assets/images/food-pantry22/food3.JPG",
+                "./assets/images/food-pantry22/food4.JPG","./assets/images/food-pantry22/food5.JPG","./assets/images/food-pantry22/food6.JPG",
+                "./assets/images/food-pantry22/food7.JPG"];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
