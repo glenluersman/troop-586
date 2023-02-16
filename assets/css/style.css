@@ -245,7 +245,7 @@ footer a {
 }
 
 .store {
-  width: 80%;
+  width: 90%;
   margin: 0 auto 50px auto;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
@@ -254,11 +254,13 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
   padding: 30px 0px;
 }
 
 .troop-store p {
   font-size: 25px;
+  text-align: center;
   line-height: 40px;
   font-weight: 600;
   width: 500px;
@@ -267,13 +269,9 @@ footer a {
 
 .troop-store img {
   height: 150px;
-  padding: 15px;
 }
 
 .store-link {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
   text-align: center;
 }
 
@@ -283,7 +281,7 @@ footer a {
 	cursor: pointer;
   font-size: 35px;
   font-weight: 600;
-  padding: 25px;
+  margin: auto 0 0 10px;
 }
 
 .store-link a:hover {
@@ -841,16 +839,24 @@ footer a {
     width: 95%;
   }
 
+  .troop-store {
+    flex-direction: column;
+  }
+
   #logo {
     order: 1;
   }
 
   #soup {
-    order: 3;
+    order: 2;
   }
 
   #text {
-    order: 2;
+    order: 3;
+  }
+
+  #hat {
+    order: 4;
   }
 }
 
@@ -943,6 +949,10 @@ footer a {
 @media screen and (max-width: 768px) {
   .motto {
     font-size: 30px;
+  }
+
+  .troop-store p {
+    width: auto;
   }
 
   .mumfest {
