@@ -23,6 +23,7 @@ body {
 
 .section-title {
   color: var(--primary-color);
+  word-wrap: break-word;
   border-bottom: 3px solid;
   text-align: center;
   margin: 35px auto 35px auto;
@@ -100,7 +101,7 @@ header {
   position: absolute;
   z-index: 1;
   top: 295px;
-  height: 450px;
+  height: 500px !important;
   margin-bottom: 480px;
   bottom: 0;
   background-color: var(--primary-color);
@@ -982,7 +983,7 @@ footer a {
 /* MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
 @media screen and (max-width: 768px) {
   .section-title {
-    font-size: 75px;
+    font-size: 65px;
     width: 90%;
   }
 
