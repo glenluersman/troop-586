@@ -983,7 +983,6 @@ footer a {
 /* MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
 @media screen and (max-width: 768px) {
   .section-title {
-    font-size: 65px;
     width: 90%;
   }
 
@@ -1026,6 +1025,10 @@ footer a {
 
 /* MEDIA QUERY FOR SCREENS 575PX AND SMALLER */
 @media screen AND (max-width: 575px) {
+  .section-title {
+    font-size: 60px;
+  }
+
   .motto {
     order: 3;
   }
