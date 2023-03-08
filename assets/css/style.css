@@ -743,6 +743,11 @@ footer a {
   grid-template-columns: 50% 50%;
 }
 
+.resources {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
 .forms {
   display: grid;
   grid-column: auto;
@@ -764,6 +769,16 @@ footer a {
 
 .forms a:hover {
   color: var(--secondary-color);
+}
+
+.forms img {
+  width: 450px;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.forms img:hover {
+  transform: scale(1.1);
 }
 /* End Troop Forms Styles */
 
@@ -1091,6 +1106,10 @@ footer a {
 
   .history p {
     margin: 20px;
+  }
+
+  .forms img {
+    width: 90%;
   }
 
   .eagle-scouts {
