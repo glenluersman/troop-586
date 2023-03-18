@@ -176,6 +176,16 @@ const MC23 = ["./assets/images/Caving23/cave1.jpeg","./assets/images/Caving23/ca
               "./assets/images/Caving23/cave106.jpg","./assets/images/Caving23/cave107.jpg","./assets/images/Caving23/cave108.jpg",
               "./assets/images/Caving23/cave109.jpg",];
 
+const SFF23 = ["./assets/images/SFF23/sff1.jpg","./assets/images/SFF23/sff2.jpg","./assets/images/SFF23/sff3.jpg",
+               "./assets/images/SFF23/sff4.jpg","./assets/images/SFF23/sff5.jpg","./assets/images/SFF23/sff6.jpg",
+               "./assets/images/SFF23/sff7.jpg","./assets/images/SFF23/sff8.jpg","./assets/images/SFF23/sff9.jpg",
+               "./assets/images/SFF23/sff10.jpg","./assets/images/SFF23/sff11.jpg","./assets/images/SFF23/sff12.jpg",
+               "./assets/images/SFF23/sff13.jpg","./assets/images/SFF23/sff14.jpg","./assets/images/SFF23/sff15.jpg",
+               "./assets/images/SFF23/sff16.jpg","./assets/images/SFF23/sff17.jpg","./assets/images/SFF23/sff18.jpg",
+               "./assets/images/SFF23/sff19.jpg","./assets/images/SFF23/sff20.jpg","./assets/images/SFF23/sff21.jpg",
+               "./assets/images/SFF23/sff22.jpg","./assets/images/SFF23/sff23.jpg","./assets/images/SFF23/sff24.jpg",
+               "./assets/images/SFF23/sff25.jpg"];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
