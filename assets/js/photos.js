@@ -186,6 +186,29 @@ const SFF23 = ["./assets/images/SFF23/sff1.jpg","./assets/images/SFF23/sff2.jpg"
                "./assets/images/SFF23/sff22.jpg","./assets/images/SFF23/sff23.jpg","./assets/images/SFF23/sff24.jpg",
                "./assets/images/SFF23/sff25.jpg"];
 
+const BP23 = ["./assets/images/BP23/back1.jpg","./assets/images/BP23/back2.jpg","./assets/images/BP23/back3.jpg",
+              "./assets/images/BP23/back4.jpg","./assets/images/BP23/back5.jpg","./assets/images/BP23/back6.jpg",
+              "./assets/images/BP23/back7.jpg","./assets/images/BP23/back8.jpg","./assets/images/BP23/back9.jpg",
+              "./assets/images/BP23/back10.jpg","./assets/images/BP23/back11.jpg","./assets/images/BP23/back12.jpg",
+              "./assets/images/BP23/back13.jpg","./assets/images/BP23/back14.jpg","./assets/images/BP23/back15.jpg",
+              "./assets/images/BP23/back16.jpg","./assets/images/BP23/back17.jpg","./assets/images/BP23/back18.jpg",
+              "./assets/images/BP23/back19.jpg","./assets/images/BP23/back20.jpg","./assets/images/BP23/back21.jpg",
+              "./assets/images/BP23/back22.jpg","./assets/images/BP23/back23.jpg","./assets/images/BP23/back24.jpg",
+              "./assets/images/BP23/back25.jpg","./assets/images/BP23/back26.jpg","./assets/images/BP23/back27.jpg",
+              "./assets/images/BP23/back28.jpg","./assets/images/BP23/back29.jpg","./assets/images/BP23/back30.jpg",
+              "./assets/images/BP23/back31.jpg","./assets/images/BP23/back32.jpg","./assets/images/BP23/back33.jpg",
+              "./assets/images/BP23/back34.jpg","./assets/images/BP23/back35.jpg","./assets/images/BP23/back36.jpg",
+              "./assets/images/BP23/back37.jpg","./assets/images/BP23/back38.jpg","./assets/images/BP23/back39.jpg",
+              "./assets/images/BP23/back40.jpg","./assets/images/BP23/back41.jpg","./assets/images/BP23/back42.jpg",
+              "./assets/images/BP23/back43.jpg","./assets/images/BP23/back44.jpg","./assets/images/BP23/back45.jpg",
+              "./assets/images/BP23/back46.jpg","./assets/images/BP23/back47.jpg","./assets/images/BP23/back48.jpg",
+              "./assets/images/BP23/back49.jpg","./assets/images/BP23/back50.jpg","./assets/images/BP23/back51.jpg",
+              "./assets/images/BP23/back52.jpg","./assets/images/BP23/back53.jpg","./assets/images/BP23/back54.jpg",
+              "./assets/images/BP23/back55.jpg","./assets/images/BP23/back56.jpg","./assets/images/BP23/back57.jpg",
+              "./assets/images/BP23/back58.jpg","./assets/images/BP23/back59.jpg","./assets/images/BP23/back60.PNG",
+              "./assets/images/BP23/back61.jpg","./assets/images/BP23/back62.jpg","./assets/images/BP23/back63.jpg",
+              "./assets/images/BP23/back64.jpg","./assets/images/BP23/back65.PNG"];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
