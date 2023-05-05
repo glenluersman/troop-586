@@ -245,6 +245,17 @@ footer a {
   margin-top: 50px;
 }
 
+.girl-troop {
+  text-align: center;
+  padding: 30px 0px 50px 0px;
+}
+
+.girl-troop img {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+  width: 500px;
+  height: auto;
+}
+
 .store {
   display: none;
   width: 90%;
@@ -1051,6 +1062,10 @@ footer a {
 
   .button-new {
     width: 90%;
+  }
+
+  .girl-troop img {
+    width: 95%;
   }
 
   .troop-photo img {
