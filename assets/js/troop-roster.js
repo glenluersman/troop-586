@@ -2,7 +2,7 @@ const cardsEl = document.querySelector('.cards');
 
 const key3 = [
     {name:'Jim Ridgeway', title:'Key 3', image:'./assets/images/scoutmaster.JPG', rank:'', position:'Scoutmaster'},
-    {name:'Jon Sears', title:'Key 3', image:'./assets/images/committee-chair.JPG', rank:'', position:'Committee Chairman'},
+    {name:'Shawn Vehr', title:'Key 3', image:'./assets/images/committee-chair.JPG', rank:'', position:'Committee Chairman'},
     {name:'Donald Craig', title:'Key 3', image:'./assets/images/charter-rep.JPG', rank:'', position:'Charter Organization Representative'}
 ];
 
@@ -15,7 +15,7 @@ const fancyFishes = [
     {name:'Logan D.',title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Life Scout', position:''},
     {name:'Christian H.', title:"Fancy Fishes Patrol", image:'./assets/images/fancy-fishes.webp', rank:'Life Scout', position:''},
     {name:'Gavyn M.', title:"Fancy Fishes Patrol", image:'./assets/images/fancy-fishes.webp', rank:'Eagle Scout', position:'Junior Assistant Scoutmaster, Patrol Leader'},
-    {name:'Jackson C.',title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Tenderfoot', position:'Instructor'},
+    {name:'Jackson C.',title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Second Class', position:'Instructor'},
     {name:'Trevor H', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'First Class', position:'Quartermaster'},
     {name:'Brighton S.', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Life Scout', position:'Chaplains Aide, Troop Guide, Assistant Patrol Leader'}
 ];
@@ -27,7 +27,7 @@ const wetBandits = [
     {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Second Class', image:'./assets/images/wet-bandits.JPG', position:'Patrol Leader'},
     {name:'Chris L.', title:'Wet Bandits Patrol', rank:'Second Class', image:'./assets/images/wet-bandits.JPG', position:'Den Cheif'},
     {name:'Grayson M.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Tenderfoot', position:'Librarian, Assistant Patrol Leader'},
-    {name:'Grady W.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Tenderfoot', position:''}
+    {name:'Grady W.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Second Class', position:''}
 ];
 
 const fireChickens = [
@@ -35,9 +35,9 @@ const fireChickens = [
     {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Cole S.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Hugh M.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Levi E.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'Nicholas V.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
+    {name:'Nicholas V.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
     {name:'Steven W.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:'Assistant Patrol Leader'},
     {name:'Walter L.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''}
 ];
@@ -47,7 +47,7 @@ const scoutMasters = [
     {name:'Tom Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Matthew Hollon', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Glen Luersman', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
-    {name:'Rick Bedwell', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
+    {name:'Ben Schmidt', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Noah Barnes',title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'}
 ];
 
@@ -62,7 +62,8 @@ const committee = [
     {name:'Melinda Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Outdoors Activities Coordinator'},
     {name:'Jon Sears', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Chaplain'},
     {name:'Andy Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Recruitment Coordinator'},
-    {name:'Glen Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Webmaster'}
+    {name:'Glen Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Webmaster'},
+    {name:'Shawn Vehr', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Chair'}
 ];
 
 function createCards(value) {
