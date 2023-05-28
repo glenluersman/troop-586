@@ -209,6 +209,15 @@ const BP23 = ["./assets/images/BP23/back1.jpg","./assets/images/BP23/back2.jpg",
               "./assets/images/BP23/back61.jpg","./assets/images/BP23/back62.jpg","./assets/images/BP23/back63.jpg",
               "./assets/images/BP23/back64.jpg","./assets/images/BP23/back65.PNG"];
 
+WS23 = ["./assets/images/WS23/WS1.jpg","./assets/images/WS23/WS2.jpg","./assets/images/WS23/WS3.jpg",
+        "./assets/images/WS23/WS4.jpg","./assets/images/WS23/WS5.jpg","./assets/images/WS23/WS6.jpg",
+        "./assets/images/WS23/WS7.jpg","./assets/images/WS23/WS8.jpg","./assets/images/WS23/WS9.jpg",
+        "./assets/images/WS23/WS10.jpg","./assets/images/WS23/WS11.jpg","./assets/images/WS23/WS12.jpg",
+        "./assets/images/WS23/WS13.jpg","./assets/images/WS23/WS14.jpg","./assets/images/WS23/WS15.jpg",
+        "./assets/images/WS23/WS16.jpg","./assets/images/WS23/WS17.jpg","./assets/images/WS23/WS18.jpg",
+        "./assets/images/WS23/WS19.jpg","./assets/images/WS23/WS20.jpg","./assets/images/WS23/WS21.jpg",
+        "./assets/images/WS23/WS22.jpg","./assets/images/WS23/WS23.jpg"];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
