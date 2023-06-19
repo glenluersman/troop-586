@@ -238,50 +238,51 @@ const SCD0 = ["./assets/images/Summer_Camp23/Day0/Day0_1.jpg","./assets/images/S
               "./assets/images/Summer_Camp23/Day0/Day0_28.jpg","./assets/images/Summer_Camp23/Day0/Day0_29.jpg","./assets/images/Summer_Camp23/Day0/Day0_30.jpg",
               "./assets/images/Summer_Camp23/Day0/Day0_31.jpg","./assets/images/Summer_Camp23/Day0/Day0_32.jpg","./assets/images/Summer_Camp23/Day0/Day0_33.jpg",];
 
-const SCD1 = ["./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg",
-              "./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg",
-              "./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg",
-              "./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg",
-              "./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg",
-              "./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg",
-              "./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg","./assets/images/Day1/Day11.jpg",];
+const SCD1 = ["./assets/images/Summer_Camp23/Day1/Day1_1.jpg","./assets/images/Summer_Camp23/Day1/Day1_2.jpg","./assets/images/Summer_Camp23/Day1/Day1_3.jpg",
+              "./assets/images/Summer_Camp23/Day1/Day1_4.jpg","./assets/images/Summer_Camp23/Day1/Day1_5.jpg","./assets/images/Summer_Camp23/Day1/Day1_6.jpg",
+              "./assets/images/Summer_Camp23/Day1/Day1_7.jpg","./assets/images/Summer_Camp23/Day1/Day1_8.jpg","./assets/images/Summer_Camp23/Day1/Day1_9.jpg",
+              "./assets/images/Summer_Camp23/Day1/Day1_10.jpg","./assets/images/Summer_Camp23/Day1/Day1_11.jpg","./assets/images/Summer_Camp23/Day1/Day1_12.jpg",
+              "./assets/images/Summer_Camp23/Day1/Day1_13.jpg","./assets/images/Summer_Camp23/Day1/Day1_14.jpg","./assets/images/Summer_Camp23/Day1/Day1_15.jpg",
+              "./assets/images/Summer_Camp23/Day1/Day1_16.jpg","./assets/images/Summer_Camp23/Day1/Day1_17.jpg","./assets/images/Summer_Camp23/Day1/Day1_18.jpg",
+              "./assets/images/Summer_Camp23/Day1/Day1_19.jpg","./assets/images/Summer_Camp23/Day1/Day1_20.jpg","./assets/images/Summer_Camp23/Day1/Day1_21.jpg",
+              "./assets/images/Summer_Camp23/Day1/Day1_22.jpg","./assets/images/Summer_Camp23/Day1/Day1_23.jpg","./assets/images/Summer_Camp23/Day1/Day1_24.jpg",];
 
-const SCD2 = ["./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",
-              "./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",
-              "./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",
-              "./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",
-              "./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",
-              "./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",
-              "./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",
-              "./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",
-              "./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg","./assets/images/Day2/Day21.jpg",];
+const SCD2 = ["./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",
+              "./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",
+              "./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",
+              "./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",
+              "./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",
+              "./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",
+              "./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",
+              "./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",
+              "./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg","./assets/images/Summer_Camp23/Day2/Day21.jpg",];
 
-const SCD3 = ["./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg",
-              "./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg",
-              "./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg",
-              "./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg",
-              "./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg",
-              "./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg",
-              "./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg",
-              "./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg","./assets/images/Day3/Day31.jpg",];
+const SCD3 = ["./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg",
+              "./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg",
+              "./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg",
+              "./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg",
+              "./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg",
+              "./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg",
+              "./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg",
+              "./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg","./assets/images/Summer_Camp23/Day3/Day31.jpg",];
 
-const SCD4 = ["./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg",
-              "./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg",
-              "./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg",
-              "./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg",
-              "./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg",
-              "./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg",
-              "./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg",
-              "./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg","./assets/images/Day4/Day41.jpg",];
+const SCD4 = ["./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg",
+              "./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg",
+              "./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg",
+              "./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg",
+              "./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg",
+              "./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg",
+              "./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg",
+              "./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg","./assets/images/Summer_Camp23/Day4/Day41.jpg",];
 
-const SCD5 = ["./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg",
-              "./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg",
-              "./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg",
-              "./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg",
-              "./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg",
-              "./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg",
-              "./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg",
-              "./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg","./assets/images/Day5/Day51.jpg",];
+const SCD5 = ["./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg",
+              "./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg",
+              "./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg",
+              "./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg",
+              "./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg",
+              "./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg",
+              "./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg",
+              "./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg","./assets/images/Summer_Camp23/Day5/Day51.jpg",];
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
