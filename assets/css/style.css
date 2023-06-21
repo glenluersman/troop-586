@@ -363,6 +363,23 @@ footer a {
   height: 55px;
 }
 
+.leader {
+  text-align: center;
+  font-size: 25px;
+}
+
+.leadership {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.leadership img {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+}
+
 .troop-photo {
   text-align: center;
 }
