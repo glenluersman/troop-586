@@ -305,6 +305,11 @@ const SCD5 = ["./assets/images/Summer_Camp23/Day5/Day5_1.jpg","./assets/images/S
               "./assets/images/Summer_Camp23/Day5/Day5_19.jpg","./assets/images/Summer_Camp23/Day5/Day5_20.jpg","./assets/images/Summer_Camp23/Day5/Day5_21.jpg",
               "./assets/images/Summer_Camp23/Day5/Day5_22.jpg","./assets/images/Summer_Camp23/Day5/Day5_23.jpg","./assets/images/Summer_Camp23/Day5/Day5_24.jpg",];
 
+const BEP23 = ["./assets/images/BEP23/Phase1/Eagle1.jpg","./assets/images/BEP23/Phase1/Eagle2.jpg","./assets/images/BEP23/Phase1/Eagle3.jpg",
+               "./assets/images/BEP23/Phase1/Eagle4.jpg","./assets/images/BEP23/Phase1/Eagle5.jpg","./assets/images/BEP23/Phase1/Eagle6.jpg",
+               "./assets/images/BEP23/Phase1/Eagle7.jpg","./assets/images/BEP23/Phase1/Eagle8.jpg","./assets/images/BEP23/Phase1/Eagle9.jpg",
+               "./assets/images/BEP23/Phase1/Eagle10.jpg","./assets/images/BEP23/Phase1/Eagle11.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
