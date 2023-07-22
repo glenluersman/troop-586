@@ -921,6 +921,30 @@ footer a {
 }
 /* End Newsletter Styles */
 
+/* Start Merit Badge Counselors styles */
+.merit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.counselor {
+  padding: 15px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+}
+
+.counselor h3 {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.counselor li {
+  text-align: left;
+  font-size: 25px;
+  margin: 15px;
+}
+
 @media screen and (max-width: 1050px) {
   .mumfest {
     width: 95%;
