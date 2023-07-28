@@ -26,7 +26,7 @@ const wetBandits = [
     {name:'Cayll L.', title:'Wet Bandits Patrol', rank:'Scout', image:'./assets/images/wet-bandits.JPG', position:'Scribe'},
     {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Second Class', image:'./assets/images/wet-bandits.JPG', position:'Patrol Leader'},
     {name:'Chris L.', title:'Wet Bandits Patrol', rank:'Second Class', image:'./assets/images/wet-bandits.JPG', position:'Den Cheif'},
-    {name:'Grayson M.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Tenderfoot', position:'Librarian, Assistant Patrol Leader'},
+    {name:'Graysen M.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Tenderfoot', position:'Librarian, Assistant Patrol Leader'},
     {name:'Grady W.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Second Class', position:''}
 ];
 
