@@ -101,7 +101,7 @@ header {
   position: absolute;
   z-index: 1;
   top: 295px;
-  height: 500px !important;
+  height: 575px !important;
   margin-bottom: 480px;
   bottom: 0;
   background-color: var(--primary-color);
@@ -292,7 +292,7 @@ footer a {
 }
 
 .mumfest {
-  display: none;
+  display: flex;
   width: 80%;
   margin: 0 auto 50px auto;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
@@ -366,6 +366,7 @@ footer a {
 .troop-flyer img {
   width: 80%;
   height: auto;
+  margin: 50px;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
@@ -956,6 +957,7 @@ footer a {
   font-size: 25px;
   margin: 15px;
 }
+/* End Merit Badge Counselors styles */
 
 @media screen and (max-width: 1050px) {
   .mumfest {
