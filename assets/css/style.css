@@ -358,6 +358,17 @@ footer a {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
+.troop-flyer {
+  display: flex;
+  justify-content: center;
+}
+
+.troop-flyer img {
+  width: 80%;
+  height: auto;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+}
+
 .leader h2 {
   color: var(--primary-color);
   word-wrap: break-word;
