@@ -318,6 +318,22 @@ const BEP23 = ["./assets/images/BEP23/Phase1/Eagle1.jpg","./assets/images/BEP23/
                "./assets/images/BEP23/Phase1/Eagle7.jpg","./assets/images/BEP23/Phase1/Eagle8.jpg","./assets/images/BEP23/Phase1/Eagle9.jpg",
                "./assets/images/BEP23/Phase1/Eagle10.jpg","./assets/images/BEP23/Phase1/Eagle11.jpg",];
 
+const C23 = ["./assets/images/Cycling23/c1.jpg","./assets/images/Cycling23/c2.jpg","./assets/images/Cycling23/c3.jpg",
+             "./assets/images/Cycling23/c4.jpg","./assets/images/Cycling23/c5.jpg","./assets/images/Cycling23/c6.jpg",
+             "./assets/images/Cycling23/c8.jpg","./assets/images/Cycling23/c9.jpg","./assets/images/Cycling23/c10.jpg",
+             "./assets/images/Cycling23/c11.jpg","./assets/images/Cycling23/c12.jpg","./assets/images/Cycling23/c13.jpg",
+             "./assets/images/Cycling23/c14.jpg","./assets/images/Cycling23/c15.jpg","./assets/images/Cycling23/c16.jpg",
+             "./assets/images/Cycling23/c17.jpg","./assets/images/Cycling23/c18.jpg","./assets/images/Cycling23/c19.jpg",
+             "./assets/images/Cycling23/c20.jpg","./assets/images/Cycling23/c21.jpg","./assets/images/Cycling23/c22.jpg",
+             "./assets/images/Cycling23/c23.jpg","./assets/images/Cycling23/c24.jpg","./assets/images/Cycling23/c25.jpg",
+             "./assets/images/Cycling23/c26.jpg","./assets/images/Cycling23/c27.jpg","./assets/images/Cycling23/c28.jpg",
+             "./assets/images/Cycling23/c29.jpg","./assets/images/Cycling23/c30.jpg","./assets/images/Cycling23/c31.jpg",
+             "./assets/images/Cycling23/c32.jpg","./assets/images/Cycling23/c33.jpg","./assets/images/Cycling23/c34.jpg",
+             "./assets/images/Cycling23/c35.jpg","./assets/images/Cycling23/c36.jpg","./assets/images/Cycling23/c37.jpg",
+             "./assets/images/Cycling23/c38.jpg","./assets/images/Cycling23/c39.jpg","./assets/images/Cycling23/c40.jpg",
+             "./assets/images/Cycling23/c41.jpg","./assets/images/Cycling23/c42.jpg","./assets/images/Cycling23/c43.jpg",
+             "./assets/images/Cycling23/c44.jpg","./assets/images/Cycling23/c45.jpg","./assets/images/Cycling23/c46.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
