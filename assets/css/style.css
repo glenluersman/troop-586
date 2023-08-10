@@ -795,6 +795,7 @@ footer a {
 .resources {
   display: grid;
   grid-template-columns: 100%;
+  margin-bottom: 30px;
 }
 
 .forms {
