@@ -334,6 +334,39 @@ const C23 = ["./assets/images/Cycling23/c1.jpg","./assets/images/Cycling23/c2.jp
              "./assets/images/Cycling23/c41.jpg","./assets/images/Cycling23/c42.jpg","./assets/images/Cycling23/c43.jpg",
              "./assets/images/Cycling23/c44.jpg","./assets/images/Cycling23/c45.jpg","./assets/images/Cycling23/c46.jpg",];
 
+const GEC23 = ["./assets/images/GEC23/GEC1.jpg","./assets/images/GEC23/GEC2.jpg","./assets/images/GEC23/GEC3.jpg",
+               "./assets/images/GEC23/GEC4.jpg","./assets/images/GEC23/GEC5.jpg","./assets/images/GEC23/GEC6.jpg",
+               "./assets/images/GEC23/GEC7.jpg","./assets/images/GEC23/GEC8.jpg","./assets/images/GEC23/GEC9.jpg",
+               "./assets/images/GEC23/GEC10.jpg","./assets/images/GEC23/GEC11.jpg","./assets/images/GEC23/GEC12.jpg",
+               "./assets/images/GEC23/GEC13.jpg","./assets/images/GEC23/GEC14.jpg","./assets/images/GEC23/GEC15.jpg",
+               "./assets/images/GEC23/GEC16.jpg","./assets/images/GEC23/GEC17.jpg","./assets/images/GEC23/GEC18.jpg",
+               "./assets/images/GEC23/GEC19.jpg","./assets/images/GEC23/GEC20.jpg","./assets/images/GEC23/GEC21.jpg",
+               "./assets/images/GEC23/GEC22.jpg","./assets/images/GEC23/GEC23.jpg","./assets/images/GEC23/GEC24.jpg",
+               "./assets/images/GEC23/GEC25.jpg","./assets/images/GEC23/GEC26.jpg","./assets/images/GEC23/GEC27.jpg",
+               "./assets/images/GEC23/GEC28.jpg","./assets/images/GEC23/GEC29.jpg","./assets/images/GEC23/GEC30.jpg",];
+
+const CT23 = ["./assets/images/CT23/CT1.jpg","./assets/images/CT23/CT2.jpg","./assets/images/CT23/CT3.jpg",
+              "./assets/images/CT23/CT4.jpg","./assets/images/CT23/CT5.jpg","./assets/images/CT23/CT6.jpg",
+              "./assets/images/CT23/CT7.jpg","./assets/images/CT23/CT8.jpg","./assets/images/CT23/CT9.jpg",
+              "./assets/images/CT23/CT10.jpg","./assets/images/CT23/CT11.jpg","./assets/images/CT23/CT12.jpg",
+              "./assets/images/CT23/CT13.jpg","./assets/images/CT23/CT14.jpg","./assets/images/CT23/CT15.jpg",
+              "./assets/images/CT23/CT16.jpg","./assets/images/CT23/CT17.jpg","./assets/images/CT23/CT18.jpg",
+              "./assets/images/CT23/CT19.jpg","./assets/images/CT23/CT20.jpg","./assets/images/CT23/CT21.jpg",
+              "./assets/images/CT23/CT22.jpg","./assets/images/CT23/CT23.jpg","./assets/images/CT23/CT24.jpg",
+              "./assets/images/CT23/CT25.jpg","./assets/images/CT23/CT26.jpg","./assets/images/CT23/CT27.jpg",
+              "./assets/images/CT23/CT28.jpg","./assets/images/CT23/CT29.jpg","./assets/images/CT23/CT30.jpg",
+              "./assets/images/CT23/CT31.jpg","./assets/images/CT23/CT32.jpg","./assets/images/CT23/CT33.jpg",
+              "./assets/images/CT23/CT34.jpg","./assets/images/CT23/CT35.jpg","./assets/images/CT23/CT36.jpg",
+              "./assets/images/CT23/CT37.jpg","./assets/images/CT23/CT38.jpg","./assets/images/CT23/CT39.jpg",
+              "./assets/images/CT23/CT40.jpg","./assets/images/CT23/CT41.jpg","./assets/images/CT23/CT42.jpg",
+              "./assets/images/CT23/CT43.jpg","./assets/images/CT23/CT44.jpg","./assets/images/CT23/CT45.jpg",
+              "./assets/images/CT23/CT46.jpg","./assets/images/CT23/CT47.jpg","./assets/images/CT23/CT48.jpg",
+              "./assets/images/CT23/CT49.jpg","./assets/images/CT23/CT50.jpg","./assets/images/CT23/CT51.jpg",
+              "./assets/images/CT23/CT52.jpg","./assets/images/CT23/CT53.jpg","./assets/images/CT23/CT54.jpg",
+              "./assets/images/CT23/CT55.jpg","./assets/images/CT23/CT56.jpg","./assets/images/CT23/CT57.jpg",
+              "./assets/images/CT23/CT58.jpg","./assets/images/CT23/CT59.jpg","./assets/images/CT23/CT60.jpg",
+              "./assets/images/CT23/CT61.jpg","./assets/images/CT23/CT62.jpg","./assets/images/CT23/CT63.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
