@@ -365,7 +365,16 @@ const CT23 = ["./assets/images/CT23/CT1.jpg","./assets/images/CT23/CT2.jpg","./a
               "./assets/images/CT23/CT52.jpg","./assets/images/CT23/CT53.jpg","./assets/images/CT23/CT54.jpg",
               "./assets/images/CT23/CT55.jpg","./assets/images/CT23/CT56.jpg","./assets/images/CT23/CT57.jpg",
               "./assets/images/CT23/CT58.jpg","./assets/images/CT23/CT59.jpg","./assets/images/CT23/CT60.jpg",
-              "./assets/images/CT23/CT61.jpg","./assets/images/CT23/CT62.jpg","./assets/images/CT23/CT63.jpg",];
+              "./assets/images/CT23/CT61.jpg","./assets/images/CT23/CT62.jpg","./assets/images/CT23/CT63.jpg",
+              "./assets/images/CT23/CT64.jpg","./assets/images/CT23/CT65.jpg","./assets/images/CT23/CT66.jpg",
+              "./assets/images/CT23/CT67.jpg",];
+
+const Mum23 = ["./assets/images/Mum23/mum1.jpg","./assets/images/Mum23/mum2.jpg","./assets/images/Mum23/mum3.jpg",
+               "./assets/images/Mum23/mum4.jpg","./assets/images/Mum23/mum5.jpg","./assets/images/Mum23/mum6.jpg",
+               "./assets/images/Mum23/mum7.jpg","./assets/images/Mum23/mum8.jpg","./assets/images/Mum23/mum9.jpg",
+               "./assets/images/Mum23/mum10.jpg","./assets/images/Mum23/mum11.jpg","./assets/images/Mum23/mum12.jpg",
+               "./assets/images/Mum23/mum13.jpg","./assets/images/Mum23/mum14.jpg","./assets/images/Mum23/mum15.jpg",
+               "./assets/images/Mum23/mum16.jpg",];
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
