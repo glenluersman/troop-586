@@ -374,7 +374,11 @@ const Mum23 = ["./assets/images/Mum23/mum1.jpg","./assets/images/Mum23/mum2.jpg"
                "./assets/images/Mum23/mum7.jpg","./assets/images/Mum23/mum8.jpg","./assets/images/Mum23/mum9.jpg",
                "./assets/images/Mum23/mum10.jpg","./assets/images/Mum23/mum11.jpg","./assets/images/Mum23/mum12.jpg",
                "./assets/images/Mum23/mum13.jpg","./assets/images/Mum23/mum14.jpg","./assets/images/Mum23/mum15.jpg",
-               "./assets/images/Mum23/mum16.jpg",];
+               "./assets/images/Mum23/mum16.jpg","./assets/images/Mum23/mum17.jpg","./assets/images/Mum23/mum18.jpg",
+               "./assets/images/Mum23/mum19.jpg","./assets/images/Mum23/mum20.jpg","./assets/images/Mum23/mum21.jpg",
+               "./assets/images/Mum23/mum22.jpg","./assets/images/Mum23/mum23.jpg","./assets/images/Mum23/mum24.jpg",
+               "./assets/images/Mum23/mum25.jpg","./assets/images/Mum23/mum26.jpg","./assets/images/Mum23/mum27.jpg",
+               "./assets/images/Mum23/mum28.jpg","./assets/images/Mum23/mum29.jpg","./assets/images/Mum23/mum30.jpg",];
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
