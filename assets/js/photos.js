@@ -381,7 +381,9 @@ const Mum23 = ["./assets/images/Mum23/mum1.jpg","./assets/images/Mum23/mum2.jpg"
                "./assets/images/Mum23/mum28.jpg","./assets/images/Mum23/mum29.jpg","./assets/images/Mum23/mum30.jpg",
                "./assets/images/Mum23/mum31.jpg","./assets/images/Mum23/mum32.jpg","./assets/images/Mum23/mum33.jpg",
                "./assets/images/Mum23/mum34.jpg","./assets/images/Mum23/mum35.jpg","./assets/images/Mum23/mum36.jpg",
-               "./assets/images/Mum23/mum37.jpg",];
+               "./assets/images/Mum23/mum37.jpg","./assets/images/Mum23/cobbler1.jpg","./assets/images/Mum23/cobbler2.jpg",
+               "./assets/images/Mum23/cobbler3.jpg","./assets/images/Mum23/cobbler4.jpg","./assets/images/Mum23/cobbler5.jpg",
+               "./assets/images/Mum23/cobbler6.jpg","./assets/images/Mum23/cobbler7.jpg",];
 
 const BEP232 = ["./assets/images/BEP23/Phase2/Eagle1.jpg","./assets/images/BEP23/Phase2/Eagle2.jpg","./assets/images/BEP23/Phase2/Eagle3.jpg",
                 "./assets/images/BEP23/Phase2/Eagle4.jpg","./assets/images/BEP23/Phase2/Eagle5.jpg","./assets/images/BEP23/Phase2/Eagle6.jpg",
