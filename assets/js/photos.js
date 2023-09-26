@@ -383,7 +383,14 @@ const Mum23 = ["./assets/images/Mum23/mum1.jpg","./assets/images/Mum23/mum2.jpg"
                "./assets/images/Mum23/mum34.jpg","./assets/images/Mum23/mum35.jpg","./assets/images/Mum23/mum36.jpg",
                "./assets/images/Mum23/mum37.jpg","./assets/images/Mum23/cobbler1.jpg","./assets/images/Mum23/cobbler2.jpg",
                "./assets/images/Mum23/cobbler3.jpg","./assets/images/Mum23/cobbler4.jpg","./assets/images/Mum23/cobbler5.jpg",
-               "./assets/images/Mum23/cobbler6.jpg","./assets/images/Mum23/cobbler7.jpg",];
+               "./assets/images/Mum23/cobbler6.jpg","./assets/images/Mum23/cobbler7.jpg","./assets/images/Mum23/cobbler8.jpg",
+               "./assets/images/Mum23/cobbler9.jpg","./assets/images/Mum23/cobbler10.jpg","./assets/images/Mum23/cobbler11.jpg",
+               "./assets/images/Mum23/cobbler12.jpg","./assets/images/Mum23/cobbler13.jpg","./assets/images/Mum23/cobbler14.jpg",
+               "./assets/images/Mum23/cobbler15.jpg","./assets/images/Mum23/cobbler16.jpg","./assets/images/Mum23/cobbler17.jpg",
+               "./assets/images/Mum23/cobbler18.jpg","./assets/images/Mum23/cobbler19.jpg","./assets/images/Mum23/cobbler20.jpg",
+               "./assets/images/Mum23/cobbler21.jpg","./assets/images/Mum23/cobbler22.jpg","./assets/images/Mum23/cobbler23.jpg",
+               "./assets/images/Mum23/cobbler24.jpg","./assets/images/Mum23/cobbler25.jpg","./assets/images/Mum23/cobbler26.jpg",
+               "./assets/images/Mum23/cobbler27.jpg","./assets/images/Mum23/cobbler28.jpg","./assets/images/Mum23/cobbler29.jpg",];
 
 const BEP232 = ["./assets/images/BEP23/Phase2/Eagle1.jpg","./assets/images/BEP23/Phase2/Eagle2.jpg","./assets/images/BEP23/Phase2/Eagle3.jpg",
                 "./assets/images/BEP23/Phase2/Eagle4.jpg","./assets/images/BEP23/Phase2/Eagle5.jpg","./assets/images/BEP23/Phase2/Eagle6.jpg",
