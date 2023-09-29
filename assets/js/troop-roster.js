@@ -7,8 +7,8 @@ const key3 = [
 ];
 
 const seniorPatrol = [
-    {name:'Logan G.', title:'Wet Bandits Patrol', rank:'First Class', image:'./assets/images/SPL.JPG', position:'SPL'},
-    {name:'Brighton S.', title:'Fancy Fishes', image:'./assets/images/ASPL.JPG', rank:'First Class', position:'ASPL'}
+    {name:'Logan G.', title:'Wet Bandits Patrol', rank:'Star Scout', image:'./assets/images/SPL.JPG', position:'SPL'},
+    {name:'Brighton S.', title:'Fancy Fishes', image:'./assets/images/ASPL.JPG', rank:'Life Scout', position:'ASPL'}
 ];
 
 const fancyFishes = [
