@@ -414,6 +414,14 @@ const JCH23 = ["./assets/images/JulyCH23/CH1.jpg","./assets/images/JulyCH23/CH2.
              "./assets/images/JulyCH23/CH25.jpg","./assets/images/JulyCH23/CH26.jpg","./assets/images/JulyCH23/CH27.jpg",
              "./assets/images/JulyCH23/CH28.jpg","./assets/images/JulyCH23/CH29.jpg","./assets/images/JulyCH23/CH30.jpg",];
 
+const FP23 = ["./assets/images/FirePit23/FP1.jpg","./assets/images/FirePit23/FP2.jpg","./assets/images/FirePit23/FP3.jpg",
+              "./assets/images/FirePit23/FP4.jpg","./assets/images/FirePit23/FP5.jpg","./assets/images/FirePit23/FP6.jpg",
+              "./assets/images/FirePit23/FP7.jpg","./assets/images/FirePit23/FP8.jpg","./assets/images/FirePit23/FP9.jpg",
+              "./assets/images/FirePit23/FP10.jpg","./assets/images/FirePit23/FP11.jpg","./assets/images/FirePit23/FP12.jpg",
+              "./assets/images/FirePit23/FP13.jpg","./assets/images/FirePit23/FP14.jpg","./assets/images/FirePit23/FP15.jpg",
+              "./assets/images/FirePit23/FP16.jpg","./assets/images/FirePit23/FP17.jpg","./assets/images/FirePit23/FP18.jpg",
+              "./assets/images/FirePit23/FP19.jpg","./assets/images/FirePit23/FP20.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
