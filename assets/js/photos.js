@@ -397,6 +397,12 @@ const BEP232 = ["./assets/images/BEP23/Phase2/Eagle1.jpg","./assets/images/BEP23
                 "./assets/images/BEP23/Phase2/Eagle7.jpg","./assets/images/BEP23/Phase2/Eagle8.jpg","./assets/images/BEP23/Phase2/Eagle9.jpg",
                 "./assets/images/BEP23/Phase2/Eagle10.jpg","./assets/images/BEP23/Phase2/Eagle11.jpg","./assets/images/BEP23/Phase2/Eagle12.jpg",];
 
+const IC23 = ["./assets/images/Climbing23/IC1.jpg","./assets/images/Climbing23/IC2.jpg","./assets/images/Climbing23/IC3.jpg",
+              "./assets/images/Climbing23/IC4.jpg","./assets/images/Climbing23/IC5.jpg","./assets/images/Climbing23/IC6.jpg",
+              "./assets/images/Climbing23/IC7.jpg","./assets/images/Climbing23/IC8.jpg","./assets/images/Climbing23/IC9.jpg",
+              "./assets/images/Climbing23/IC10.jpg","./assets/images/Climbing23/IC11.jpg","./assets/images/Climbing23/IC12.jpg",
+              "./assets/images/Climbing23/IC13.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
