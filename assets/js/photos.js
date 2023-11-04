@@ -403,6 +403,17 @@ const IC23 = ["./assets/images/Climbing23/IC1.jpg","./assets/images/Climbing23/I
               "./assets/images/Climbing23/IC10.jpg","./assets/images/Climbing23/IC11.jpg","./assets/images/Climbing23/IC12.jpg",
               "./assets/images/Climbing23/IC13.jpg",];
 
+const JCH23 = ["./assets/images/JulyCH23/CH1.jpg","./assets/images/JulyCH23/CH2.jpg","./assets/images/JulyCH23/CH3.jpg",
+             "./assets/images/JulyCH23/CH4.jpg","./assets/images/JulyCH23/CH5.jpg","./assets/images/JulyCH23/CH6.jpg",
+             "./assets/images/JulyCH23/CH7.jpg","./assets/images/JulyCH23/CH8.jpg","./assets/images/JulyCH23/CH9.jpg",
+             "./assets/images/JulyCH23/CH10.jpg","./assets/images/JulyCH23/CH11.jpg","./assets/images/JulyCH23/CH12.jpg",
+             "./assets/images/JulyCH23/CH13.jpg","./assets/images/JulyCH23/CH14.jpg","./assets/images/JulyCH23/CH15.jpg",
+             "./assets/images/JulyCH23/CH16.jpg","./assets/images/JulyCH23/CH17.jpg","./assets/images/JulyCH23/CH18.jpg",
+             "./assets/images/JulyCH23/CH19.jpg","./assets/images/JulyCH23/CH20.jpg","./assets/images/JulyCH23/CH21.jpg",
+             "./assets/images/JulyCH23/CH22.jpg","./assets/images/JulyCH23/CH23.jpg","./assets/images/JulyCH23/CH24.jpg",
+             "./assets/images/JulyCH23/CH25.jpg","./assets/images/JulyCH23/CH26.jpg","./assets/images/JulyCH23/CH27.jpg",
+             "./assets/images/JulyCH23/CH28.jpg","./assets/images/JulyCH23/CH29.jpg","./assets/images/JulyCH23/CH30.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
