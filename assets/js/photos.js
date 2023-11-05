@@ -420,7 +420,7 @@ const FP23 = ["./assets/images/FirePit23/FP1.jpg","./assets/images/FirePit23/FP2
               "./assets/images/FirePit23/FP10.jpg","./assets/images/FirePit23/FP11.jpg","./assets/images/FirePit23/FP12.jpg",
               "./assets/images/FirePit23/FP13.jpg","./assets/images/FirePit23/FP14.jpg","./assets/images/FirePit23/FP15.jpg",
               "./assets/images/FirePit23/FP16.jpg","./assets/images/FirePit23/FP17.jpg","./assets/images/FirePit23/FP18.jpg",
-              "./assets/images/FirePit23/FP19.jpg","./assets/images/FirePit23/FP20.jpg",];
+              "./assets/images/FirePit23/FP19.jpg","./assets/images/FirePit23/FP20.jpg","./assets/images/FirePit23/FP21.jpg",];
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
