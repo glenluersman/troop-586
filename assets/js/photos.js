@@ -422,6 +422,26 @@ const FP23 = ["./assets/images/FirePit23/FP1.jpg","./assets/images/FirePit23/FP2
               "./assets/images/FirePit23/FP16.jpg","./assets/images/FirePit23/FP17.jpg","./assets/images/FirePit23/FP18.jpg",
               "./assets/images/FirePit23/FP19.jpg","./assets/images/FirePit23/FP20.jpg","./assets/images/FirePit23/FP21.jpg",];
 
+const TB23 = ["./assets/images/TB23/TB1.jpg","./assets/images/TB23/TB2.jpg","./assets/images/TB23/TB3.jpg",
+              "./assets/images/TB23/TB4.jpg","./assets/images/TB23/TB5.jpg","./assets/images/TB23/TB6.jpg",
+              "./assets/images/TB23/TB7.jpg","./assets/images/TB23/TB8.jpg","./assets/images/TB23/TB9.jpg",
+              "./assets/images/TB23/TB10.jpg","./assets/images/TB23/TB11.jpg","./assets/images/TB23/TB12.jpg",
+              "./assets/images/TB23/TB13.jpg","./assets/images/TB23/TB14.jpg","./assets/images/TB23/TB15.jpg",
+              "./assets/images/TB23/TB16.jpg","./assets/images/TB23/TB17.jpg","./assets/images/TB23/TB18.jpg",
+              "./assets/images/TB23/TB19.jpg","./assets/images/TB23/TB20.jpg","./assets/images/TB23/TB21.jpg",
+              "./assets/images/TB23/TB22.jpg","./assets/images/TB23/TB23.jpg","./assets/images/TB23/TB24.jpg",
+              "./assets/images/TB23/TB25.jpg","./assets/images/TB23/TB26.jpg","./assets/images/TB23/TB27.jpg",
+              "./assets/images/TB23/TB28.jpg","./assets/images/TB23/TB29.jpg","./assets/images/TB23/TB30.jpg",
+              "./assets/images/TB23/TB31.jpg","./assets/images/TB23/TB32.jpg","./assets/images/TB23/TB33.jpg",
+              "./assets/images/TB23/TB34.jpg","./assets/images/TB23/TB35.jpg","./assets/images/TB23/TB36.jpg",
+              "./assets/images/TB23/TB37.jpg","./assets/images/TB23/TB38.jpg","./assets/images/TB23/TB39.jpg",
+              "./assets/images/TB23/TB40.jpg","./assets/images/TB23/TB41.jpg","./assets/images/TB23/TB42.jpg",
+              "./assets/images/TB23/TB43.jpg","./assets/images/TB23/TB44.jpg","./assets/images/TB23/TB45.jpg",
+              "./assets/images/TB23/TB46.jpg","./assets/images/TB23/TB47.jpg","./assets/images/TB23/TB48.jpg",
+              "./assets/images/TB23/TB49.jpg","./assets/images/TB23/TB50.jpg","./assets/images/TB23/TB51.jpg",
+              "./assets/images/TB23/TB52.jpg","./assets/images/TB23/TB53.jpg","./assets/images/TB23/TB54.jpg",
+              "./assets/images/TB23/TB55.jpg","./assets/images/TB23/TB56.jpg","./assets/images/TB23/TB57.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
