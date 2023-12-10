@@ -29,7 +29,6 @@ const wetBandits = [
 ];
 
 const fireChickens = [
-    {name:'Graham W.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
     {name:'Hugh M.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:''},
