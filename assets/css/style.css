@@ -646,6 +646,14 @@ footer a {
   padding: 0 0 30px 30px;
 }
 
+.soon {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 15px;
+}
+
 .main {
   width: 100%;
   flex-direction: column;
