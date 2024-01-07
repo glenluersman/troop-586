@@ -397,12 +397,21 @@ footer a {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
+.troop-title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 45px;
+}
+
 .troop-photo {
   text-align: center;
   margin-top: 50px;
 }
 
 .troop-photo img {
+  width: auto;
+  height: 400px;
+  margin: 15px;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
@@ -1030,7 +1039,7 @@ footer a {
   }
 
   .troop-photo img {
-    width: 95%;
+    /* width: 95%; */
   }
 
   .hero-cta {
@@ -1111,9 +1120,9 @@ footer a {
     width: 65%;
   }
 
-  .troop-photo img {
+  /* .troop-photo img {
     width: 95%;
-  }
+  } */
 }
 /* END MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
 
@@ -1144,6 +1153,7 @@ footer a {
   }
 
   .troop-photo img {
+    height: auto;
     width: 95%;
   }
 
