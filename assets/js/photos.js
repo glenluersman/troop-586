@@ -373,6 +373,24 @@ const DCH23 = ["./assets/images/DCH23/DCH1.jpg","./assets/images/DCH23/DCH2.jpg"
                "./assets/images/DCH23/DCH28.jpg","./assets/images/DCH23/DCH29.jpg","./assets/images/DCH23/DCH30.jpg",
                "./assets/images/DCH23/DCH31.jpg","./assets/images/DCH23/DCH32.jpg","./assets/images/DCH23/DCH33.jpg",];
 
+const TOB24 = ["./assets/images/TOB24/TOB1.jpg","./assets/images/TOB24/TOB2.jpg","./assets/images/TOB24/TOB3.jpg",
+               "./assets/images/TOB24/TOB4.jpg","./assets/images/TOB24/TOB5.jpg","./assets/images/TOB24/TOB6.jpg",
+               "./assets/images/TOB24/TOB7.jpg","./assets/images/TOB24/TOB8.jpg","./assets/images/TOB24/TOB9.jpg",
+               "./assets/images/TOB24/TOB10.jpg","./assets/images/TOB24/TOB11.jpg","./assets/images/TOB24/TOB12.jpg",
+               "./assets/images/TOB24/TOB13.jpg","./assets/images/TOB24/TOB14.jpg","./assets/images/TOB24/TOB15.jpg",
+               "./assets/images/TOB24/TOB16.jpg","./assets/images/TOB24/TOB17.jpg","./assets/images/TOB24/TOB18.jpg",
+               "./assets/images/TOB24/TOB19.jpg","./assets/images/TOB24/TOB20.jpg","./assets/images/TOB24/TOB21.jpg",
+               "./assets/images/TOB24/TOB22.jpg","./assets/images/TOB24/TOB23.jpg","./assets/images/TOB24/TOB24.jpg",
+               "./assets/images/TOB24/TOB25.jpg","./assets/images/TOB24/TOB26.jpg","./assets/images/TOB24/TOB27.jpg",
+               "./assets/images/TOB24/TOB28.jpg","./assets/images/TOB24/TOB29.jpg","./assets/images/TOB24/TOB30.jpg",
+               "./assets/images/TOB24/TOB31.jpg","./assets/images/TOB24/TOB32.jpg","./assets/images/TOB24/TOB33.jpg",
+               "./assets/images/TOB24/TOB34.jpg","./assets/images/TOB24/TOB35.jpg","./assets/images/TOB24/TOB36.jpg",
+               "./assets/images/TOB24/TOB37.jpg","./assets/images/TOB24/TOB38.jpg","./assets/images/TOB24/TOB39.jpg",
+               "./assets/images/TOB24/TOB40.jpg","./assets/images/TOB24/TOB41.jpg","./assets/images/TOB24/TOB42.jpg",
+               "./assets/images/TOB24/TOB43.jpg","./assets/images/TOB24/TOB44.jpg","./assets/images/TOB24/TOB45.jpg",
+               "./assets/images/TOB24/TOB46.jpg","./assets/images/TOB24/TOB47.jpg","./assets/images/TOB24/TOB48.jpg",
+               "./assets/images/TOB24/TOB49.jpg","./assets/images/TOB24/TOB50.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
