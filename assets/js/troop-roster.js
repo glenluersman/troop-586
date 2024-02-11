@@ -44,17 +44,17 @@ const fireChickens = [
 ];
 
 const karateTurtles = [
-    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'Eli E.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'Arthur L.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'Max L.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:'Patrol Leader'},
+    {name:'Aiden L.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'Zach R.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:'Assistant Patrol Leader'},
+    {name:'Nolan S.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'Robbie W.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
 ];
 
 const flyingFoxes = [
-    {name:'Jolene Luersman', title:'Flying Foxes Patrol', rank:'', image:'./assets/images/Flying_Foxes.png', position:'Patrol Leader'},
+    {name:'Jojo L.', title:'Flying Foxes Patrol', rank:'', image:'./assets/images/Flying_Foxes.png', position:'Patrol Leader'},
 ];
 
 const scoutMasters = [
@@ -63,7 +63,6 @@ const scoutMasters = [
     {name:'Glen Luersman', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Andy Luersman', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Benjamin Schmitz', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
-
     {name:'Noah Barnes',title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Jon Sears', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Derek Long', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},

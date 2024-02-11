@@ -405,6 +405,8 @@ const CO28524 = ["./assets/images/285crossover24/crossover1.jpg","./assets/image
                  "./assets/images/285crossover24/crossover34.jpg","./assets/images/285crossover24/crossover35.jpg","./assets/images/285crossover24/crossover36.jpg",
                  "./assets/images/285crossover24/crossover37.jpg","./assets/images/285crossover24/crossover38.jpg",];
 
+const SS24 = ["./assets/images/Scout-Sunday24/sunday1.jpg","./assets/images/Scout-Sunday24/sunday2.jpg","./assets/images/Scout-Sunday24/sunday3.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
