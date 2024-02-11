@@ -12,35 +12,49 @@ const seniorPatrol = [
 ];
 
 const fancyFishes = [
-    {name:'Gavyn M.', title:"Fancy Fishes Patrol", image:'./assets/images/fancy-fishes.webp', rank:'Eagle Scout', position:'Junior Assistant Scoutmaster, Patrol Leader, Instructor'},
-    {name:'Brighton S.', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Life Scout', position:'Chaplains Aide, Senior Patrol Leader'},
-    {name:'John Y.', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Scout', position:'Assistant Patrol Leader'},
+    {name:'Gavyn M.', title:"Fancy Fishes Patrol", image:'./assets/images/fancy-fishes.webp', rank:'Eagle Scout', position:'Junior Assistant Scoutmaster, Assistant Patrol Leader, Instructor'},
+    {name:'Brighton S.', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Life Scout', position:'Senior Patrol Leader'},
+    {name:'John Y.', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Scout', position:'Patrol Leader'},
     {name:'William K.', title:'Fancy Fishes Patrol', image:'./assets/images/fancy-fishes.webp', rank:'Life Scout', position:''}
 ];
     
 const wetBandits = [
-    {name:'Logan G.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Star Scout', position:''},
-    {name:'Isaac L.', title:'Wet Bandits Patrol', rank:'Star Scout', image:'./assets/images/wet-bandits.JPG', position:'Patrol Leader, Den Cheif, Troop Guide'},
+    {name:'Logan G.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Life Scout', position:'Troop Guide'},
+    {name:'Isaac L.', title:'Wet Bandits Patrol', rank:'Life Scout', image:'./assets/images/wet-bandits.JPG', position:'Scribe'},
     {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Star Scout', image:'./assets/images/wet-bandits.JPG', position:'ASPL'},
-    {name:'Chris L.', title:'Wet Bandits Patrol', rank:'Star Scout', image:'./assets/images/wet-bandits.JPG', position:'Den Cheif, Historian'},
-    {name:'Graysen M.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Second Class', position:'Assistant Patrol Leader, Quartermaster'},
-    {name:'Grady W.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'First Class', position:'Scribe'},
-    {name:'Gavin R.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'', position:''},
-    {name:'John B.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''}
+    {name:'Chris L.', title:'Wet Bandits Patrol', rank:'Star Scout', image:'./assets/images/wet-bandits.JPG', position:'Den Cheif'},
+    {name:'Graysen M.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Second Class', position:'Quartermaster'},
+    {name:'Grady W.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'First Class', position:'Patrol Leader'},
+    {name:'Gavin R.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Scout', position:'Assistant Patrol Leader'},
+    {name:'John B.', title:'Wet Bandits Patrol', rank:'', image:'./assets/images/wet-bandits.JPG', position:''}
 ];
 
 const fireChickens = [
-    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'First Class', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
+    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'First Class', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Hugh M.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'Levi E.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Levi E.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
     {name:'Nicholas V.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'Steven W.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Steven W.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:'Chaplains Aide, Assistant Patrol Leader'},
     {name:'Walter L.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'Chase G.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:'Assistant Patrol Leader'},
+    {name:'Chase G.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Luke R.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'David J.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Jack M.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
+];
+
+const karateTurtles = [
+    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+    {name:'', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+];
+
+const flyingFoxes = [
+    {name:'Jolene Luersman', title:'Flying Foxes Patrol', rank:'', image:'./assets/images/Flying_Foxes.png', position:'Patrol Leader'},
 ];
 
 const scoutMasters = [

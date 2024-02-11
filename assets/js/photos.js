@@ -391,6 +391,20 @@ const TOB24 = ["./assets/images/TOB24/TOB1.jpg","./assets/images/TOB24/TOB2.jpg"
                "./assets/images/TOB24/TOB46.jpg","./assets/images/TOB24/TOB47.jpg","./assets/images/TOB24/TOB48.jpg",
                "./assets/images/TOB24/TOB49.jpg","./assets/images/TOB24/TOB50.jpg",];
 
+const CO28524 = ["./assets/images/285crossover24/crossover1.jpg","./assets/images/285crossover24/crossover2.jpg","./assets/images/285crossover24/crossover3.jpg",
+                 "./assets/images/285crossover24/crossover4.jpg","./assets/images/285crossover24/crossover5.jpg","./assets/images/285crossover24/crossover6.jpg",
+                 "./assets/images/285crossover24/crossover7.jpg","./assets/images/285crossover24/crossover8.jpg","./assets/images/285crossover24/crossover9.jpg",
+                 "./assets/images/285crossover24/crossover10.jpg","./assets/images/285crossover24/crossover11.jpg","./assets/images/285crossover24/crossover12.jpg",
+                 "./assets/images/285crossover24/crossover13.jpg","./assets/images/285crossover24/crossover14.jpg","./assets/images/285crossover24/crossover15.jpg",
+                 "./assets/images/285crossover24/crossover16.jpg","./assets/images/285crossover24/crossover17.jpg","./assets/images/285crossover24/crossover18.jpg",
+                 "./assets/images/285crossover24/crossover19.jpg","./assets/images/285crossover24/crossover20.jpg","./assets/images/285crossover24/crossover21.jpg",
+                 "./assets/images/285crossover24/crossover22.jpg","./assets/images/285crossover24/crossover23.jpg","./assets/images/285crossover24/crossover24.jpg",
+                 "./assets/images/285crossover24/crossover25.jpg","./assets/images/285crossover24/crossover26.jpg","./assets/images/285crossover24/crossover27.jpg",
+                 "./assets/images/285crossover24/crossover28.jpg","./assets/images/285crossover24/crossover29.jpg","./assets/images/285crossover24/crossover30.jpg",
+                 "./assets/images/285crossover24/crossover31.jpg","./assets/images/285crossover24/crossover32.jpg","./assets/images/285crossover24/crossover33.jpg",
+                 "./assets/images/285crossover24/crossover34.jpg","./assets/images/285crossover24/crossover35.jpg","./assets/images/285crossover24/crossover36.jpg",
+                 "./assets/images/285crossover24/crossover37.jpg","./assets/images/285crossover24/crossover38.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
