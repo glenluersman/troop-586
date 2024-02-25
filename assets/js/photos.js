@@ -407,6 +407,22 @@ const CO28524 = ["./assets/images/285crossover24/crossover1.jpg","./assets/image
 
 const SS24 = ["./assets/images/Scout-Sunday24/sunday1.jpg","./assets/images/Scout-Sunday24/sunday2.jpg","./assets/images/Scout-Sunday24/sunday3.jpg",];
 
+const RLFA24 = ["./assets/images/RLFA24/rlfa1.jpg","./assets/images/RLFA24/rlfa2.jpg","./assets/images/RLFA24/rlfa3.jpg",
+                "./assets/images/RLFA24/rlfa4.jpg","./assets/images/RLFA24/rlfa5.jpg","./assets/images/RLFA24/rlfa6.jpg",
+                "./assets/images/RLFA24/rlfa7.jpg","./assets/images/RLFA24/rlfa8.jpg","./assets/images/RLFA24/rlfa9.jpg",
+                "./assets/images/RLFA24/rlfa10.jpg","./assets/images/RLFA24/rlfa11.jpg","./assets/images/RLFA24/rlfa12.jpg",
+                "./assets/images/RLFA24/rlfa13.jpg","./assets/images/RLFA24/rlfa14.jpg","./assets/images/RLFA24/rlfa15.jpg",
+                "./assets/images/RLFA24/rlfa16.jpg","./assets/images/RLFA24/rlfa17.jpg","./assets/images/RLFA24/rlfa18.jpg",
+                "./assets/images/RLFA24/rlfa19.jpg","./assets/images/RLFA24/rlfa20.jpg","./assets/images/RLFA24/rlfa21.jpg",
+                "./assets/images/RLFA24/rlfa22.jpg","./assets/images/RLFA24/rlfa23.jpg","./assets/images/RLFA24/rlfa24.jpg",
+                "./assets/images/RLFA24/rlfa25.jpg","./assets/images/RLFA24/rlfa26.jpg","./assets/images/RLFA24/rlfa27.jpg",
+                "./assets/images/RLFA24/rlfa28.jpg","./assets/images/RLFA24/rlfa29.jpg","./assets/images/RLFA24/rlfa30.jpg",
+                "./assets/images/RLFA24/rlfa31.jpg","./assets/images/RLFA24/rlfa32.jpg","./assets/images/RLFA24/rlfa33.jpg",
+                "./assets/images/RLFA24/rlfa34.jpg","./assets/images/RLFA24/rlfa35.jpg","./assets/images/RLFA24/rlfa36.jpg",
+                "./assets/images/RLFA24/rlfa37.jpg","./assets/images/RLFA24/rlfa38.jpg","./assets/images/RLFA24/rlfa39.jpg",
+                "./assets/images/RLFA24/rlfa40.jpg","./assets/images/RLFA24/rlfa41.jpg","./assets/images/RLFA24/rlfa42.jpg",
+                "./assets/images/RLFA24/rlfa43.jpg","./assets/images/RLFA24/rlfa44.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
