@@ -86,6 +86,7 @@ const committee = [
     {name:'Benjamin Schmitz', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Outdoors Activities Coordinator, Transportation Coordinator'},
     {name:'Cid Ridgeway', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Scouting for Food Coordinator'},
     {name:'Bill Kaufman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Unit Scouter Reserve'},
+    {name:'Steve Welker', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
 ];
 
 function createCards(value) {
