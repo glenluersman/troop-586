@@ -43,14 +43,15 @@ const fireChickens = [
     {name:'Jack M.', title:'Fire Chickens Patrol', rank:'', image:'./assets/images/fire-chickens.png', position:''},
 ];
 
-const karateTurtles = [
-    {name:'Eli E.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'Arthur L.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'Max L.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:'Patrol Leader'},
-    {name:'Aiden L.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'Zach R.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:'Assistant Patrol Leader'},
-    {name:'Nolan S.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
-    {name:'Robbie W.', title:'Karate Turtles Patrol', rank:'', image:'./assets/images/to-be-named.JPG', position:''},
+const turtles = [
+    {name:'Eli E.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Arthur L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Max L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Patrol Leader'},
+    {name:'Aiden L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Zach R.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Assistant Patrol Leader'},
+    {name:'Nolan S.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Robbie W.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Jojo L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Patrol Leader'},
 ];
 
 const flyingFoxes = [
