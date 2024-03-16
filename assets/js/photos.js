@@ -423,6 +423,13 @@ const RLFA24 = ["./assets/images/RLFA24/rlfa1.jpg","./assets/images/RLFA24/rlfa2
                 "./assets/images/RLFA24/rlfa40.jpg","./assets/images/RLFA24/rlfa41.jpg","./assets/images/RLFA24/rlfa42.jpg",
                 "./assets/images/RLFA24/rlfa43.jpg","./assets/images/RLFA24/rlfa44.jpg",];
 
+const SFF24 = ["./assets/images/SFF24/sff1.jpg","./assets/images/SFF24/sff2.jpg","./assets/images/SFF24/sff3.jpg",
+               "./assets/images/SFF24/sff4.jpg","./assets/images/SFF24/sff5.jpg","./assets/images/SFF24/sff6.jpg",
+               "./assets/images/SFF24/sff7.jpg","./assets/images/SFF24/sff8.jpg","./assets/images/SFF24/sff9.jpg",
+               "./assets/images/SFF24/sff10.jpg","./assets/images/SFF24/sff11.jpg","./assets/images/SFF24/sff12.jpg",
+               "./assets/images/SFF24/sff13.jpg","./assets/images/SFF24/sff14.jpg","./assets/images/SFF24/sff15.jpg",
+               "./assets/images/SFF24/sff16.jpg","./assets/images/SFF24/sff17.jpg","./assets/images/SFF24/sff18.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 

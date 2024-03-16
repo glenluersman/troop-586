@@ -34,7 +34,7 @@ const fireChickens = [
     {name:'Hugh M.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Levi E.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
-    {name:'Nicholas V.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Nicholas V.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Steven W.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:'Chaplains Aide, Assistant Patrol Leader'},
     {name:'Walter L.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Chase G.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:''},
@@ -44,14 +44,14 @@ const fireChickens = [
 ];
 
 const turtles = [
-    {name:'Eli E.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Eli E.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
     {name:'Arthur L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
     {name:'Max L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Patrol Leader'},
-    {name:'Aiden L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Aiden L.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
     {name:'Zach R.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Assistant Patrol Leader'},
-    {name:'Nolan S.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Nolan S.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
     {name:'Robbie W.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
-    {name:'Jojo L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Patrol Leader'},
+    {name:'Jojo L.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
 ];
 
 const flyingFoxes = [
