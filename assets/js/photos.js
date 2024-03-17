@@ -405,7 +405,13 @@ const CO28524 = ["./assets/images/285crossover24/crossover1.jpg","./assets/image
                  "./assets/images/285crossover24/crossover34.jpg","./assets/images/285crossover24/crossover35.jpg","./assets/images/285crossover24/crossover36.jpg",
                  "./assets/images/285crossover24/crossover37.jpg","./assets/images/285crossover24/crossover38.jpg",];
 
-const SS24 = ["./assets/images/Scout-Sunday24/sunday1.jpg","./assets/images/Scout-Sunday24/sunday2.jpg","./assets/images/Scout-Sunday24/sunday3.jpg",];
+const SS24 = ["./assets/images/Scout-Sunday24/sunday1.jpg","./assets/images/Scout-Sunday24/sunday2.jpg","./assets/images/Scout-Sunday24/sunday3.jpg",
+              "./assets/images/Scout-Sunday24/sunday4.jpg","./assets/images/Scout-Sunday24/sunday5.jpg","./assets/images/Scout-Sunday24/sunday6.jpg",
+              "./assets/images/Scout-Sunday24/sunday7.jpg","./assets/images/Scout-Sunday24/sunday8.jpg","./assets/images/Scout-Sunday24/sunday9.jpg",
+              "./assets/images/Scout-Sunday24/sunday10.jpg","./assets/images/Scout-Sunday24/sunday11.jpg","./assets/images/Scout-Sunday24/sunday12.jpg",
+              "./assets/images/Scout-Sunday24/sunday13.jpg","./assets/images/Scout-Sunday24/sunday14.jpg","./assets/images/Scout-Sunday24/sunday15.jpg",
+              "./assets/images/Scout-Sunday24/sunday16.jpg","./assets/images/Scout-Sunday24/sunday17.jpg","./assets/images/Scout-Sunday24/sunday18.jpg",
+              "./assets/images/Scout-Sunday24/sunday19.jpg",];
 
 const RLFA24 = ["./assets/images/RLFA24/rlfa1.jpg","./assets/images/RLFA24/rlfa2.jpg","./assets/images/RLFA24/rlfa3.jpg",
                 "./assets/images/RLFA24/rlfa4.jpg","./assets/images/RLFA24/rlfa5.jpg","./assets/images/RLFA24/rlfa6.jpg",
