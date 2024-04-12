@@ -30,7 +30,7 @@ const wetBandits = [
 ];
 
 const fireChickens = [
-    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'First Class', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'Star Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Hugh M.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Levi E.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
@@ -46,7 +46,7 @@ const fireChickens = [
 const turtles = [
     {name:'Eli E.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
     {name:'Arthur L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
-    {name:'Max L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Patrol Leader'},
+    {name:'Max L.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:'Patrol Leader'},
     {name:'Aiden L.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
     {name:'Zach R.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Assistant Patrol Leader'},
     {name:'Nolan S.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
