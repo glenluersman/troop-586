@@ -108,21 +108,21 @@ const BP23 = ["./assets/images/BP23/back1.jpg","./assets/images/BP23/back2.jpg",
               "./assets/images/BP23/back64.jpg","./assets/images/BP23/back65.PNG"];
 
 const WS23 = ["./assets/images/WS23/WS1.jpg","./assets/images/WS23/WS2.jpg","./assets/images/WS23/WS3.jpg",
-        "./assets/images/WS23/WS4.jpg","./assets/images/WS23/WS5.jpg","./assets/images/WS23/WS6.jpg",
-        "./assets/images/WS23/WS7.jpg","./assets/images/WS23/WS8.jpg","./assets/images/WS23/WS9.jpg",
-        "./assets/images/WS23/WS10.jpg","./assets/images/WS23/WS11.jpg","./assets/images/WS23/WS12.jpg",
-        "./assets/images/WS23/WS13.jpg","./assets/images/WS23/WS14.jpg","./assets/images/WS23/WS15.jpg",
-        "./assets/images/WS23/WS16.jpg","./assets/images/WS23/WS17.jpg","./assets/images/WS23/WS18.jpg",
-        "./assets/images/WS23/WS19.jpg","./assets/images/WS23/WS20.jpg","./assets/images/WS23/WS21.jpg",
-        "./assets/images/WS23/WS22.jpg","./assets/images/WS23/WS23.jpg"];
+              "./assets/images/WS23/WS4.jpg","./assets/images/WS23/WS5.jpg","./assets/images/WS23/WS6.jpg",
+              "./assets/images/WS23/WS7.jpg","./assets/images/WS23/WS8.jpg","./assets/images/WS23/WS9.jpg",
+              "./assets/images/WS23/WS10.jpg","./assets/images/WS23/WS11.jpg","./assets/images/WS23/WS12.jpg",
+              "./assets/images/WS23/WS13.jpg","./assets/images/WS23/WS14.jpg","./assets/images/WS23/WS15.jpg",
+              "./assets/images/WS23/WS16.jpg","./assets/images/WS23/WS17.jpg","./assets/images/WS23/WS18.jpg",
+              "./assets/images/WS23/WS19.jpg","./assets/images/WS23/WS20.jpg","./assets/images/WS23/WS21.jpg",
+              "./assets/images/WS23/WS22.jpg","./assets/images/WS23/WS23.jpg"];
 
 const MD23 = ["./assets/images/MD23/MD1.jpg","./assets/images/MD23/MD2.jpg","./assets/images/MD23/MD3.jpg",
-        "./assets/images/MD23/MD4.jpg","./assets/images/MD23/MD5.jpg","./assets/images/MD23/MD6.jpg",
-        "./assets/images/MD23/MD7.jpg","./assets/images/MD23/MD8.jpg","./assets/images/MD23/MD9.jpg",
-        "./assets/images/MD23/MD10.jpg","./assets/images/MD23/MD11.jpg","./assets/images/MD23/MD12.jpg",
-        "./assets/images/MD23/MD13.jpg","./assets/images/MD23/MD14.jpg","./assets/images/MD23/MD15.jpg",
-        "./assets/images/MD23/MD16.jpg","./assets/images/MD23/MD17.jpg","./assets/images/MD23/MD18.jpg",
-        "./assets/images/MD23/MD19.jpg","./assets/images/MD23/MD20.jpg"];
+              "./assets/images/MD23/MD4.jpg","./assets/images/MD23/MD5.jpg","./assets/images/MD23/MD6.jpg",
+              "./assets/images/MD23/MD7.jpg","./assets/images/MD23/MD8.jpg","./assets/images/MD23/MD9.jpg",
+              "./assets/images/MD23/MD10.jpg","./assets/images/MD23/MD11.jpg","./assets/images/MD23/MD12.jpg",
+              "./assets/images/MD23/MD13.jpg","./assets/images/MD23/MD14.jpg","./assets/images/MD23/MD15.jpg",
+              "./assets/images/MD23/MD16.jpg","./assets/images/MD23/MD17.jpg","./assets/images/MD23/MD18.jpg",
+              "./assets/images/MD23/MD19.jpg","./assets/images/MD23/MD20.jpg"];
 
 const SCD0 = ["./assets/images/Summer_Camp23/Day0/Day0_1.jpg","./assets/images/Summer_Camp23/Day0/Day0_2.jpg","./assets/images/Summer_Camp23/Day0/Day0_3.jpg",
               "./assets/images/Summer_Camp23/Day0/Day0_4.jpg","./assets/images/Summer_Camp23/Day0/Day0_5.jpg","./assets/images/Summer_Camp23/Day0/Day0_6.jpg",
@@ -435,6 +435,26 @@ const SFF24 = ["./assets/images/SFF24/sff1.jpg","./assets/images/SFF24/sff2.jpg"
                "./assets/images/SFF24/sff10.jpg","./assets/images/SFF24/sff11.jpg","./assets/images/SFF24/sff12.jpg",
                "./assets/images/SFF24/sff13.jpg","./assets/images/SFF24/sff14.jpg","./assets/images/SFF24/sff15.jpg",
                "./assets/images/SFF24/sff16.jpg","./assets/images/SFF24/sff17.jpg","./assets/images/SFF24/sff18.jpg",];
+
+const IFLY24 = ["./assets/images/IFly24/ifly1.jpg","./assets/images/IFly24/ifly2.jpg","./assets/images/IFly24/ifly3.jpg",
+                "./assets/images/IFly24/ifly4.jpg","./assets/images/IFly24/ifly5.jpg","./assets/images/IFly24/ifly6.jpg",
+                "./assets/images/IFly24/ifly7.jpg","./assets/images/IFly24/ifly8.jpg","./assets/images/IFly24/ifly9.jpg",
+                "./assets/images/IFly24/ifly10.jpg","./assets/images/IFly24/ifly11.jpg","./assets/images/IFly24/ifly12.jpg",
+                "./assets/images/IFly24/ifly13.jpg","./assets/images/IFly24/ifly14.jpg","./assets/images/IFly24/ifly15.jpg",
+                "./assets/images/IFly24/ifly16.jpg","./assets/images/IFly24/ifly17.jpg","./assets/images/IFly24/ifly18.jpg",
+                "./assets/images/IFly24/ifly19.jpg","./assets/images/IFly24/ifly20.jpg","./assets/images/IFly24/ifly21.jpg",
+                "./assets/images/IFly24/ifly22.jpg","./assets/images/IFly24/ifly23.jpg","./assets/images/IFly24/ifly24.jpg",
+                "./assets/images/IFly24/ifly25.jpg","./assets/images/IFly24/ifly26.jpg","./assets/images/IFly24/ifly27.jpg",
+                "./assets/images/IFly24/ifly28.jpg","./assets/images/IFly24/ifly29.jpg","./assets/images/IFly24/ifly30.jpg",
+                "./assets/images/IFly24/ifly31.jpg","./assets/images/IFly24/ifly32.jpg","./assets/images/IFly24/ifly33.jpg",
+                "./assets/images/IFly24/ifly34.jpg","./assets/images/IFly24/ifly35.jpg","./assets/images/IFly24/ifly36.jpg",
+                "./assets/images/IFly24/ifly37.jpg","./assets/images/IFly24/ifly38.jpg","./assets/images/IFly24/ifly39.jpg",
+                "./assets/images/IFly24/ifly40.jpg","./assets/images/IFly24/ifly41.jpg","./assets/images/IFly24/ifly42.jpg",
+                "./assets/images/IFly24/ifly43.jpg","./assets/images/IFly24/ifly44.jpg","./assets/images/IFly24/ifly45.jpg",
+                "./assets/images/IFly24/ifly46.jpg","./assets/images/IFly24/ifly47.jpg","./assets/images/IFly24/ifly48.jpg",
+                "./assets/images/IFly24/ifly49.jpg","./assets/images/IFly24/ifly50.jpg","./assets/images/IFly24/ifly51.jpg",
+                "./assets/images/IFly24/ifly52.jpg","./assets/images/IFly24/ifly53.jpg","./assets/images/IFly24/ifly54.jpg",
+                "./assets/images/IFly24/ifly55.jpg","./assets/images/IFly24/ifly56.jpg","./assets/images/IFly24/ifly57.jpg",];
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
