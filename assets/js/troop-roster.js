@@ -48,14 +48,11 @@ const turtles = [
     {name:'Arthur L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
     {name:'Max L.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:'Patrol Leader'},
     {name:'Aiden L.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
-    {name:'Zach R.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:'Assistant Patrol Leader'},
+    {name:'Zach R.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:'Assistant Patrol Leader'},
     {name:'Nolan S.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
     {name:'Robbie W.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
     {name:'Jojo L.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
-];
-
-const flyingFoxes = [
-    {name:'Jojo L.', title:'Flying Foxes Patrol', rank:'', image:'./assets/images/Flying_Foxes.png', position:'Patrol Leader'},
+    {name:'Lennon T.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
 ];
 
 const scoutMasters = [
@@ -87,6 +84,7 @@ const committee = [
     {name:'Cid Ridgeway', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Scouting for Food Coordinator'},
     {name:'Bill Kaufman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Unit Scouter Reserve'},
     {name:'Steve Welker', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
+    {name:'Ryan Hurst', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
 ];
 
 function createCards(value) {
