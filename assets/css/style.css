@@ -815,6 +815,12 @@ footer a {
   grid-template-columns: 50% 50%;
 }
 
+.wrapper-cook {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .resources {
   display: grid;
   grid-template-columns: 100%;
@@ -822,6 +828,12 @@ footer a {
 }
 
 .forms {
+  display: grid;
+  grid-column: auto;
+  text-align: center;
+}
+
+.forms-cook {
   display: grid;
   grid-column: auto;
   text-align: center;
@@ -840,7 +852,19 @@ footer a {
   color: var(--primary-color);
 }
 
+.forms-cook a {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
 .forms a:hover {
+  color: var(--secondary-color);
+}
+
+.forms-cook a:hover {
   color: var(--secondary-color);
 }
 
@@ -850,7 +874,17 @@ footer a {
   transition: 0.3s ease-in-out;
 }
 
+.forms-cook img {
+  width: 250px;
+  height: 300px;
+  transition: 0.3s ease-in-out;
+}
+
 .forms img:hover {
+  transform: scale(1.1);
+}
+
+.forms-cook img:hover {
   transform: scale(1.1);
 }
 /* End Troop Forms Styles */
