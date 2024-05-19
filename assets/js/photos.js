@@ -456,6 +456,32 @@ const IFLY24 = ["./assets/images/IFly24/ifly1.jpg","./assets/images/IFly24/ifly2
                 "./assets/images/IFly24/ifly52.jpg","./assets/images/IFly24/ifly53.jpg","./assets/images/IFly24/ifly54.jpg",
                 "./assets/images/IFly24/ifly55.jpg","./assets/images/IFly24/ifly56.jpg","./assets/images/IFly24/ifly57.jpg",];
 
+const Fish24 = ["./assets/images/Fish24/fish1.jpg","./assets/images/Fish24/fish2.jpg","./assets/images/Fish24/fish3.jpg",
+                "./assets/images/Fish24/fish4.jpg","./assets/images/Fish24/fish5.jpg","./assets/images/Fish24/fish6.jpg",
+                "./assets/images/Fish24/fish7.jpg","./assets/images/Fish24/fish8.jpg","./assets/images/Fish24/fish9.jpg",
+                "./assets/images/Fish24/fish10.jpg","./assets/images/Fish24/fish11.jpg","./assets/images/Fish24/fish12.jpg",
+                "./assets/images/Fish24/fish13.jpg","./assets/images/Fish24/fish15.jpg","./assets/images/Fish24/fish16.jpg",
+                "./assets/images/Fish24/fish17.jpg","./assets/images/Fish24/fish18.jpg","./assets/images/Fish24/fish19.jpg",
+                "./assets/images/Fish24/fish20.jpg","./assets/images/Fish24/fish21.jpg","./assets/images/Fish24/fish22.jpg",
+                "./assets/images/Fish24/fish23.jpg","./assets/images/Fish24/fish24.jpg","./assets/images/Fish24/fish25.jpg",
+                "./assets/images/Fish24/fish26.jpg","./assets/images/Fish24/fish27.jpg","./assets/images/Fish24/fish28.jpg",
+                "./assets/images/Fish24/fish29.jpg","./assets/images/Fish24/fish30.jpg","./assets/images/Fish24/fish31.jpg",
+                "./assets/images/Fish24/fish32.jpg","./assets/images/Fish24/fish33.jpg","./assets/images/Fish24/fish34.jpg",
+                "./assets/images/Fish24/fish35.jpg","./assets/images/Fish24/fish36.jpg","./assets/images/Fish24/fish37.jpg",
+                "./assets/images/Fish24/fish38.jpg","./assets/images/Fish24/fish39.jpg","./assets/images/Fish24/fish40.jpg",
+                "./assets/images/Fish24/fish41.jpg","./assets/images/Fish24/fish42.jpg","./assets/images/Fish24/fish43.jpg",
+                "./assets/images/Fish24/fish44.jpg","./assets/images/Fish24/fish45.jpg","./assets/images/Fish24/fish46.jpg",
+                "./assets/images/Fish24/fish47.jpg","./assets/images/Fish24/fish48.jpg","./assets/images/Fish24/fish49.jpg",
+                "./assets/images/Fish24/fish50.jpg","./assets/images/Fish24/fish51.jpg","./assets/images/Fish24/fish52.jpg",
+                "./assets/images/Fish24/fish53.jpg","./assets/images/Fish24/fish54.jpg","./assets/images/Fish24/fish55.jpg",
+                "./assets/images/Fish24/fish56.jpg","./assets/images/Fish24/fish57.jpg","./assets/images/Fish24/fish58.jpg",
+                "./assets/images/Fish24/fish59.jpg","./assets/images/Fish24/fish60.jpg","./assets/images/Fish24/fish61.jpg",
+                "./assets/images/Fish24/fish62.jpg","./assets/images/Fish24/fish63.jpg","./assets/images/Fish24/fish64.jpg",
+                "./assets/images/Fish24/fish65.jpg","./assets/images/Fish24/fish66.jpg","./assets/images/Fish24/fish67.jpg",
+                "./assets/images/Fish24/fish68.jpg","./assets/images/Fish24/fish69.jpg","./assets/images/Fish24/fish70.jpg",
+                "./assets/images/Fish24/fish71.jpg","./assets/images/Fish24/fish72.jpg","./assets/images/Fish24/fish73.jpg",
+                "./assets/images/Fish24/fish74.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
