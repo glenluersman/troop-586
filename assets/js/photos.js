@@ -482,6 +482,28 @@ const Fish24 = ["./assets/images/Fish24/fish1.jpg","./assets/images/Fish24/fish2
                 "./assets/images/Fish24/fish71.jpg","./assets/images/Fish24/fish72.jpg","./assets/images/Fish24/fish73.jpg",
                 "./assets/images/Fish24/fish74.jpg",];
 
+const MD24 = ["./assets/images/MD24/md1.jpg","./assets/images/MD24/md2.jpg","./assets/images/MD24/md3.jpg",
+              "./assets/images/MD24/md4.jpg","./assets/images/MD24/md5.jpg","./assets/images/MD24/md6.jpg",
+              "./assets/images/MD24/md7.jpg","./assets/images/MD24/md8.jpg","./assets/images/MD24/md9.jpg",
+              "./assets/images/MD24/md10.jpg","./assets/images/MD24/md11.jpg",];
+
+const Gaga24 = ["./assets/images/Gaga24/ball1.jpg","./assets/images/Gaga24/ball2.jpg","./assets/images/Gaga24/ball3.jpg",
+                "./assets/images/Gaga24/ball4.jpg","./assets/images/Gaga24/ball5.jpg","./assets/images/Gaga24/ball6.jpg",
+                "./assets/images/Gaga24/ball7.jpg","./assets/images/Gaga24/ball8.jpg","./assets/images/Gaga24/ball9.jpg",
+                "./assets/images/Gaga24/ball10.jpg","./assets/images/Gaga24/ball11.jpg","./assets/images/Gaga24/ball12.jpg",
+                "./assets/images/Gaga24/ball13.jpg","./assets/images/Gaga24/ball14.jpg","./assets/images/Gaga24/ball15.jpg",
+                "./assets/images/Gaga24/ball16.jpg","./assets/images/Gaga24/ball17.jpg","./assets/images/Gaga24/ball18.jpg",
+                "./assets/images/Gaga24/ball19.jpg","./assets/images/Gaga24/ball20.jpg","./assets/images/Gaga24/ball21.jpg",
+                "./assets/images/Gaga24/ball22.jpg","./assets/images/Gaga24/ball23.jpg","./assets/images/Gaga24/ball24.jpg",
+                "./assets/images/Gaga24/ball25.jpg","./assets/images/Gaga24/ball26.jpg","./assets/images/Gaga24/ball27.jpg",
+                "./assets/images/Gaga24/ball28.jpg","./assets/images/Gaga24/ball29.jpg","./assets/images/Gaga24/ball30.jpg",
+                "./assets/images/Gaga24/ball31.jpg","./assets/images/Gaga24/ball32.jpg","./assets/images/Gaga24/ball33.jpg",
+                "./assets/images/Gaga24/ball34.jpg","./assets/images/Gaga24/ball35.jpg","./assets/images/Gaga24/ball36.jpg",
+                "./assets/images/Gaga24/ball37.jpg","./assets/images/Gaga24/ball38.jpg","./assets/images/Gaga24/ball39.jpg",
+                "./assets/images/Gaga24/ball40.jpg","./assets/images/Gaga24/ball41.jpg","./assets/images/Gaga24/ball42.jpg",
+                "./assets/images/Gaga24/ball43.jpg","./assets/images/Gaga24/ball44.jpg","./assets/images/Gaga24/ball45.jpg",
+                "./assets/images/Gaga24/ball46.jpg","./assets/images/Gaga24/ball47.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
