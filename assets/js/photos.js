@@ -504,6 +504,13 @@ const Gaga24 = ["./assets/images/Gaga24/ball1.jpg","./assets/images/Gaga24/ball2
                 "./assets/images/Gaga24/ball43.jpg","./assets/images/Gaga24/ball44.jpg","./assets/images/Gaga24/ball45.jpg",
                 "./assets/images/Gaga24/ball46.jpg","./assets/images/Gaga24/ball47.jpg",];
 
+const SCD024 = ["./assets/images/Summer_Camp24/Day0/1.jpg","./assets/images/Summer_Camp24/Day0/2.jpg","./assets/images/Summer_Camp24/Day0/3.jpg",
+                "./assets/images/Summer_Camp24/Day0/4.jpg","./assets/images/Summer_Camp24/Day0/5.jpg","./assets/images/Summer_Camp24/Day0/6.jpg",
+                "./assets/images/Summer_Camp24/Day0/7.jpg","./assets/images/Summer_Camp24/Day0/8.jpg","./assets/images/Summer_Camp24/Day0/9.jpg",
+                "./assets/images/Summer_Camp24/Day0/10.jpg","./assets/images/Summer_Camp24/Day0/11.jpg","./assets/images/Summer_Camp24/Day0/12.jpg",
+                "./assets/images/Summer_Camp24/Day0/13.jpg","./assets/images/Summer_Camp24/Day0/14.jpg","./assets/images/Summer_Camp24/Day0/15.jpg",
+                "./assets/images/Summer_Camp24/Day0/16.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
