@@ -511,6 +511,19 @@ const SCD024 = ["./assets/images/Summer_Camp24/Day0/1.jpg","./assets/images/Summ
                 "./assets/images/Summer_Camp24/Day0/13.jpg","./assets/images/Summer_Camp24/Day0/14.jpg","./assets/images/Summer_Camp24/Day0/15.jpg",
                 "./assets/images/Summer_Camp24/Day0/16.jpg",];
 
+const SCD124 = ["./assets/images/Summer_Camp24/Day1/1.jpg","./assets/images/Summer_Camp24/Day1/2.jpg","./assets/images/Summer_Camp24/Day1/3.jpg",
+                "./assets/images/Summer_Camp24/Day1/4.jpg","./assets/images/Summer_Camp24/Day1/5.jpg","./assets/images/Summer_Camp24/Day1/6.jpg",
+                "./assets/images/Summer_Camp24/Day1/7.jpg","./assets/images/Summer_Camp24/Day1/8.jpg","./assets/images/Summer_Camp24/Day1/9.jpg",
+                "./assets/images/Summer_Camp24/Day1/10.jpg","./assets/images/Summer_Camp24/Day1/11.jpg","./assets/images/Summer_Camp24/Day1/12.jpg",
+                "./assets/images/Summer_Camp24/Day1/13.jpg","./assets/images/Summer_Camp24/Day1/14.jpg","./assets/images/Summer_Camp24/Day1/15.jpg",
+                "./assets/images/Summer_Camp24/Day1/16.jpg","./assets/images/Summer_Camp24/Day1/17.jpg","./assets/images/Summer_Camp24/Day1/18.jpg",
+                "./assets/images/Summer_Camp24/Day1/19.jpg","./assets/images/Summer_Camp24/Day1/20.jpg","./assets/images/Summer_Camp24/Day1/21.jpg",
+                "./assets/images/Summer_Camp24/Day1/22.jpg","./assets/images/Summer_Camp24/Day1/23.jpg","./assets/images/Summer_Camp24/Day1/24.jpg",
+                "./assets/images/Summer_Camp24/Day1/25.jpg","./assets/images/Summer_Camp24/Day1/26.jpg","./assets/images/Summer_Camp24/Day1/27.jpg",
+                "./assets/images/Summer_Camp24/Day1/28.jpg","./assets/images/Summer_Camp24/Day1/29.jpg","./assets/images/Summer_Camp24/Day1/30.jpg",
+                "./assets/images/Summer_Camp24/Day1/31.jpg","./assets/images/Summer_Camp24/Day1/32.jpg","./assets/images/Summer_Camp24/Day1/33.jpg",
+                "./assets/images/Summer_Camp24/Day1/34.jpg","./assets/images/Summer_Camp24/Day1/35.jpg","./assets/images/Summer_Camp24/Day1/36.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
