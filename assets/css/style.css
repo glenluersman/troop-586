@@ -538,11 +538,13 @@ footer a {
   padding: 15px 0;
   margin: 15px auto 15px auto;
   font-size: 20px;
+  transition: 0.3s ease-in-out;
+  /* box-shadow: 0 0 18px rgba(0, 0, 0, 0.7); */
   font-family: 'secret_typewriterregular';
 }
 
 .contact-form button:hover {
-  background: var(--secondary-color);
+  transform: scale(1.05);
 }
 
 .contact-form h3 {
