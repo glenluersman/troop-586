@@ -637,6 +637,32 @@ const SCD524 = ["./assets/images/Summer_Camp24/Day5/1.jpg","./assets/images/Summ
                 "./assets/images/Summer_Camp24/Day5/79.jpg","./assets/images/Summer_Camp24/Day5/80.jpg","./assets/images/Summer_Camp24/Day5/81.jpg",
                 "./assets/images/Summer_Camp24/Day5/82.jpg",];
 
+const PS24 = ["./assets/images/PS24/paddle1.jpg","./assets/images/PS24/paddle2.jpg","./assets/images/PS24/paddle3.jpg",
+              "./assets/images/PS24/paddle4.jpg","./assets/images/PS24/paddle5.jpg","./assets/images/PS24/paddle6.jpg",
+              "./assets/images/PS24/paddle7.jpg","./assets/images/PS24/paddle8.jpg","./assets/images/PS24/paddle9.jpg",
+              "./assets/images/PS24/paddle10.jpg","./assets/images/PS24/paddle11.jpg","./assets/images/PS24/paddle12.jpg",
+              "./assets/images/PS24/paddle13.jpg","./assets/images/PS24/paddle14.jpg","./assets/images/PS24/paddle15.jpg",
+              "./assets/images/PS24/paddle16.jpg","./assets/images/PS24/paddle17.jpg","./assets/images/PS24/paddle18.jpg",
+              "./assets/images/PS24/paddle19.jpg","./assets/images/PS24/paddle20.jpg","./assets/images/PS24/paddle21.jpg",
+              "./assets/images/PS24/paddle22.jpg","./assets/images/PS24/paddle23.jpg","./assets/images/PS24/paddle24.jpg",
+              "./assets/images/PS24/paddle25.jpg","./assets/images/PS24/paddle26.jpg","./assets/images/PS24/paddle27.jpg",
+              "./assets/images/PS24/paddle28.jpg","./assets/images/PS24/paddle29.jpg","./assets/images/PS24/paddle30.jpg",
+              "./assets/images/PS24/paddle31.jpg","./assets/images/PS24/paddle32.jpg","./assets/images/PS24/paddle33.jpg",
+              "./assets/images/PS24/paddle34.jpg","./assets/images/PS24/paddle35.jpg","./assets/images/PS24/paddle36.jpg",
+              "./assets/images/PS24/paddle37.jpg","./assets/images/PS24/paddle38.jpg","./assets/images/PS24/paddle39.jpg",
+              "./assets/images/PS24/paddle40.jpg","./assets/images/PS24/paddle41.jpg","./assets/images/PS24/paddle42.jpg",
+              "./assets/images/PS24/paddle43.jpg","./assets/images/PS24/paddle44.jpg","./assets/images/PS24/paddle45.jpg",
+              "./assets/images/PS24/paddle46.jpg","./assets/images/PS24/paddle47.jpg","./assets/images/PS24/paddle48.jpg",
+              "./assets/images/PS24/paddle49.jpg","./assets/images/PS24/paddle50.jpg","./assets/images/PS24/paddle51.jpg",
+              "./assets/images/PS24/paddle52.jpg","./assets/images/PS24/paddle53.jpg","./assets/images/PS24/paddle54.jpg",
+              "./assets/images/PS24/paddle55.jpg","./assets/images/PS24/paddle56.jpg","./assets/images/PS24/paddle57.jpg",
+              "./assets/images/PS24/paddle58.jpg","./assets/images/PS24/paddle59.jpg","./assets/images/PS24/paddle60.jpg",
+              "./assets/images/PS24/paddle61.jpg","./assets/images/PS24/paddle62.jpg","./assets/images/PS24/paddle63.jpg",
+              "./assets/images/PS24/paddle64.jpg","./assets/images/PS24/paddle65.jpg","./assets/images/PS24/paddle66.jpg",
+              "./assets/images/PS24/paddle67.jpg","./assets/images/PS24/paddle68.jpg","./assets/images/PS24/paddle69.jpg",
+              "./assets/images/PS24/paddle70.jpg","./assets/images/PS24/paddle71.jpg","./assets/images/PS24/paddle72.jpg",
+              "./assets/images/PS24/paddle73.jpg","./assets/images/PS24/paddle74.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
