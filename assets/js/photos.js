@@ -663,6 +663,23 @@ const PS24 = ["./assets/images/PS24/paddle1.jpg","./assets/images/PS24/paddle2.j
               "./assets/images/PS24/paddle70.jpg","./assets/images/PS24/paddle71.jpg","./assets/images/PS24/paddle72.jpg",
               "./assets/images/PS24/paddle73.jpg","./assets/images/PS24/paddle74.jpg",];
 
+const JCH24 = ["./assets/images/JulyCH24/COH1.jpg","./assets/images/JulyCH24/COH2.jpg","./assets/images/JulyCH24/COH3.jpg",
+               "./assets/images/JulyCH24/COH4.jpg","./assets/images/JulyCH24/COH5.jpg","./assets/images/JulyCH24/COH6.jpg",
+               "./assets/images/JulyCH24/COH7.jpg","./assets/images/JulyCH24/COH8.jpg","./assets/images/JulyCH24/COH9.jpg",
+               "./assets/images/JulyCH24/COH10.jpg","./assets/images/JulyCH24/COH11.jpg","./assets/images/JulyCH24/COH12.jpg",
+               "./assets/images/JulyCH24/COH13.jpg","./assets/images/JulyCH24/COH14.jpg","./assets/images/JulyCH24/COH15.jpg",
+               "./assets/images/JulyCH24/COH16.jpg","./assets/images/JulyCH24/COH17.jpg","./assets/images/JulyCH24/COH18.jpg",
+               "./assets/images/JulyCH24/COH19.jpg","./assets/images/JulyCH24/COH20.jpg","./assets/images/JulyCH24/COH21.jpg",
+               "./assets/images/JulyCH24/COH22.jpg","./assets/images/JulyCH24/COH23.jpg","./assets/images/JulyCH24/COH24.jpg",
+               "./assets/images/JulyCH24/COH25.jpg","./assets/images/JulyCH24/COH26.jpg","./assets/images/JulyCH24/COH27.jpg",
+               "./assets/images/JulyCH24/COH28.jpg","./assets/images/JulyCH24/COH29.jpg","./assets/images/JulyCH24/COH30.jpg",
+               "./assets/images/JulyCH24/COH31.jpg","./assets/images/JulyCH24/COH32.jpg","./assets/images/JulyCH24/COH33.jpg",
+               "./assets/images/JulyCH24/COH34.jpg","./assets/images/JulyCH24/COH35.jpg","./assets/images/JulyCH24/COH36.jpg",
+               "./assets/images/JulyCH24/COH37.jpg","./assets/images/JulyCH24/COH38.jpg","./assets/images/JulyCH24/COH39.jpg",
+               "./assets/images/JulyCH24/COH40.jpg","./assets/images/JulyCH24/COH41.jpg","./assets/images/JulyCH24/COH42.jpg",
+               "./assets/images/JulyCH24/COH43.jpg","./assets/images/JulyCH24/COH44.jpg","./assets/images/JulyCH24/COH45.jpg",
+               "./assets/images/JulyCH24/COH46.jpg","./assets/images/JulyCH24/COH47.jpg","./assets/images/JulyCH24/COH48.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
