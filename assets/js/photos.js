@@ -680,6 +680,40 @@ const JCH24 = ["./assets/images/JulyCH24/COH1.jpg","./assets/images/JulyCH24/COH
                "./assets/images/JulyCH24/COH43.jpg","./assets/images/JulyCH24/COH44.jpg","./assets/images/JulyCH24/COH45.jpg",
                "./assets/images/JulyCH24/COH46.jpg","./assets/images/JulyCH24/COH47.jpg","./assets/images/JulyCH24/COH48.jpg",];
 
+const MC24 = ["./assets/images/Caving24/cave1.jpg","./assets/images/Caving24/cave2.jpg","./assets/images/Caving24/cave3.jpg",
+              "./assets/images/Caving24/cave4.jpg","./assets/images/Caving24/cave5.jpg","./assets/images/Caving24/cave6.jpg",
+              "./assets/images/Caving24/cave7.jpg","./assets/images/Caving24/cave8.jpg","./assets/images/Caving24/cave9.jpg",
+              "./assets/images/Caving24/cave10.jpg","./assets/images/Caving24/cave11.jpg","./assets/images/Caving24/cave12.jpg",
+              "./assets/images/Caving24/cave13.jpg","./assets/images/Caving24/cave14.jpg","./assets/images/Caving24/cave15.jpg",
+              "./assets/images/Caving24/cave16.jpg","./assets/images/Caving24/cave17.jpg","./assets/images/Caving24/cave18.jpg",
+              "./assets/images/Caving24/cave19.jpg","./assets/images/Caving24/cave20.jpg","./assets/images/Caving24/cave21.jpg",
+              "./assets/images/Caving24/cave22.jpg","./assets/images/Caving24/cave23.jpg","./assets/images/Caving24/cave24.jpg",
+              "./assets/images/Caving24/cave25.jpg","./assets/images/Caving24/cave26.jpg","./assets/images/Caving24/cave27.jpg",
+              "./assets/images/Caving24/cave28.jpg","./assets/images/Caving24/cave29.jpg","./assets/images/Caving24/cave30.jpg",
+              "./assets/images/Caving24/cave31.jpg","./assets/images/Caving24/cave32.jpg","./assets/images/Caving24/cave33.jpg",
+              "./assets/images/Caving24/cave34.jpg","./assets/images/Caving24/cave35.jpg","./assets/images/Caving24/cave36.jpg",
+              "./assets/images/Caving24/cave37.jpg","./assets/images/Caving24/cave38.jpg","./assets/images/Caving24/cave39.jpg",
+              "./assets/images/Caving24/cave40.jpg","./assets/images/Caving24/cave41.jpg","./assets/images/Caving24/cave42.jpg",
+              "./assets/images/Caving24/cave43.jpg","./assets/images/Caving24/cave44.jpg","./assets/images/Caving24/cave45.jpg",
+              "./assets/images/Caving24/cave46.jpg","./assets/images/Caving24/cave47.jpg","./assets/images/Caving24/cave48.jpg",
+              "./assets/images/Caving24/cave49.jpg","./assets/images/Caving24/cave50.jpg","./assets/images/Caving24/cave51.jpg",
+              "./assets/images/Caving24/cave52.jpg","./assets/images/Caving24/cave53.jpg","./assets/images/Caving24/cave54.jpg",
+              "./assets/images/Caving24/cave55.jpg","./assets/images/Caving24/cave56.jpg","./assets/images/Caving24/cave57.jpg",
+              "./assets/images/Caving24/cave58.jpg","./assets/images/Caving24/cave59.jpg","./assets/images/Caving24/cave60.jpg",
+              "./assets/images/Caving24/cave61.jpg","./assets/images/Caving24/cave62.jpg","./assets/images/Caving24/cave63.jpg",
+              "./assets/images/Caving24/cave64.jpg","./assets/images/Caving24/cave65.jpg","./assets/images/Caving24/cave66.jpg",
+              "./assets/images/Caving24/cave67.jpg","./assets/images/Caving24/cave68.jpg","./assets/images/Caving24/cave69.jpg",
+              "./assets/images/Caving24/cave70.jpg","./assets/images/Caving24/cave71.jpg","./assets/images/Caving24/cave72.jpg",
+              "./assets/images/Caving24/cave73.jpg","./assets/images/Caving24/cave74.jpg","./assets/images/Caving24/cave75.jpg",
+              "./assets/images/Caving24/cave76.jpg","./assets/images/Caving24/cave77.jpg","./assets/images/Caving24/cave78.jpg",
+              "./assets/images/Caving24/cave79.jpg","./assets/images/Caving24/cave80.jpg","./assets/images/Caving24/cave81.jpg",
+              "./assets/images/Caving24/cave82.jpg","./assets/images/Caving24/cave83.jpg","./assets/images/Caving24/cave84.jpg",
+              "./assets/images/Caving24/cave85.jpg","./assets/images/Caving24/cave86.jpg","./assets/images/Caving24/cave87.jpg",
+              "./assets/images/Caving24/cave88.jpg","./assets/images/Caving24/cave89.jpg","./assets/images/Caving24/cave90.jpg",
+              "./assets/images/Caving24/cave91.jpg","./assets/images/Caving24/cave92.jpg","./assets/images/Caving24/cave93.jpg",
+              "./assets/images/Caving24/cave94.jpg","./assets/images/Caving24/cave95.jpg","./assets/images/Caving24/cave96.jpg",
+              "./assets/images/Caving24/cave97.jpg","./assets/images/Caving24/cave98.jpg","./assets/images/Caving24/cave99.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
