@@ -751,13 +751,12 @@ const WS24 = ["./assets/images/WS24/ws1.jpg","./assets/images/WS24/ws2.jpg","./a
               "./assets/images/WS24/ws76.jpg","./assets/images/WS24/ws77.jpg","./assets/images/WS24/ws78.jpg",
               "./assets/images/WS24/ws79.jpg","./assets/images/WS24/ws80.jpg","./assets/images/WS24/ws81.jpg",
               "./assets/images/WS24/ws82.jpg","./assets/images/WS24/ws83.jpg","./assets/images/WS24/ws84.jpg",
-              "./assets/images/WS24/ws85.jpg","./assets/images/WS24/ws86.jpg","./assets/images/WS24/ws87.jpg",
-              "./assets/images/WS24/ws88.jpg","./assets/images/WS24/ws89.jpg","./assets/images/WS24/ws90.jpg",
-              "./assets/images/WS24/ws91.jpg","./assets/images/WS24/ws92.jpg","./assets/images/WS24/ws93.jpg",
-              "./assets/images/WS24/ws94.jpg","./assets/images/WS24/ws95.jpg","./assets/images/WS24/ws96.jpg",
-              "./assets/images/WS24/ws97.jpg","./assets/images/WS24/ws98.jpg","./assets/images/WS24/ws99.jpg",
-              "./assets/images/WS24/ws100.jpg","./assets/images/WS24/ws101.jpg","./assets/images/WS24/ws103.jpg",
-              "./assets/images/WS24/ws103.jpg",];
+              "./assets/images/WS24/ws86.jpg","./assets/images/WS24/ws87.jpg","./assets/images/WS24/ws88.jpg",
+              "./assets/images/WS24/ws89.jpg","./assets/images/WS24/ws90.jpg","./assets/images/WS24/ws91.jpg",
+              "./assets/images/WS24/ws92.jpg","./assets/images/WS24/ws93.jpg","./assets/images/WS24/ws94.jpg",
+              "./assets/images/WS24/ws95.jpg","./assets/images/WS24/ws96.jpg","./assets/images/WS24/ws97.jpg",
+              "./assets/images/WS24/ws98.jpg","./assets/images/WS24/ws99.jpg","./assets/images/WS24/ws100.jpg",
+              "./assets/images/WS24/ws101.jpg","./assets/images/WS24/ws103.jpg","./assets/images/WS24/ws103.jpg",];
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
