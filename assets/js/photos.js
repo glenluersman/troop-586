@@ -714,6 +714,51 @@ const MC24 = ["./assets/images/Caving24/cave1.jpg","./assets/images/Caving24/cav
               "./assets/images/Caving24/cave94.jpg","./assets/images/Caving24/cave95.jpg","./assets/images/Caving24/cave96.jpg",
               "./assets/images/Caving24/cave97.jpg","./assets/images/Caving24/cave98.jpg","./assets/images/Caving24/cave99.jpg",];
 
+const Mum24 = ["./assets/images/Mum24/mum1.jpg","./assets/images/Mum24/mum2.jpg","./assets/images/Mum24/mum3.jpg",
+               "./assets/images/Mum24/mum4.jpg","./assets/images/Mum24/mum5.jpg","./assets/images/Mum24/mum6.jpg",
+               "./assets/images/Mum24/mum7.jpg","./assets/images/Mum24/mum8.jpg","./assets/images/Mum24/mum9.jpg",
+               "./assets/images/Mum24/mum10.jpg","./assets/images/Mum24/mum11.jpg","./assets/images/Mum24/mum12.jpg",
+               "./assets/images/Mum24/mum13.jpg","./assets/images/Mum24/mum14.jpg","./assets/images/Mum24/mum15.jpg",
+               "./assets/images/Mum24/mum16.jpg","./assets/images/Mum24/mum17.jpg","./assets/images/Mum24/mum18.jpg",
+               "./assets/images/Mum24/mum19.jpg","./assets/images/Mum24/mum20.jpg","./assets/images/Mum24/mum21.jpg",
+               "./assets/images/Mum24/mum22.jpg","./assets/images/Mum24/mum23.jpg",];
+
+const WS24 = ["./assets/images/WS24/ws1.jpg","./assets/images/WS24/ws2.jpg","./assets/images/WS24/ws3.jpg",
+              "./assets/images/WS24/ws4.jpg","./assets/images/WS24/ws5.jpg","./assets/images/WS24/ws6.jpg",
+              "./assets/images/WS24/ws7.jpg","./assets/images/WS24/ws8.jpg","./assets/images/WS24/ws9.jpg",
+              "./assets/images/WS24/ws10.jpg","./assets/images/WS24/ws11.jpg","./assets/images/WS24/ws12.jpg",
+              "./assets/images/WS24/ws13.jpg","./assets/images/WS24/ws14.jpg","./assets/images/WS24/ws15.jpg",
+              "./assets/images/WS24/ws16.jpg","./assets/images/WS24/ws17.jpg","./assets/images/WS24/ws18.jpg",
+              "./assets/images/WS24/ws19.jpg","./assets/images/WS24/ws20.jpg","./assets/images/WS24/ws21.jpg",
+              "./assets/images/WS24/ws22.jpg","./assets/images/WS24/ws23.jpg","./assets/images/WS24/ws24.jpg",
+              "./assets/images/WS24/ws25.jpg","./assets/images/WS24/ws26.jpg","./assets/images/WS24/ws27.jpg",
+              "./assets/images/WS24/ws28.jpg","./assets/images/WS24/ws29.jpg","./assets/images/WS24/ws30.jpg",
+              "./assets/images/WS24/ws31.jpg","./assets/images/WS24/ws32.jpg","./assets/images/WS24/ws33.jpg",
+              "./assets/images/WS24/ws34.jpg","./assets/images/WS24/ws35.jpg","./assets/images/WS24/ws36.jpg",
+              "./assets/images/WS24/ws37.jpg","./assets/images/WS24/ws38.jpg","./assets/images/WS24/ws39.jpg",
+              "./assets/images/WS24/ws40.jpg","./assets/images/WS24/ws41.jpg","./assets/images/WS24/ws42.jpg",
+              "./assets/images/WS24/ws43.jpg","./assets/images/WS24/ws44.jpg","./assets/images/WS24/ws45.jpg",
+              "./assets/images/WS24/ws46.jpg","./assets/images/WS24/ws47.jpg","./assets/images/WS24/ws48.jpg",
+              "./assets/images/WS24/ws49.jpg","./assets/images/WS24/ws50.jpg","./assets/images/WS24/ws51.jpg",
+              "./assets/images/WS24/ws52.jpg","./assets/images/WS24/ws53.jpg","./assets/images/WS24/ws54.jpg",
+              "./assets/images/WS24/ws55.jpg","./assets/images/WS24/ws56.jpg","./assets/images/WS24/ws57.jpg",
+              "./assets/images/WS24/ws58.jpg","./assets/images/WS24/ws59.jpg","./assets/images/WS24/ws60.jpg",
+              "./assets/images/WS24/ws61.jpg","./assets/images/WS24/ws62.jpg","./assets/images/WS24/ws63.jpg",
+              "./assets/images/WS24/ws64.jpg","./assets/images/WS24/ws65.jpg","./assets/images/WS24/ws66.jpg",
+              "./assets/images/WS24/ws67.jpg","./assets/images/WS24/ws68.jpg","./assets/images/WS24/ws69.jpg",
+              "./assets/images/WS24/ws70.jpg","./assets/images/WS24/ws71.jpg","./assets/images/WS24/ws72.jpg",
+              "./assets/images/WS24/ws73.jpg","./assets/images/WS24/ws74.jpg","./assets/images/WS24/ws75.jpg",
+              "./assets/images/WS24/ws76.jpg","./assets/images/WS24/ws77.jpg","./assets/images/WS24/ws78.jpg",
+              "./assets/images/WS24/ws79.jpg","./assets/images/WS24/ws80.jpg","./assets/images/WS24/ws81.jpg",
+              "./assets/images/WS24/ws82.jpg","./assets/images/WS24/ws83.jpg","./assets/images/WS24/ws84.jpg",
+              "./assets/images/WS24/ws85.jpg","./assets/images/WS24/ws86.jpg","./assets/images/WS24/ws87.jpg",
+              "./assets/images/WS24/ws88.jpg","./assets/images/WS24/ws89.jpg","./assets/images/WS24/ws90.jpg",
+              "./assets/images/WS24/ws91.jpg","./assets/images/WS24/ws92.jpg","./assets/images/WS24/ws93.jpg",
+              "./assets/images/WS24/ws94.jpg","./assets/images/WS24/ws95.jpg","./assets/images/WS24/ws96.jpg",
+              "./assets/images/WS24/ws97.jpg","./assets/images/WS24/ws98.jpg","./assets/images/WS24/ws99.jpg",
+              "./assets/images/WS24/ws100.jpg","./assets/images/WS24/ws101.jpg","./assets/images/WS24/ws103.jpg",
+              "./assets/images/WS24/ws103.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
