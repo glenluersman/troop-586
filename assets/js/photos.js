@@ -758,6 +758,19 @@ const WS24 = ["./assets/images/WS24/ws1.jpg","./assets/images/WS24/ws2.jpg","./a
               "./assets/images/WS24/ws98.jpg","./assets/images/WS24/ws99.jpg","./assets/images/WS24/ws100.jpg",
               "./assets/images/WS24/ws101.jpg","./assets/images/WS24/ws103.jpg","./assets/images/WS24/ws103.jpg",];
 
+const TB24 = ["./assets/images/TB24/Turkey1.jpg","./assets/images/TB24/Turkey2.jpg","./assets/images/TB24/Turkey3.jpg",
+              "./assets/images/TB24/Turkey4.jpg","./assets/images/TB24/Turkey5.jpg","./assets/images/TB24/Turkey6.jpg",
+              "./assets/images/TB24/Turkey7.jpg","./assets/images/TB24/Turkey8.jpg","./assets/images/TB24/Turkey9.jpg",
+              "./assets/images/TB24/Turkey10.jpg","./assets/images/TB24/Turkey11.jpg","./assets/images/TB24/Turkey12.jpg",
+              "./assets/images/TB24/Turkey13.jpg","./assets/images/TB24/Turkey14.jpg","./assets/images/TB24/Turkey15.jpg",
+              "./assets/images/TB24/Turkey16.jpg","./assets/images/TB24/Turkey17.jpg","./assets/images/TB24/Turkey18.jpg",
+              "./assets/images/TB24/Turkey19.jpg","./assets/images/TB24/Turkey20.jpg","./assets/images/TB24/Turkey21.jpg",
+              "./assets/images/TB24/Turkey22.jpg","./assets/images/TB24/Turkey23.jpg","./assets/images/TB24/Turkey24.jpg",
+              "./assets/images/TB24/Turkey25.jpg","./assets/images/TB24/Turkey26.jpg","./assets/images/TB24/Turkey27.jpg",
+              "./assets/images/TB24/Turkey28.jpg","./assets/images/TB24/Turkey29.jpg","./assets/images/TB24/Turkey30.jpg",
+              "./assets/images/TB24/Turkey31.jpg","./assets/images/TB24/Turkey32.jpg","./assets/images/TB24/Turkey33.jpg",
+              "./assets/images/TB24/Turkey34.jpg","./assets/images/TB24/Turkey35.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
