@@ -771,6 +771,11 @@ const TB24 = ["./assets/images/TB24/Turkey1.jpg","./assets/images/TB24/Turkey2.j
               "./assets/images/TB24/Turkey31.jpg","./assets/images/TB24/Turkey32.jpg","./assets/images/TB24/Turkey33.jpg",
               "./assets/images/TB24/Turkey34.jpg","./assets/images/TB24/Turkey35.jpg",];
 
+const AP24 = ["./assets/images/AP24/ap1.jpg","./assets/images/AP24/ap2.jpg","./assets/images/AP24/ap3.jpg",
+              "./assets/images/AP24/ap4.jpg","./assets/images/AP24/ap5.jpg","./assets/images/AP24/ap6.jpg",
+              "./assets/images/AP24/ap7.jpg","./assets/images/AP24/ap8.jpg","./assets/images/AP24/ap9.jpg",
+              "./assets/images/AP24/ap10.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
