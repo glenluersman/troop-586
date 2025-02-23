@@ -845,12 +845,12 @@ const renderEventPhotos3 = (value) => {
 
 //creating the modal
 let imgModal = (src) => {
-  const modal = document.createElement("div");
-  modal.setAttribute("class", "modal");
-  //add modal to the parent element 
-  document.querySelector(".main").append(modal);
-  //adding image to modal
-  const newImage = document.createElement("img");
+    const modal = document.createElement("div");
+    modal.setAttribute("class", "modal");
+    //add modal to the parent element 
+    document.querySelector(".main").append(modal);
+    //adding image to modal
+    const newImage = document.createElement("img");
     newImage.setAttribute("src", src);
     //creating the close button
     const closeBtn = document.createElement("i");
