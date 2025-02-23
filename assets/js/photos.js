@@ -1,6 +1,9 @@
 const photosEl = document.getElementById("gallery");
+const photosE2 = document.getElementById("gallery1");
+const photosE3 = document.getElementById("gallery2");
 const photosEl1 = document.getElementById("gallery1");
 const photosEl2 = document.getElementById("gallery2");
+const photosEl3 = document.getElementById("gallery3");
 
 const rlfa23 = ["./assets/images/RLFA23/RLFA1.JPG","./assets/images/RLFA23/RLFA2.JPG","./assets/images/RLFA23/RLFA3.JPG",
                 "./assets/images/RLFA23/RLFA4.JPG","./assets/images/RLFA23/RLFA5.JPG","./assets/images/RLFA23/RLFA6.jpg",
@@ -749,9 +752,44 @@ const renderPhotos = (value) => {
   }
 };
 
+const renderPhotos1 = (value) => {
+  photosE2.innerHTML = "";
+
+  for (let i = 0; i < value.length; i++) {
+    const item = document.createElement("div");
+    item.setAttribute("class", "gallery-item");
+    const img = document.createElement("img");
+    img.setAttribute("id", "myImg");
+    img.setAttribute("src", value[i]);
+    img.setAttribute("onclick", "imgModal(src)")
+    img.setAttribute("width", "600");
+    img.setAttribute("height", "400");
+    item.appendChild(img);
+    photosE2.appendChild(item);
+  }
+};
+
+const renderPhotos2 = (value) => {
+  photosE3.innerHTML = "";
+
+  for (let i = 0; i < value.length; i++) {
+    const item = document.createElement("div");
+    item.setAttribute("class", "gallery-item");
+    const img = document.createElement("img");
+    img.setAttribute("id", "myImg");
+    img.setAttribute("src", value[i]);
+    img.setAttribute("onclick", "imgModal(src)")
+    img.setAttribute("width", "600");
+    img.setAttribute("height", "400");
+    item.appendChild(img);
+    photosE3.appendChild(item);
+  }
+};
+
 const renderEventPhotos1 = (value) => {
   photosEl1.innerHTML = "";
   photosEl2.innerHTML = "";
+  photosEl3.innerHTML = "";
 
   for (let i = 0; i < value.length; i++) {
     const item = document.createElement("div");
@@ -770,6 +808,7 @@ const renderEventPhotos1 = (value) => {
 const renderEventPhotos2 = (value) => {
   photosEl1.innerHTML = "";
   photosEl2.innerHTML = "";
+  photosEl3.innerHTML = "";
 
   for (let i = 0; i < value.length; i++) {
     const item = document.createElement("div");
@@ -782,6 +821,25 @@ const renderEventPhotos2 = (value) => {
     img.setAttribute("height", "400");
     item.appendChild(img);
     photosEl2.appendChild(item);
+  }
+};
+
+const renderEventPhotos3 = (value) => {
+  photosEl1.innerHTML = "";
+  photosEl2.innerHTML = "";
+  photosEl3.innerHTML = "";
+
+  for (let i = 0; i < value.length; i++) {
+    const item = document.createElement("div");
+    item.setAttribute("class", "gallery-item");
+    const img = document.createElement("img");
+    img.setAttribute("id", "myImg");
+    img.setAttribute("src", value[i]);
+    img.setAttribute("onclick", "imgModal(src)")
+    img.setAttribute("width", "600");
+    img.setAttribute("height", "400");
+    item.appendChild(img);
+    photosEl3.appendChild(item);
   }
 };
 
