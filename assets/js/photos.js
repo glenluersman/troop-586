@@ -735,6 +735,12 @@ const AP24 = ["./assets/images/AP24/ap1.jpg","./assets/images/AP24/ap2.jpg","./a
               "./assets/images/AP24/ap7.jpg","./assets/images/AP24/ap8.jpg","./assets/images/AP24/ap9.jpg",
               "./assets/images/AP24/ap10.jpg",];
 
+const CO28525 = ["./assets/images/285crossover25/cross1.JPG","./assets/images/285crossover25/cross2.JPG","./assets/images/285crossover25/cross3.JPG",
+                 "./assets/images/285crossover25/cross4.JPG","./assets/images/285crossover25/cross5.JPG","./assets/images/285crossover25/cross6.JPG",
+                 "./assets/images/285crossover25/cross7.JPG","./assets/images/285crossover25/cross8.JPG","./assets/images/285crossover25/cross9.JPG",
+                 "./assets/images/285crossover25/cross10.JPG","./assets/images/285crossover25/cross11.JPG","./assets/images/285crossover25/cross12.JPG",
+                 "./assets/images/285crossover25/cross13.JPG","./assets/images/285crossover25/cross14.JPG","./assets/images/285crossover25/cross15.JPG",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
