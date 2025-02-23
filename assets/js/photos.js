@@ -855,6 +855,10 @@ let imgModal = (src) => {
     //creating the close button
     const closeBtn = document.createElement("i");
     closeBtn.setAttribute("class", "fas fa-times closeBtn");
+    const paragraph = document.createElement("p");
+    const text = document.createTextNode("X");
+    paragraph.appendChild(text);
+    closeBtn.appendChild(paragraph);
     //close function
     closeBtn.onclick = () => {
         modal.remove();
