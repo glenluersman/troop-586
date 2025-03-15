@@ -741,6 +741,10 @@ const CO28525 = ["./assets/images/285crossover25/cross1.JPG","./assets/images/28
                  "./assets/images/285crossover25/cross10.JPG","./assets/images/285crossover25/cross11.JPG","./assets/images/285crossover25/cross12.JPG",
                  "./assets/images/285crossover25/cross13.JPG","./assets/images/285crossover25/cross14.JPG","./assets/images/285crossover25/cross15.JPG",];
 
+const SFF25 = ["./assets/images/SFF25/sff1.jpg","./assets/images/SFF25/sff2.jpg","./assets/images/SFF25/sff3.jpg",
+               "./assets/images/SFF25/sff4.jpg","./assets/images/SFF25/sff5.jpg","./assets/images/SFF25/sff6.jpg",
+               "./assets/images/SFF25/sff7.jpg","./assets/images/SFF25/sff8.jpg","./assets/images/SFF25/sff9.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
