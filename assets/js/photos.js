@@ -739,11 +739,37 @@ const CO28525 = ["./assets/images/285crossover25/cross1.JPG","./assets/images/28
                  "./assets/images/285crossover25/cross4.JPG","./assets/images/285crossover25/cross5.JPG","./assets/images/285crossover25/cross6.JPG",
                  "./assets/images/285crossover25/cross7.JPG","./assets/images/285crossover25/cross8.JPG","./assets/images/285crossover25/cross9.JPG",
                  "./assets/images/285crossover25/cross10.JPG","./assets/images/285crossover25/cross11.JPG","./assets/images/285crossover25/cross12.JPG",
-                 "./assets/images/285crossover25/cross13.JPG","./assets/images/285crossover25/cross14.JPG","./assets/images/285crossover25/cross15.JPG",];
+                 "./assets/images/285crossover25/cross13.JPG","./assets/images/285crossover25/cross14.JPG","./assets/images/285crossover25/cross15.JPG",
+                 "./assets/images/285crossover25/cross16.JPG","./assets/images/285crossover25/cross17.JPG","./assets/images/285crossover25/cross18.JPG",
+                 "./assets/images/285crossover25/cross19.JPG","./assets/images/285crossover25/cross20.JPG","./assets/images/285crossover25/cross21.JPG",
+                 "./assets/images/285crossover25/cross22.JPG","./assets/images/285crossover25/cross23.JPG","./assets/images/285crossover25/cross24.JPG",
+                 "./assets/images/285crossover25/cross25.JPG","./assets/images/285crossover25/cross26.JPG","./assets/images/285crossover25/cross27.JPG",
+                 "./assets/images/285crossover25/cross28.JPG","./assets/images/285crossover25/cross29.JPG","./assets/images/285crossover25/cross30.JPG",];
 
 const SFF25 = ["./assets/images/SFF25/sff1.jpg","./assets/images/SFF25/sff2.jpg","./assets/images/SFF25/sff3.jpg",
                "./assets/images/SFF25/sff4.jpg","./assets/images/SFF25/sff5.jpg","./assets/images/SFF25/sff6.jpg",
                "./assets/images/SFF25/sff7.jpg","./assets/images/SFF25/sff8.jpg","./assets/images/SFF25/sff9.jpg",];
+
+const SS25 = ["./assets/images/SS25/ss1.jpg","./assets/images/SS25/ss2.jpg","./assets/images/SS25/ss3.jpg","./assets/images/SS25/ss4.jpg",];
+
+const ER25 = ["./assets/images/ER25/er1.jpg","./assets/images/ER25/er2.jpg","./assets/images/ER25/er3.jpg",
+              "./assets/images/ER25/er4.jpg","./assets/images/ER25/er5.jpg","./assets/images/ER25/er6.jpg",
+              "./assets/images/ER25/er7.jpg","./assets/images/ER25/er8.jpg","./assets/images/ER25/er9.jpg",
+              "./assets/images/ER25/er10.jpg","./assets/images/ER25/er11.jpg","./assets/images/ER25/er12.jpg",
+              "./assets/images/ER25/er13.jpg",];
+
+const SG25 = ["./assets/images/Sports25/sg1.jpg","./assets/images/Sports25/sg2.jpg","./assets/images/Sports25/sg3.jpg",
+              "./assets/images/Sports25/sg4.jpg","./assets/images/Sports25/sg5.jpg","./assets/images/Sports25/sg6.jpg",
+              "./assets/images/Sports25/sg7.jpg","./assets/images/Sports25/sg8.jpg","./assets/images/Sports25/sg9.jpg",
+              "./assets/images/Sports25/sg10.jpg","./assets/images/Sports25/sg11.jpg",];
+
+const SWIM25 = ["./assets/images/Swim25/swim1.jpg","./assets/images/Swim25/swim4.jpg","./assets/images/Swim25/swim5.jpg",
+                "./assets/images/Swim25/swim9.jpg","./assets/images/Swim25/swim11.jpg","./assets/images/Swim25/swim14.jpg",
+                "./assets/images/Swim25/swim15.jpg","./assets/images/Swim25/swim17.jpg","./assets/images/Swim25/swim19.jpg",
+                "./assets/images/Swim25/swim23.jpg","./assets/images/Swim25/swim24.jpg","./assets/images/Swim25/swim25.jpg",
+                "./assets/images/Swim25/swim26.jpg","./assets/images/Swim25/swim28.jpg","./assets/images/Swim25/swim29.jpg",
+                "./assets/images/Swim25/swim30.jpg","./assets/images/Swim25/swim31.jpg","./assets/images/Swim25/swim32.jpg",
+                "./assets/images/Swim25/swim33.jpg","./assets/images/Swim25/swim34.jpg",];
 
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
