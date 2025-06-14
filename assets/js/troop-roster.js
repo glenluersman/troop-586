@@ -50,6 +50,17 @@ const turtles = [
     {name:'Samuel P.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
 ];
 
+const nuggies = [
+    {name:'Aiden B.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Andrew C.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Noah C.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Malachi G.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Luke K.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Ujval K.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Levi L.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Chris T.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+];
+
 const scoutMasters = [
     {name:'Blake Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Tom Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
