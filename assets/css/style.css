@@ -292,7 +292,7 @@ footer a {
 }
 
 .mumfest {
-  display: none;
+  display: flex;
   width: 80%;
   margin: 0 auto 50px auto;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
