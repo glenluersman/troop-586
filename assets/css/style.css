@@ -247,7 +247,7 @@ footer a {
 }
 
 .store {
-  display: block;
+  display: none;
   width: 90%;
   margin: 0 auto 50px auto;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
@@ -292,7 +292,7 @@ footer a {
 }
 
 .mumfest {
-  display: flex;
+  display: none;
   width: 80%;
   margin: 0 auto 50px auto;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
