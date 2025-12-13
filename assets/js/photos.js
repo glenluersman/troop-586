@@ -812,6 +812,8 @@ const MD25 = ["./assets/images/MD25/md1.jpg","./assets/images/MD25/md2.jpg","./a
 
 const SC25 = [];
 
+const SE25 = [];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
