@@ -2,13 +2,13 @@ const cardsEl = document.querySelector('.cards');
 
 const key3 = [
     {name:'Jim Ridgeway', title:'Key 3', image:'./assets/images/scoutmaster.JPG', rank:'', position:'Scoutmaster'},
-    {name:'Angel Boeckman', title:'Key 3', image:'./assets/images/committee-chair.JPG', rank:'', position:'Committee Chairman'},
+    {name:'Deborah Rodenberg', title:'Key 3', image:'./assets/images/committee-chair.JPG', rank:'', position:'Committee Chairman'},
     {name:'Donald Craig', title:'Key 3', image:'./assets/images/charter-rep.JPG', rank:'', position:'Charter Organization Representative'}
 ];
 
 const seniorPatrol = [
-    {name:'Isaac L.', title:'Wet Bandits Patrol', rank:'Life Scout', image:'./assets/images/SPL.JPG', position:'SPL'},
-    {name:'Chris L.', title:'Wet Bandits Patrol', rank:'Life Scout', image:'./assets/images/ASPL.JPG', position:'ASPL'},
+    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'Life Scout', image:'./assets/images/SPL.JPG', position:'SPL'},
+    {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Star Scout', image:'./assets/images/ASPL.JPG', position:'ASPL'},
 ];
     
 const wetBandits = [
@@ -66,16 +66,14 @@ const scoutMasters = [
     {name:'Tom Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Glen Luersman', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Benjamin Schmitz', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
-    {name:'James Ridgeway',title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
-    {name:'Jon Sears', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Derek Long', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Matt Ernst', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
 ];
 
 const committee = [
     {name:'Nick Lesher', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Adopt-A-Mum Coordinator'},
-    {name:'Angel Boeckman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Chair'},
-    {name:'Deborah Rodenberg', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Secretary'},
+    {name:'Angel Boeckman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
+    {name:'Deborah Rodenberg', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Chair'},
     {name:'Daniel Collins', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Advancement Coordinator'},
     {name:'Andy Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
     {name:'Glen Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Webmaster'},
