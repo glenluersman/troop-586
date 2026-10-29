@@ -3,90 +3,82 @@ const cardsEl = document.querySelector('.cards');
 const key3 = [
     {name:'Jim Ridgeway', title:'Key 3', image:'./assets/images/scoutmaster.JPG', rank:'', position:'Scoutmaster'},
     {name:'Deborah Rodenberg', title:'Key 3', image:'./assets/images/committee-chair.JPG', rank:'', position:'Committee Chairman'},
-    {name:'Donald Craig', title:'Key 3', image:'./assets/images/charter-rep.JPG', rank:'', position:'Charter Organization Representative'}
+    {name:'Jamie Hull', title:'Key 3', image:'./assets/images/charter-rep.JPG', rank:'', position:'Charter Organization Representative'}
 ];
 
 const seniorPatrol = [
-    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'Life Scout', image:'./assets/images/SPL.JPG', position:'SPL'},
-    {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Star Scout', image:'./assets/images/ASPL.JPG', position:'ASPL'},
+    {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Star Scout', image:'./assets/images/SPL.JPG', position:'SPL'},
+    {name:'Zach R.', title:'Fire Chickens Patrol', rank:'Life Scout', image:'./assets/images/ASPL.JPG', position:'ASPL'},
 ];
     
 const wetBandits = [
-    {name:'Brighton S.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Life Scout', position:''},
-    {name:'John Y.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Scout', position:'Outdoor Ethics Guide'},
-    {name:'William K.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Life Scout', position:''},
-    {name:'Logan G.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Life Scout', position:'Patrol Leader'},
-    {name:'Isaac L.', title:'Wet Bandits Patrol', rank:'Life Scout', image:'./assets/images/wet-bandits.JPG', position:'SPL'},
-    {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Life Scout', image:'./assets/images/wet-bandits.JPG', position:'Assistant Patrol Leader'},
-    {name:'Chris L.', title:'Wet Bandits Patrol', rank:'Life Scout', image:'./assets/images/wet-bandits.JPG', position:'ASPL, Den Cheif'},
-    {name:'Grady W.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Star Scout', position:''},
-    {name:'Gavin R.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Second Class', position:'Quartermaster'},
-    {name:'John B.', title:'Wet Bandits Patrol', rank:'', image:'./assets/images/wet-bandits.JPG', position:''},
-    {name:'Jay E.', title:'Wet Bandits Patrol', rank:'Life', image:'./assets/images/wet-bandits.JPG', position:'Scribe'}
+    {name:'Brighton S.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Eagle Scout', position:''},
+    {name:'Logan G.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Eagle Scout', position:''},
+    {name:'Isaac L.', title:'Wet Bandits Patrol', rank:'Eagle Scout', image:'./assets/images/wet-bandits.JPG', position:''},
+    {name:'Caleb L.', title:'Wet Bandits Patrol', rank:'Eagle Scout', image:'./assets/images/wet-bandits.JPG', position:''},
+    {name:'Chris L.', title:'Wet Bandits Patrol', rank:'Eagle Scout', image:'./assets/images/wet-bandits.JPG', position:''},
+    {name:'Grady W.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Life Scout', position:''},
+    {name:'Gavin R.', title:'Wet Bandits Patrol', image:'./assets/images/wet-bandits.JPG', rank:'Star Scout', position:''},
+    {name:'John B.', title:'Wet Bandits Patrol', rank:'Scout', image:'./assets/images/wet-bandits.JPG', position:''},
 ];
 
 const fireChickens = [
-    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'Life Scout', image:'./assets/images/fire-chickens.png', position:'Den Chief'},
-    {name:'Hugh M.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'First Class', image:'./assets/images/fire-chickens.png', position:'Patrol Leader'},
-    {name:'Levi E.', title:'Fire Chickens Patrol', rank:'Second Class', image:'./assets/images/fire-chickens.png', position:'Librarian'},
-    {name:'Nicholas V.', title:'Fire Chickens Patrol', rank:'First Class', image:'./assets/images/fire-chickens.png', position:'Troop Guide'},
-    {name:'Steven W.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:''},
-    {name:'Walter L.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:'Historian'},
-    {name:'Chase G.', title:'Fire Chickens Patrol', rank:'Tenderfoot', image:'./assets/images/fire-chickens.png', position:'Assistant Patrol Leader'},
+    {name:'Brandon S.', title:'Fire Chickens Patrol', rank:'Life Scout', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Kyle S.', title:'Fire Chickens Patrol', rank:'Star Scout', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Levi E.', title:'Fire Chickens Patrol', rank:'First Class', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Nicholas V.', title:'Fire Chickens Patrol', rank:'First Class', image:'./assets/images/fire-chickens.png', position:''},
+    {name:'Walter L.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Luke R.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
     {name:'Dean G.', title:'Fire Chickens Patrol', rank:'Scout', image:'./assets/images/fire-chickens.png', position:''},
 ];
 
 const turtles = [
-    {name:'Eli E.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:'Assistant Patrol Leader'},
-    {name:'Arthur L.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
-    {name:'Max L.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:'Chaplains Aide'},
-    {name:'Aiden L.', title:'Turtles Patrol', rank:'Tenderfoot', image:'./assets/images/Turtles.png', position:''},
-    {name:'Zach R.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:'Patrol Leader'},
-    {name:'Nolan S.', title:'Turtles Patrol', rank:'Scout', image:'./assets/images/Turtles.png', position:''},
-    {name:'Robbie W.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
-    {name:'Lennon T.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
-    {name:'Samuel P.', title:'Turtles Patrol', rank:'', image:'./assets/images/Turtles.png', position:''},
+    {name:'Eli E.', title:'Turtles Patrol', rank:'First Class', image:'./assets/images/Turtles.png', position:''},
+    {name:'Arthur L.', title:'Turtles Patrol', rank:'Second Class', image:'./assets/images/Turtles.png', position:''},
+    {name:'Max L.', title:'Turtles Patrol', rank:'First Class', image:'./assets/images/Turtles.png', position:''},
+    {name:'Aiden L.', title:'Turtles Patrol', rank:'Life Scout', image:'./assets/images/Turtles.png', position:''},
+    {name:'Zach R.', title:'Turtles Patrol', rank:'Life Scout', image:'./assets/images/Turtles.png', position:''},
+    {name:'Nolan S.', title:'Turtles Patrol', rank:'Star Scout', image:'./assets/images/Turtles.png', position:''},
 ];
 
 const nuggies = [
-    {name:'Aiden B.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
-    {name:'Andrew C.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
-    {name:'Noah C.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
-    {name:'Malachi G.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
-    {name:'Luke K.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
-    {name:'Ujval K.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
-    {name:'Levi L.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
-    {name:'Chris T.', title:'Dino Nuggies Patrol', rank:'', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Noah C.', title:'Dino Nuggies Patrol', rank:'Tenderfoot', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Luke K.', title:'Dino Nuggies Patrol', rank:'Second Class', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Ujval K.', title:'Dino Nuggies Patrol', rank:'Second Class', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Levi L.', title:'Dino Nuggies Patrol', rank:'Scout', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Chris T.', title:'Dino Nuggies Patrol', rank:'First Class', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Jacob F.', title:'Dino Nuggies Patrol', rank:'First Class', image:'./assets/images/Dino_Nuggies.webp', position:''},
+    {name:'Colton R.', title:'Dino Nuggies Patrol', rank:'Tenderfoot', image:'./assets/images/Dino_Nuggies.webp', position:''},
+];
+
+const gummy = [
+    {name:'Adhwaith E.', title:'Gummy Bears Patrol', rank:'First Class', image:'./assets/images/Gummy.webp', position:''},
+    {name:'Bentley H.', title:'Gummy Bears Patrol', rank:'Scout', image:'./assets/images/Gummy.webp', position:''},
+    {name:'Beckett H.', title:'Gummy Bears Patrol', rank:'', image:'./assets/images/Gummy.webp', position:''},
+    {name:'Bowen H.', title:'Gummy Bears Patrol', rank:'', image:'./assets/images/Gummy.webp', position:''},
+    {name:'Gabriel L.', title:'Gummy Bears Patrol', rank:'', image:'./assets/images/Gummy.webp', position:''},
+    {name:'Havish P.', title:'Gummy Bears Patrol', rank:'', image:'./assets/images/Gummy.webp', position:''},  
 ];
 
 const scoutMasters = [
-    {name:'Blake Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
-    {name:'Tom Dysinger', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Glen Luersman', title:'Assistant Scoutmasters', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Benjamin Schmitz', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Derek Long', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
     {name:'Matt Ernst', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
+    {name:'David Toro', title:'Assistant Scoutmaster', image:'./assets/images/assist-scoutmaster.JPG', rank:'', position:'Assistant Scoutmaster'},
 ];
 
 const committee = [
     {name:'Nick Lesher', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Adopt-A-Mum Coordinator'},
-    {name:'Angel Boeckman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
     {name:'Deborah Rodenberg', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Chair'},
     {name:'Daniel Collins', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Advancement Coordinator'},
-    {name:'Andy Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
     {name:'Glen Luersman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Webmaster'},
     {name:'Shawn Vehr', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Treasurer'},
     {name:'Derek Long', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Cobbler Coordinator, Shopping Coordinator'},
-    {name:'Heather Long', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Shopping Coordinator'},
     {name:'Marc Sharpnack', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Chaplin'},
     {name:'Matt Ernst', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Equipment Coordinator'},
     {name:'Ben Lambers', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
     {name:'Benjamin Schmitz', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Outdoors Activities Coordinator, Transportation Coordinator'},
-    {name:'Bill Kaufman', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Unit Scouter Reserve'},
-    {name:'Steve Welker', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
-    {name:'Ryan Hurst', title:'Committee Members', image:'./assets/images/committee.JPG', rank:'', position:'Committee Member'},
 ];
 
 function createCards(value) {

@@ -1,9 +1,11 @@
 const photosEl = document.getElementById("gallery");
 const photosE2 = document.getElementById("gallery1");
 const photosE3 = document.getElementById("gallery2");
+const photosE4 = document.getElementById("gallery3");
 const photosEl1 = document.getElementById("gallery1");
 const photosEl2 = document.getElementById("gallery2");
 const photosEl3 = document.getElementById("gallery3");
+const photosEl4 = document.getElementById("gallery4");
 
 const rlfa23 = ["./assets/images/RLFA23/RLFA1.JPG","./assets/images/RLFA23/RLFA2.JPG","./assets/images/RLFA23/RLFA3.JPG",
                 "./assets/images/RLFA23/RLFA4.JPG","./assets/images/RLFA23/RLFA5.JPG","./assets/images/RLFA23/RLFA6.jpg",
@@ -1018,6 +1020,129 @@ const YP25 = ["./assets/images/YP25/yp1.jpg","./assets/images/YP25/yp2.jpg","./a
               "./assets/images/YP25/yp17.jpg","./assets/images/YP25/yp18.jpg","./assets/images/YP25/yp19.jpg",
               "./assets/images/YP25/yp20.jpg",];
 
+const KL26 = ["./assets/images/Klondike26/k1.jpeg","./assets/images/Klondike26/k2.jpeg","./assets/images/Klondike26/k3.jpeg",
+              "./assets/images/Klondike26/k4.jpeg","./assets/images/Klondike26/k5.jpeg","./assets/images/Klondike26/k6.jpeg",
+              "./assets/images/Klondike26/k7.jpeg","./assets/images/Klondike26/k8.jpeg","./assets/images/Klondike26/k9.jpeg",
+              "./assets/images/Klondike26/k10.jpeg","./assets/images/Klondike26/k11.jpeg","./assets/images/Klondike26/k12.jpeg",
+              "./assets/images/Klondike26/k13.jpeg","./assets/images/Klondike26/k14.jpeg","./assets/images/Klondike26/k15.jpeg",
+              "./assets/images/Klondike26/k16.jpeg","./assets/images/Klondike26/k17.jpeg","./assets/images/Klondike26/k18.jpeg",
+              "./assets/images/Klondike26/k19.jpeg","./assets/images/Klondike26/k20.jpeg","./assets/images/Klondike26/k21.jpeg",
+              "./assets/images/Klondike26/k22.jpeg","./assets/images/Klondike26/k23.jpeg","./assets/images/Klondike26/k24.jpeg",
+              "./assets/images/Klondike26/k25.jpeg","./assets/images/Klondike26/k26.jpeg","./assets/images/Klondike26/k27.jpeg",
+              "./assets/images/Klondike26/k28.jpeg","./assets/images/Klondike26/k29.jpeg","./assets/images/Klondike26/k30.jpeg",];
+
+const SS26 = ["./assets/images/Scout-Sunday26/ss1.jpeg","./assets/images/Scout-Sunday26/ss2.jpeg","./assets/images/Scout-Sunday26/ss3.jpeg",
+              "./assets/images/Scout-Sunday26/ss4.jpeg","./assets/images/Scout-Sunday26/ss5.jpeg","./assets/images/Scout-Sunday26/ss6.jpeg",
+              "./assets/images/Scout-Sunday26/ss7.jpeg",];
+
+const SD26 = ["./assets/images/Scuba26/s1.jpeg","./assets/images/Scuba26/s2.jpeg","./assets/images/Scuba26/s3.jpeg",
+              "./assets/images/Scuba26/s4.jpeg","./assets/images/Scuba26/s5.jpeg","./assets/images/Scuba26/s6.jpeg",
+              "./assets/images/Scuba26/s7.jpeg","./assets/images/Scuba26/s8.jpeg","./assets/images/Scuba26/s9.jpeg",
+              "./assets/images/Scuba26/s10.jpeg","./assets/images/Scuba26/s11.jpeg","./assets/images/Scuba26/s12.jpeg",
+              "./assets/images/Scuba26/s13.jpeg","./assets/images/Scuba26/s14.jpg","./assets/images/Scuba26/s15.jpg",
+              "./assets/images/Scuba26/s16.jpg","./assets/images/Scuba26/s17.jpg","./assets/images/Scuba26/s18.jpg",
+              "./assets/images/Scuba26/s19.jpg",];
+
+const SFF26 = ["./assets/images/SFF26/sff1.jpeg","./assets/images/SFF26/sff2.jpeg","./assets/images/SFF26/sff3.jpeg",
+               "./assets/images/SFF26/sff4.jpeg","./assets/images/SFF26/sff5.jpeg","./assets/images/SFF26/sff6.jpeg",
+               "./assets/images/SFF26/sff7.jpeg","./assets/images/SFF26/sff8.jpeg",];
+
+const T26 = ["./assets/images/Trampoline26/st1.jpeg","./assets/images/Trampoline26/st2.jpeg","./assets/images/Trampoline26/st3.jpeg",
+             "./assets/images/Trampoline26/st4.jpeg","./assets/images/Trampoline26/st5.jpeg","./assets/images/Trampoline26/st6.jpeg",
+             "./assets/images/Trampoline26/st7.jpeg","./assets/images/Trampoline26/st8.jpeg","./assets/images/Trampoline26/st9.jpeg",
+             "./assets/images/Trampoline26/st10.jpeg","./assets/images/Trampoline26/st11.jpeg","./assets/images/Trampoline26/st12.jpeg",
+             "./assets/images/Trampoline26/st13.jpeg","./assets/images/Trampoline26/st14.jpeg","./assets/images/Trampoline26/st15.jpeg",
+             "./assets/images/Trampoline26/st16.jpeg","./assets/images/Trampoline26/st17.jpeg","./assets/images/Trampoline26/st18.jpeg",
+             "./assets/images/Trampoline26/st19.jpeg","./assets/images/Trampoline26/st20.jpeg","./assets/images/Trampoline26/st21.jpeg",
+             "./assets/images/Trampoline26/st22.jpeg","./assets/images/Trampoline26/st23.jpeg","./assets/images/Trampoline26/st24.jpeg",
+             "./assets/images/Trampoline26/st25.jpeg","./assets/images/Trampoline26/st26.jpeg","./assets/images/Trampoline26/st27.jpeg",
+             "./assets/images/Trampoline26/st28.jpeg","./assets/images/Trampoline26/st29.jpeg","./assets/images/Trampoline26/st30.jpeg",
+             "./assets/images/Trampoline26/st31.jpeg","./assets/images/Trampoline26/st32.jpeg","./assets/images/Trampoline26/st33.jpeg",
+             "./assets/images/Trampoline26/st34.jpeg","./assets/images/Trampoline26/st35.jpeg","./assets/images/Trampoline26/st36.jpeg",
+             "./assets/images/Trampoline26/st37.jpeg","./assets/images/Trampoline26/st38.jpeg","./assets/images/Trampoline26/st39.jpeg",
+             "./assets/images/Trampoline26/st40.jpeg",];
+
+const HK26 = ["./assets/images/Healthy_Kids26/hk1.jpeg","./assets/images/Healthy_Kids26/hk2.jpeg","./assets/images/Healthy_Kids26/hk3.jpeg",
+              "./assets/images/Healthy_Kids26/hk4.jpeg","./assets/images/Healthy_Kids26/hk5.jpeg","./assets/images/Healthy_Kids26/hk6.jpeg",
+              "./assets/images/Healthy_Kids26/hk7.jpeg","./assets/images/Healthy_Kids26/hk8.jpeg",];
+
+const MD26 = ["./assets/images/MD26/md1.jpeg","./assets/images/MD26/md2.jpeg","./assets/images/MD26/md3.jpeg",
+              "./assets/images/MD26/md4.jpeg","./assets/images/MD26/md5.jpeg","./assets/images/MD26/md6.jpeg",
+              "./assets/images/MD26/md7.jpeg","./assets/images/MD26/md8.jpeg","./assets/images/MD26/md9.jpeg",
+              "./assets/images/MD26/md10.jpeg",];
+
+const SC26 = ["./assets/images/Summer_Camp26/sc1.jpeg","./assets/images/Summer_Camp26/sc2.jpeg","./assets/images/Summer_Camp26/sc3.jpeg",
+              "./assets/images/Summer_Camp26/sc4.jpeg","./assets/images/Summer_Camp26/sc5.jpeg","./assets/images/Summer_Camp26/sc6.jpeg",
+              "./assets/images/Summer_Camp26/sc7.jpeg","./assets/images/Summer_Camp26/sc8.jpeg","./assets/images/Summer_Camp26/sc9.jpeg",
+              "./assets/images/Summer_Camp26/sc10.jpeg","./assets/images/Summer_Camp26/sc11.jpeg","./assets/images/Summer_Camp26/sc12.jpeg",
+              "./assets/images/Summer_Camp26/sc13.jpeg","./assets/images/Summer_Camp26/sc14.jpeg","./assets/images/Summer_Camp26/sc15.jpeg",
+              "./assets/images/Summer_Camp26/sc16.jpeg","./assets/images/Summer_Camp26/sc17.jpeg","./assets/images/Summer_Camp26/sc18.jpeg",
+              "./assets/images/Summer_Camp26/sc19.jpeg","./assets/images/Summer_Camp26/sc20.jpeg","./assets/images/Summer_Camp26/sc21.jpeg",
+              "./assets/images/Summer_Camp26/sc22.jpeg","./assets/images/Summer_Camp26/sc23.jpeg","./assets/images/Summer_Camp26/sc24.jpeg",
+              "./assets/images/Summer_Camp26/sc25.jpeg","./assets/images/Summer_Camp26/sc26.jpeg","./assets/images/Summer_Camp26/sc27.jpeg",
+              "./assets/images/Summer_Camp26/sc28.jpeg","./assets/images/Summer_Camp26/sc29.jpeg","./assets/images/Summer_Camp26/sc30.jpeg",
+              "./assets/images/Summer_Camp26/sc31.jpeg","./assets/images/Summer_Camp26/sc32.jpeg","./assets/images/Summer_Camp26/sc33.jpeg",
+              "./assets/images/Summer_Camp26/sc34.jpeg","./assets/images/Summer_Camp26/sc35.jpeg","./assets/images/Summer_Camp26/sc36.jpeg",
+              "./assets/images/Summer_Camp26/sc37.jpeg","./assets/images/Summer_Camp26/sc38.jpeg","./assets/images/Summer_Camp26/sc39.jpeg",
+              "./assets/images/Summer_Camp26/sc40.jpeg","./assets/images/Summer_Camp26/sc41.jpeg","./assets/images/Summer_Camp26/sc42.jpeg",
+              "./assets/images/Summer_Camp26/sc43.jpeg","./assets/images/Summer_Camp26/sc44.jpeg","./assets/images/Summer_Camp26/sc45.jpeg",
+              "./assets/images/Summer_Camp26/sc46.jpeg","./assets/images/Summer_Camp26/sc47.jpeg","./assets/images/Summer_Camp26/sc48.jpeg",
+              "./assets/images/Summer_Camp26/sc49.jpeg","./assets/images/Summer_Camp26/sc50.jpeg","./assets/images/Summer_Camp26/sc51.jpeg",
+              "./assets/images/Summer_Camp26/sc52.jpeg","./assets/images/Summer_Camp26/sc53.jpeg","./assets/images/Summer_Camp26/sc54.jpeg",
+              "./assets/images/Summer_Camp26/sc55.jpeg","./assets/images/Summer_Camp26/sc56.jpeg","./assets/images/Summer_Camp26/sc57.jpeg",
+              "./assets/images/Summer_Camp26/sc58.jpeg","./assets/images/Summer_Camp26/sc59.jpeg","./assets/images/Summer_Camp26/sc60.jpeg",
+              "./assets/images/Summer_Camp26/sc61.jpeg","./assets/images/Summer_Camp26/sc62.jpeg","./assets/images/Summer_Camp26/sc63.jpeg",
+              "./assets/images/Summer_Camp26/sc64.jpeg","./assets/images/Summer_Camp26/sc65.jpeg","./assets/images/Summer_Camp26/sc66.jpeg",
+              "./assets/images/Summer_Camp26/sc67.jpeg","./assets/images/Summer_Camp26/sc68.jpeg","./assets/images/Summer_Camp26/sc69.jpeg",
+              "./assets/images/Summer_Camp26/sc70.jpeg","./assets/images/Summer_Camp26/sc71.jpeg","./assets/images/Summer_Camp26/sc72.jpeg",
+              "./assets/images/Summer_Camp26/sc73.jpeg","./assets/images/Summer_Camp26/sc74.jpeg","./assets/images/Summer_Camp26/sc75.jpeg",
+              "./assets/images/Summer_Camp26/sc76.jpeg","./assets/images/Summer_Camp26/sc77.jpeg","./assets/images/Summer_Camp26/sc78.jpeg",
+              "./assets/images/Summer_Camp26/sc79.jpeg","./assets/images/Summer_Camp26/sc80.jpeg","./assets/images/Summer_Camp26/sc81.jpeg",
+              "./assets/images/Summer_Camp26/sc82.jpeg","./assets/images/Summer_Camp26/sc83.jpeg","./assets/images/Summer_Camp26/sc84.jpeg",
+              "./assets/images/Summer_Camp26/sc85.jpeg","./assets/images/Summer_Camp26/sc86.jpeg","./assets/images/Summer_Camp26/sc87.jpeg",
+              "./assets/images/Summer_Camp26/sc88.jpeg","./assets/images/Summer_Camp26/sc89.jpeg","./assets/images/Summer_Camp26/sc90.jpeg",
+              "./assets/images/Summer_Camp26/sc91.jpeg","./assets/images/Summer_Camp26/sc92.jpeg","./assets/images/Summer_Camp26/sc93.jpeg",
+              "./assets/images/Summer_Camp26/sc94.jpg",];
+
+const PS26 = ["./assets/images/Canoe26/c1.jpeg","./assets/images/Canoe26/c2.jpeg","./assets/images/Canoe26/c3.jpeg",
+              "./assets/images/Canoe26/c4.jpeg","./assets/images/Canoe26/c5.jpeg","./assets/images/Canoe26/c6.jpeg",
+              "./assets/images/Canoe26/c7.jpeg","./assets/images/Canoe26/c8.jpeg","./assets/images/Canoe26/c9.jpeg",
+              "./assets/images/Canoe26/c10.jpeg","./assets/images/Canoe26/c11.jpeg","./assets/images/Canoe26/c12.jpeg",
+              "./assets/images/Canoe26/c13.jpeg","./assets/images/Canoe26/c14.jpeg","./assets/images/Canoe26/c15.jpeg",
+              "./assets/images/Canoe26/c16.jpeg","./assets/images/Canoe26/c17.jpeg","./assets/images/Canoe26/c18.jpeg",
+              "./assets/images/Canoe26/c19.jpeg","./assets/images/Canoe26/c20.jpeg","./assets/images/Canoe26/c21.jpeg",
+              "./assets/images/Canoe26/c22.jpeg","./assets/images/Canoe26/c23.jpeg",];
+
+const MH26 = ["./assets/images/MakaHiki26/m1.jpeg","./assets/images/MakaHiki26/m2.jpeg","./assets/images/MakaHiki26/m3.jpeg",
+              "./assets/images/MakaHiki26/m4.jpeg","./assets/images/MakaHiki26/m5.jpeg","./assets/images/MakaHiki26/m6.jpeg",
+              "./assets/images/MakaHiki26/m7.jpeg","./assets/images/MakaHiki26/m8.jpeg","./assets/images/MakaHiki26/m9.jpeg",
+              "./assets/images/MakaHiki26/m10.jpeg","./assets/images/MakaHiki26/m11.jpeg","./assets/images/MakaHiki26/m12.jpeg",
+              "./assets/images/MakaHiki26/m13.jpeg","./assets/images/MakaHiki26/m14.jpeg","./assets/images/MakaHiki26/m15.jpeg",
+              "./assets/images/MakaHiki26/m16.jpeg","./assets/images/MakaHiki26/m17.jpeg","./assets/images/MakaHiki26/m18.jpeg",
+              "./assets/images/MakaHiki26/m19.jpeg","./assets/images/MakaHiki26/m20.jpeg","./assets/images/MakaHiki26/m21.jpeg",
+              "./assets/images/MakaHiki26/m22.jpeg","./assets/images/MakaHiki26/m23.jpeg","./assets/images/MakaHiki26/m24.jpeg",
+              "./assets/images/MakaHiki26/m25.jpeg","./assets/images/MakaHiki26/m26.jpeg","./assets/images/MakaHiki26/m27.jpeg",
+              "./assets/images/MakaHiki26/m28.jpeg","./assets/images/MakaHiki26/m29.jpeg","./assets/images/MakaHiki26/m30.jpeg",
+              "./assets/images/MakaHiki26/m31.jpeg","./assets/images/MakaHiki26/m32.jpeg","./assets/images/MakaHiki26/m33.jpeg",
+              "./assets/images/MakaHiki26/m34.jpeg","./assets/images/MakaHiki26/m35.jpeg","./assets/images/MakaHiki26/m36.jpeg",
+              "./assets/images/MakaHiki26/m37.jpeg","./assets/images/MakaHiki26/m38.jpeg","./assets/images/MakaHiki26/m39.jpeg",
+              "./assets/images/MakaHiki26/m40.jpeg","./assets/images/MakaHiki26/m41.jpeg","./assets/images/MakaHiki26/m42.jpeg",
+              "./assets/images/MakaHiki26/m43.jpeg","./assets/images/MakaHiki26/m44.jpeg","./assets/images/MakaHiki26/m45.jpeg",
+              "./assets/images/MakaHiki26/m46.jpeg","./assets/images/MakaHiki26/m47.jpeg","./assets/images/MakaHiki26/m48.jpeg",
+              "./assets/images/MakaHiki26/m49.jpeg","./assets/images/MakaHiki26/m50.jpeg","./assets/images/MakaHiki26/m51.jpeg",
+              "./assets/images/MakaHiki26/m52.jpeg","./assets/images/MakaHiki26/m53.jpeg","./assets/images/MakaHiki26/m54.jpeg",
+              "./assets/images/MakaHiki26/m55.jpeg","./assets/images/MakaHiki26/m56.jpeg","./assets/images/MakaHiki26/m57.jpeg",
+              "./assets/images/MakaHiki26/m58.jpeg","./assets/images/MakaHiki26/m59.jpeg","./assets/images/MakaHiki26/m60.jpeg",];
+
+const Mum26 = ["./assets/images/Mum26/m1.jpg","./assets/images/Mum26/m2.jpeg","./assets/images/Mum26/m3.jpeg",
+               "./assets/images/Mum26/m4.jpeg","./assets/images/Mum26/m5.jpeg","./assets/images/Mum26/m6.jpeg",
+               "./assets/images/Mum26/m7.jpeg",];
+
+const Fish26 = ["./assets/images/Fishing26/f1.jpg","./assets/images/Fishing26/f2.jpg","./assets/images/Fishing26/f3.jpg",
+                "./assets/images/Fishing26/f4.jpg","./assets/images/Fishing26/f5.jpg","./assets/images/Fishing26/f6.jpg",
+                "./assets/images/Fishing26/f7.jpg","./assets/images/Fishing26/f8.jpg","./assets/images/Fishing26/f9.jpg",
+                "./assets/images/Fishing26/f10.jpg","./assets/images/Fishing26/f11.jpg","./assets/images/Fishing26/f12.jpg",];
+
 const renderPhotos = (value) => {
   photosEl.innerHTML = "";
 
@@ -1069,10 +1194,25 @@ const renderPhotos2 = (value) => {
   }
 };
 
+const renderPhotos3 = (value) => {
+  photosE4.innerHTML = "";
+
+  for (let i = 0; i < value.length; i++) {
+    const item = document.createElement("div");
+    item.setAttribute("class", "gallery-item");
+    const img = document.createElement("img");
+    img.setAttribute("id", "myImg");
+    img.setAttribute("src", value[i]);
+    img.setAttribute("onclick", "imgModal(src)")
+    img.setAttribute("width", "600");
+    img.setAttribute("height", "400");
+    item.appendChild(img);
+    photosE4.appendChild(item);
+  }
+};
+
 const renderEventPhotos1 = (value) => {
   photosEl1.innerHTML = "";
-  photosEl2.innerHTML = "";
-  photosEl3.innerHTML = "";
 
   for (let i = 0; i < value.length; i++) {
     const item = document.createElement("div");
@@ -1089,9 +1229,7 @@ const renderEventPhotos1 = (value) => {
 };
 
 const renderEventPhotos2 = (value) => {
-  photosEl1.innerHTML = "";
   photosEl2.innerHTML = "";
-  photosEl3.innerHTML = "";
 
   for (let i = 0; i < value.length; i++) {
     const item = document.createElement("div");
@@ -1108,8 +1246,6 @@ const renderEventPhotos2 = (value) => {
 };
 
 const renderEventPhotos3 = (value) => {
-  photosEl1.innerHTML = "";
-  photosEl2.innerHTML = "";
   photosEl3.innerHTML = "";
 
   for (let i = 0; i < value.length; i++) {
@@ -1123,6 +1259,23 @@ const renderEventPhotos3 = (value) => {
     img.setAttribute("height", "400");
     item.appendChild(img);
     photosEl3.appendChild(item);
+  }
+};
+
+const renderEventPhotos4 = (value) => {
+  photosEl4.innerHTML = "";
+
+  for (let i = 0; i < value.length; i++) {
+    const item = document.createElement("div");
+    item.setAttribute("class", "gallery-item");
+    const img = document.createElement("img");
+    img.setAttribute("id", "myImg");
+    img.setAttribute("src", value[i]);
+    img.setAttribute("onclick", "imgModal(src)")
+    img.setAttribute("width", "600");
+    img.setAttribute("height", "400");
+    item.appendChild(img);
+    photosEl4.appendChild(item);
   }
 };
 
